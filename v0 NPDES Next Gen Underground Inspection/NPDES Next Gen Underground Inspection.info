@@ -1,0 +1,36 @@
+{
+    "displayInfo": {
+        "map": {
+            "coordinateFormat": null,
+            "defaultType": {
+                "name": null
+            },
+            "home": {
+                "latitude": -0.0054659651422632235,
+                "longitude": 144.96552,
+                "zoomLevel": 1.3619
+            },
+            "preview": {
+                "coordinateFormat": null,
+                "zoomLevel": 0
+            }
+        },
+        "style": {
+            "backgroundColor": null,
+            "backgroundImage": null,
+            "inputBackgroundColor": null,
+            "inputTextColor": null,
+            "textColor": null,
+            "toolbarBackgroundColor": null,
+            "toolbarTextColor": null
+        }
+    },
+    "imagesInfo": {
+        "captureResolution": 640
+    },
+    "queryInfo": {
+        "applySpatialFilter": true,
+        "mode": "",
+        "where": ""
+    }
+}
