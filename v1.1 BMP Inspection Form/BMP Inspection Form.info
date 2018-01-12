@@ -1,0 +1,44 @@
+{
+    "displayInfo": {
+        "map": {
+            "coordinateFormat": null,
+            "defaultType": {
+                "name": null
+            },
+            "home": {
+                "latitude": -0.21223043581204537,
+                "longitude": 144.96552,
+                "zoomLevel": 2.363
+            },
+            "preview": {
+                "coordinateFormat": null,
+                "zoomLevel": 0
+            }
+        },
+        "style": {
+            "backgroundColor": null,
+            "backgroundImage": null,
+            "inputBackgroundColor": null,
+            "inputTextColor": null,
+            "textColor": null,
+            "toolbarBackgroundColor": null,
+            "toolbarTextColor": null
+        }
+    },
+    "imagesInfo": {
+        "captureResolution": 1280
+    },
+    "queryInfo": {
+        "applySpatialFilter": true,
+        "mode": "manual",
+        "where": ""
+    },
+    "sentInfo": {
+        "enabled": true
+    },
+    "serviceInfo": {
+        "itemId": "17b773beeab74b0580fe4c643eca0495",
+        "type": "Feature Service",
+        "url": "https://utility.arcgis.com/usrsvcs/servers/17b773beeab74b0580fe4c643eca0495/rest/services/NPDES/BMPInspections/FeatureServer"
+    }
+}
