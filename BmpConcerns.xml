@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BmpConcerns>
+  <Concerns Type ="C">
+    <Concern>
+      <Code>AL</Code>
+    </Concern>
+    <Concern>
+      <Code>CS</Code>
+
+    </Concern>
+    <Concern>
+      <Code>CW</Code>
+
+    </Concern>
+    <Concern>
+      <Code>DF</Code>
+
+    </Concern>
+    <Concern>
+      <Code>FE</Code>
+
+    </Concern>
+    <Concern>
+      <Code>FL</Code>
+
+    </Concern>
+    <Concern>
+      <Code>OD</Code>
+
+    </Concern>
+    <Concern>
+      <Code>OS</Code>
+
+    </Concern>
+    <Concern>
+      <Code>OTHER</Code>
+
+    </Concern>
+    <Concern>
+      <Code>SS</Code>
+
+    </Concern>
+    <Concern>
+      <Code>TR</Code>
+
+    </Concern>
+  </Concerns>
+  <Concerns Type="I">
+    <Concern>
+      <Code>AO</Code>
+
+    </Concern>
+    <Concern>
+      <Code>MR</Code>
+
+    </Concern>
+    <Concern>
+      <Code>NM</Code>
+
+    </Concern>
+    <Concern>
+      <Code>TH</Code>
+
+    </Concern>
+    <Concern>
+      <Code>JS</Code>
+
+    </Concern>
+    <Concern>
+      <Code>RC</Code>
+
+    </Concern>
+    <Concern>
+      <Code>MM</Code>
+
+    </Concern>
+    <Concern>
+      <Code>OB</Code>
+
+    </Concern>
+    <Concern>
+      <Code>PB</Code>
+
+    </Concern>
+    <Concern>
+      <Code>CR</Code>
+
+    </Concern>
+    <Concern>
+      <Code>PL</Code>
+
+    </Concern>
+    <Concern>
+      <Code>BT</Code>
+
+    </Concern>
+    <Concern>
+      <Code>CT</Code>
+
+    </Concern>
+    <Concern>
+      <Code>GM</Code>
+
+    </Concern>
+    <Concern>
+      <Code>HW</Code>
+
+    </Concern>
+    <Concern>
+      <Code>JK</Code>
+
+    </Concern>
+  </Concerns>
+</BmpConcerns>
