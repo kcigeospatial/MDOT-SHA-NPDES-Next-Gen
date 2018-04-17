@@ -6,7 +6,7 @@ Add the inventory service
 
 ### 2 Rename all Contents
 
-Title-cased layers look better. 
+Title-cased layers look better.
 
 - Structures
 - BMP Centroid
@@ -15,11 +15,11 @@ Title-cased layers look better.
 - SWMFAC
 - Structure Drainage Area
 - SWMFAC Drainage Area
-- Structure Issue	
-- Contract	
-- Field Screening Site	
-- Metadata	
-- Owner	
+- Structure Issue
+- Contract
+- Field Screening Site
+- Metadata
+- Owner
 
 
 ### 3 Set background/non-edit layers
@@ -52,6 +52,23 @@ SWMFAC Drainage Area | 1:24,000
 
 - Good summary
 - Add thumbnail
+
+### 8 Search
+
+Add search in the web map config.
+
+1. Open the web map content page
+2. Settings tab
+3. At the bottom under _Find Locations_ click _By Layer_
+4. Click _Add Layer_ and add the following:
+
+| Layer          | Search Field     | Search Type    |
+| :------------- | :--------------- | :------------- |
+| SWMFAC         | SWMFAC Number    | Contains       |
+| Conveyance     | Conveyance ID    | Contains       |
+| Structures     | Structure Number | Contains       |
+
+6. Change the _Hint text_ to "SWFAC No., Conveyance ID, Structure No., or Address"
 
 ### Other
 
