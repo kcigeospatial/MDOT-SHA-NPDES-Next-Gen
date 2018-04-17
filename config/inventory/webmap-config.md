@@ -33,15 +33,15 @@ Disable editing and hide the popups for these layers
 
 ### 5 Set zoom visibility
 
-Layer | Don't show beyond
--- | --
-Structures | 1:10,000
-BMP Centroid | 1:24,000
-Treatment Pipe | 1:10,000
-Conveyance | 1:10,000
-SWMFAC | 1:24,000
-Structure Drainage Area | 1:24,000
-SWMFAC Drainage Area | 1:24,000
+Layer                     | Don't show beyond |
+| :---------------------- | :---------------- |
+| Structures              | 1:10,000          |
+| BMP Centroid            | 1:24,000          |
+| Treatment Pipe          | 1:10,000          |
+| Conveyance              | 1:10,000          |
+| SWMFAC                  | 1:24,000          |
+| Structure Drainage Area | 1:24,000          |
+| SWMFAC Drainage Area    | 1:24,000          |
 
 ### 6 Add bookmarks
 
