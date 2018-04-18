@@ -1,6 +1,8 @@
-UG Changes
+# UG Changes
 
-##Found in Prod schema
+Updated: 17 April 2018
+
+## Found in Prod schema
 
 These appear to have been updated by Kerry recently
 
