@@ -1,0 +1,208 @@
+type	name	label	hint	constraint	constraint_message	required	required_message	appearance	default	readonly	relevant	calculation	choice_filter	repeat_count	label::language1	hint::language1	media::audio	media::image	body::accuracyThreshold	bind::esri:fieldType	bind::esri:fieldLength	bind::esri:fieldAlias	body::esri:inputMask	bind::esri:parameters	bind::saveIncomplete
+																									
+geopoint	geometry	Geometry																							
+text	FO_S123_USERNAME	Survey123 Username																		esriFieldTypeString	255				
+text	FACILITY_ID	facility_id																		esriFieldTypeString	42				
+text	SWM_FAC_NO	SHA SWMFAC Number																		esriFieldTypeString	38				
+text	INSPECTR	Inspector Initials																		esriFieldTypeString	11				
+text	FIRM	Firm																		esriFieldTypeString	255				
+select_one DBMP_firm_group	FIRM_GROUP	Firm Group																		esriFieldTypeString	6				
+select_one DBMP_yes_no	UNDERGROUND_YN	Is this an underground BMP?																		esriFieldTypeString	3				
+select_one DBMP_Inspection_Type	INSPECTION_TYPE	Inspection Type																		esriFieldTypeString	2				
+text	OT_OTHER_DESCRIPTION	Enter other inspection																		esriFieldTypeString	255				
+dateTime	DATE_INSP	DATE_INSP																		esriFieldTypeDate					
+text	H_SOP_HINT	SOP Section 3.4.3 excerpt																		esriFieldTypeString	255				
+text	H_SCORING	Not Scored -vs- Not Rated																		esriFieldTypeString	255				
+text	G_VISIBILITY_HINT	Visibility Table																		esriFieldTypeString	255				
+select_one DBMP_Insp_Sco	VISIBLE	Visibility																		esriFieldTypeString	255				
+select_one DBMP_Insp_Sco	MOW	Mowability																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco_nozero	ACCESS_	Access																		esriFieldTypeString	255				
+text	COM_ACCESS	Access Comment																		esriFieldTypeString	255				
+select_one DBMP_Insp_Sco_nozero	DEBRIS	Debris																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	FENCES	Fencing																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco_nozero	PUB_HAZ	Public Hazard																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	PUB_HAZ_POT	Potential for Public Hazard																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	BMP_VEG	BMP Vegetation																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco_nozero	SITE_VEG	Site Vegetation																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	BMP_CONT	BMP Contamination																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	PRETREAT	Pre-Treatment																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	QIN_STAB	Inflow Stability																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	QIN_COND	Inflow Condition																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	DS_CONDITION	Downstream Condition																		esriFieldTypeString	50				
+select_one DBMP_Insp_Sco	CONVEY_STABILITY	Conveyance Stability																		esriFieldTypeString	50				
+select_one DBMP_Insp_Sco	SURFACE_CONDITION	Surface Condition																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	STRUCTURE_ACCESS_CONDITION	Structure Access Condition																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	EMBU_CVR	Downstream-Cover																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	EMBU_ERO	Downstream Embankment																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	EMBU_TOE	Downstream Embankment																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	EMBD_CVR	Upstream-Cover																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	EMBD_ERO	Upstream Embankment																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	EMBD_TOE	Upstream Embankment																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	EMBD_SEEP	Embankment Seepage																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	ESPW_OPEN	Emergency Spillway Opening																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	ESPW_STAB	Emergency Spillway Stability																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	SAFE_WATERDEPTH	Safe Water Depth																		esriFieldTypeString	255				
+select_one DBMP_Insp_Sco	PONDING	Ponding																		esriFieldTypeString	2				
+decimal	WAT_DEPTH	Water Depth (ft.)																		esriFieldTypeDouble					
+select_one DBMP_Insp_Sco	PERMPOOL	Permanent Pooling																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	ORF_OPEN	Orifice Opening																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	ORF_TRSH	Orifice Trash Rack																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	RSR_STRC	Riser Structure																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	RSR_OPEN	Riser Opening																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	RSR_SEDI	Riser Sediment																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	RSR_TRSH	Riser Trash Rack																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	RSR_VALV	Riser Valve																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	SPWY_OUT	Spillway Outfall																		esriFieldTypeString	2				
+select_one DBMP_Insp_Sco	PRIN_SPWY	Principle Spillway																		esriFieldTypeString	2				
+text	COM_RESPON	Comment Response																		esriFieldTypeString	120				
+text	COM_OVERAL	Overall Comments																		esriFieldTypeString	255				
+select_one DBMP_Insp_Rating	RATING	Rating																		esriFieldTypeString	2				
+select_one DBMP_BooleanValues	PLAN_MATCH	Field Matches Plan																		esriFieldTypeString	1				
+text	PLAN_MATCH_COM	Reason Field Does Not Match Plan																		esriFieldTypeString	150				
+select_one DBMP_Context	CONTEXT	Context																		esriFieldTypeString	5				
+select_one DBMP_BooleanValues	SITE_HAZ	Occupation Hazard																		esriFieldTypeString	1				
+text	OC_HAZ_COM	Hazard Description																		esriFieldTypeString	150				
+text	CONCERN_CONTAMINANTS	Concern Type: Contaminants																		esriFieldTypeString	255				
+text	CONCERN_INVASIVES	Concern Type: Invasive Species																		esriFieldTypeString	255				
+text	FLD_ETL_ISSUES	ETL Issues																		esriFieldTypeString	2000				
+text	FLD_ETL_SPATIAL_ISSUES	ETL Spatial Issues																		esriFieldTypeString	2000				
+																									
+begin repeat	BMP_R_ACCESS_	BMP_R_ACCESS_																							
+select_one DBMP_subject	ACCESS__PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	ACCESS__PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_BMP_CONT	BMP_R_BMP_CONT																							
+select_one DBMP_subject	BMP_CONT_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	BMP_CONT_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_BMP_INSP_ACTION	BMP_R_BMP_INSP_ACTION																							
+select_one DBMP_Com_Action	COM_ACTION	Action Comment																		esriFieldTypeString	4				
+text	LOC_ACTION	Action Location																		esriFieldTypeString	2				
+end repeat																									
+																									
+begin repeat	BMP_R_DS_CONDITION	BMP_R_DS_CONDITION																							
+select_one DBMP_subject	DS_CONDITION_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	DS_CONDITION_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_EMBD_CVR	BMP_R_EMBD_CVR																							
+select_one DBMP_subject	EMBD_CVR_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	EMBD_CVR_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_EMBD_ERO	BMP_R_EMBD_ERO																							
+select_one DBMP_subject	EMBD_ERO_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	EMBD_ERO_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_EMBD_SEEP	BMP_R_EMBD_SEEP																							
+select_one DBMP_subject	EMBD_SEEP_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	EMBD_SEEP_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_EMBD_TOE	BMP_R_EMBD_TOE																							
+select_one DBMP_subject	EMBD_TOE_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	EMBD_TOE_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_EMBU_CVR	BMP_R_EMBU_CVR																							
+select_one DBMP_subject	EMBU_CVR_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	EMBU_CVR_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_EMBU_ERO	BMP_R_EMBU_ERO																							
+select_one DBMP_subject	EMBU_ERO_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	EMBU_ERO_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_EMBU_TOE	BMP_R_EMBU_TOE																							
+select_one DBMP_subject	EMBU_TOE_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	EMBU_TOE_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_ESPW_OPEN	BMP_R_ESPW_OPEN																							
+select_one DBMP_subject	ESPW_OPEN_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	ESPW_OPEN_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_ESPW_STAB	BMP_R_ESPW_STAB																							
+select_one DBMP_subject	ESPW_STAB_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	ESPW_STAB_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_ORF_OPEN	BMP_R_ORF_OPEN																							
+select_one DBMP_subject	ORF_OPEN_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	ORF_OPEN_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_ORF_TRSH	BMP_R_ORF_TRSH																							
+select_one DBMP_subject	ORF_TRSH_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	ORF_TRSH_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_PHOTOS	BMP_R_PHOTOS																							
+select_one DBMP_subject	MISC_BMP_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	MISC_BMP_PHOTO_COMMENT	Additional Comments																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_PONDING	BMP_R_PONDING																							
+select_one DBMP_subject	PONDING_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	PONDING_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_PRETREAT	BMP_R_PRETREAT																							
+select_one DBMP_subject	PRETREAT_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	PRETREAT_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_PRIN_SPWY	BMP_R_PRIN_SPWY																							
+select_one DBMP_subject	PRIN_SPWY_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	PRIN_SPWY_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_QIN_COND	BMP_R_QIN_COND																							
+select_one DBMP_subject	QIN_COND_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	QIN_COND_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_QIN_STAB	BMP_R_QIN_STAB																							
+select_one DBMP_subject	QIN_STAB_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	QIN_STAB_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_RSR_OPEN	BMP_R_RSR_OPEN																							
+select_one DBMP_subject	RSR_OPEN_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	RSR_OPEN_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_RSR_SEDI	BMP_R_RSR_SEDI																							
+select_one DBMP_subject	RSR_SEDI_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	RSR_SEDI_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_RSR_STRC	BMP_R_RSR_STRC																							
+select_one DBMP_subject	RSR_STRC_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	RSR_STRC_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_RSR_TRSH	BMP_R_RSR_TRSH																							
+select_one DBMP_subject	RSR_TRSH_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	RSR_TRSH_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_RSR_VALV	BMP_R_RSR_VALV																							
+select_one DBMP_subject	RSR_VALV_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	RSR_VALV_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_SITE_VEG	BMP_R_SITE_VEG																							
+select_one DBMP_subject	SITE_VEG_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	SITE_VEG_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
+																									
+begin repeat	BMP_R_SPWY_OUT	BMP_R_SPWY_OUT																							
+select_one DBMP_subject	SPWY_OUT_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
+text	SPWY_OUT_PHOTO_COMMENT	Comment																		esriFieldTypeString	255				
+end repeat																									
