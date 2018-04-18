@@ -2,14 +2,17 @@ type	name	label	hint	constraint	constraint_message	required	required_message	app
 																									
 geopoint	geometry	Geometry																							
 text	FO_S123_USERNAME	Survey123 Username																		esriFieldTypeString	255				
+dateTime	FORM_START	FORM_START																		esriFieldTypeDate					
+dateTime	FORM_END	FORM_END																		esriFieldTypeDate					
+select_one DBMP_yes_no	SHOW_HELP	Display Help Images																		esriFieldTypeString	3				
 text	FACILITY_ID	facility_id																		esriFieldTypeString	42				
 text	SWM_FAC_NO	SHA SWMFAC Number																		esriFieldTypeString	38				
 text	INSPECTR	Inspector Initials																		esriFieldTypeString	11				
-text	FIRM	Firm																		esriFieldTypeString	255				
+text	FIRM_NAME	Firm																		esriFieldTypeString	50				
 select_one DBMP_firm_group	FIRM_GROUP	Firm Group																		esriFieldTypeString	6				
-select_one DBMP_yes_no	UNDERGROUND_YN	Is this an underground BMP?																		esriFieldTypeString	3				
+select_one DBMP_yes_no	FO_UNDERGROUND_YN	Underground BMP																		esriFieldTypeString	3				
 select_one DBMP_Inspection_Type	INSPECTION_TYPE	Inspection Type																		esriFieldTypeString	2				
-text	OT_OTHER_DESCRIPTION	Enter other inspection																		esriFieldTypeString	255				
+text	OTHER_INSP_TYPE_DESC	Enter other inspection																		esriFieldTypeString	50				
 dateTime	DATE_INSP	DATE_INSP																		esriFieldTypeDate					
 text	H_SOP_HINT	SOP Section 3.4.3 excerpt																		esriFieldTypeString	255				
 text	H_SCORING	Not Scored -vs- Not Rated																		esriFieldTypeString	255				
@@ -54,14 +57,15 @@ select_one DBMP_Insp_Sco	RSR_TRSH	Riser Trash Rack																		esriFieldTyp
 select_one DBMP_Insp_Sco	RSR_VALV	Riser Valve																		esriFieldTypeString	2				
 select_one DBMP_Insp_Sco	SPWY_OUT	Spillway Outfall																		esriFieldTypeString	2				
 select_one DBMP_Insp_Sco	PRIN_SPWY	Principle Spillway																		esriFieldTypeString	2				
-text	COM_RESPON	Comment Response																		esriFieldTypeString	120				
+text	N_RATING_SUMMARY	Summary																		esriFieldTypeString	2000				
+text	COM_RESPONSE	Comment Response																		esriFieldTypeString	120				
 text	COM_OVERAL	Overall Comments																		esriFieldTypeString	255				
 select_one DBMP_Insp_Rating	RATING	Rating																		esriFieldTypeString	2				
 select_one DBMP_BooleanValues	PLAN_MATCH	Field Matches Plan																		esriFieldTypeString	1				
-text	PLAN_MATCH_COM	Reason Field Does Not Match Plan																		esriFieldTypeString	150				
+text	PLAN_MATCH_COMMENT	Reason Field Does Not Match Plan																		esriFieldTypeString	150				
 select_one DBMP_Context	CONTEXT	Context																		esriFieldTypeString	5				
 select_one DBMP_BooleanValues	SITE_HAZ	Occupation Hazard																		esriFieldTypeString	1				
-text	OC_HAZ_COM	Hazard Description																		esriFieldTypeString	150				
+text	OCCUPAT_HAZARD_COM	Hazard Description																		esriFieldTypeString	150				
 text	CONCERN_CONTAMINANTS	Concern Type: Contaminants																		esriFieldTypeString	255				
 text	CONCERN_INVASIVES	Concern Type: Invasive Species																		esriFieldTypeString	255				
 text	FLD_ETL_ISSUES	ETL Issues																		esriFieldTypeString	2000				
@@ -145,6 +149,17 @@ end repeat
 begin repeat	BMP_R_PHOTOS	BMP_R_PHOTOS																							
 select_one DBMP_subject	MISC_BMP_PHOTO_SUBJECT	Subject																		esriFieldTypeString	4				
 text	MISC_BMP_PHOTO_COMMENT	Additional Comments																		esriFieldTypeString	255				
+decimal	EXIF_IMAGE_DIRECTION	Image Direction																		esriFieldTypeDouble					
+select_one D_Img_Direction_Ref	EXIF_IMAGE_DIRECTION_REF	Image Direction Reference																		esriFieldTypeString	2				
+text	EXIF_TIME_STAMP	GPS Time Stamp																		esriFieldTypeString	20				
+text	EXIF_DATE_STAMP	GPS Date Stamp																		esriFieldTypeString	20				
+text	EXIF_MAP_DATUM	EXIF Map Datum																		esriFieldTypeString	20				
+decimal	EXIF_ALTITUDE	Altitude																		esriFieldTypeDouble					
+integer	EXIF_ALTITUDE_REF	Altitude Reference																		esriFieldTypeInteger					
+decimal	EXIF_LONGITUDE	Longitude																		esriFieldTypeDouble					
+select_one D_Longitude_Ref	EXIF_LONGITUDE_REF	Longitude Reference																		esriFieldTypeString	2				
+decimal	EXIF_LATITUDE	Latitude																		esriFieldTypeDouble					
+select_one D_Latitude_Ref	EXIF_LATITUDE_REF	Latitude Reference																		esriFieldTypeString	2				
 end repeat																									
 																									
 begin repeat	BMP_R_PONDING	BMP_R_PONDING																							
