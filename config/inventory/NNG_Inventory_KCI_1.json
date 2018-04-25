@@ -1,0 +1,3370 @@
+{
+    "operationalLayers": [
+        {
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_1964",
+            "layerType": "ArcGISFeatureLayer",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/6",
+            "visibility": true,
+            "opacity": 1,
+            "mode": 1,
+            "title": "NNG_Inventory_V_KCI_1_Prod_20180424 - SWMFAC Drainage Area",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "popupInfo": {
+                "title": "SWMFAC Drainage Area: {FACILITY_ID}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FACILITY_ID",
+                        "label": "FACILITY_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "TREATMENT_AREA",
+                        "label": "TREATMENT_AREA",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "CNTY_CODE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_WSHED",
+                        "label": "MD_WSHED",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_MSHOP",
+                        "label": "MD_MSHOP",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "MD_DISTRICT",
+                        "label": "MD_DISTRICT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_FACILITY_GUID",
+                        "label": "FLD_FACILITY_GUID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CREATIONDATE",
+                        "label": "FLD_CREATIONDATE",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_EDITDATE",
+                        "label": "FLD_EDITDATE",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        },
+        {
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_8769",
+            "layerType": "ArcGISFeatureLayer",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/5",
+            "visibility": true,
+            "opacity": 1,
+            "mode": 1,
+            "title": "NNG_Inventory_V_KCI_1_Prod_20180424 - Structure Drainage Area",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "popupInfo": {
+                "title": "Structure Drainage Area: {STRUCTURE_ID}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "STRUCTURE_ID",
+                        "label": "STRUCTURE_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "TREATMENT_AREA",
+                        "label": "TREATMENT_AREA",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "CNTY_CODE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_WSHED",
+                        "label": "MD_WSHED",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_MSHOP",
+                        "label": "MD_MSHOP",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "MD_DISTRICT",
+                        "label": "MD_DISTRICT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_STRUCTURE_GUID",
+                        "label": "FLD_STRUCTURE_GUID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CREATIONDATE",
+                        "label": "FLD_CREATIONDATE",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_EDITDATE",
+                        "label": "FLD_EDITDATE",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        },
+        {
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_6600",
+            "layerType": "ArcGISFeatureLayer",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/4",
+            "visibility": true,
+            "opacity": 1,
+            "mode": 1,
+            "title": "NNG_Inventory_V_KCI_1_Prod_20180424 - SWMFAC",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "popupInfo": {
+                "title": "SWMFAC: {SWM_FAC_NO}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FACILITY_ID",
+                        "label": "Facility ID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "SWM_FAC_NO",
+                        "label": "SWMFAC Number",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "LEG_SWM_FAC_NO",
+                        "label": "Legacy SWMFAC Num",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "EC_BMP",
+                        "label": "Env Comp. BMP",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONTRACT_ID",
+                        "label": "Contract Number",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DESIGNATION",
+                        "label": "Designation",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DESIGN_SUB",
+                        "label": "Designation Sub",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MDE_NO",
+                        "label": "MDE Number",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "VIC_BMP",
+                        "label": "ADC Location",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "LEG_VIC_BMP",
+                        "label": "Legacy ADC Location",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "LOC_BMP",
+                        "label": "Location",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "ROAD_NAME",
+                        "label": "Road Name",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FENCE_MAT",
+                        "label": "Fence Material",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DAM_HEIGHT",
+                        "label": "Dam Height",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "OB_WELL",
+                        "label": "Observation Well",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "TRCH_DEP",
+                        "label": "Trench Depth",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "TRCH_WDTH",
+                        "label": "Trench Width",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "TRCH_LN",
+                        "label": "Trench Length",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "HAZ_CLASS",
+                        "label": "Hazard Class",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "COM_OVERAL",
+                        "label": "Comment Overall",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "Q_1YR",
+                        "label": "Q-1YR",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "Q_2YR",
+                        "label": "Q-2YR",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "Q_10YR",
+                        "label": "Q-10YR",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "Q_100YR",
+                        "label": "Q-100YR",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "PLANDATE",
+                        "label": "Plan Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "FEAT_STATUS",
+                        "label": "Feature Status",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DATEABANDONED",
+                        "label": "Date Abandoned",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "META_ID",
+                        "label": "Metadata",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "IN_STREAM",
+                        "label": "In Stream",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "COM_APPURT",
+                        "label": "Comment Appurt",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "SEEP_CONT",
+                        "label": "Seepage Control",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "OWNER_ID",
+                        "label": "Owner",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FOUR_MI_VICINITY_AIRPORT",
+                        "label": "Four Mile Vicinity",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "SWM_FAC_NO_OTHER",
+                        "label": "SWMFAC Number Other",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "County Code",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_WSHED",
+                        "label": "Watershed",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_MSHOP",
+                        "label": "SHA Shop",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "MD_DISTRICT",
+                        "label": "SHA District",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "PLAN_IMP_AREA",
+                        "label": "Plan Imp Area",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "LEGISLATIVE_DISTRICT",
+                        "label": "Legislative District",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONGRESSIONAL_DISTRICT",
+                        "label": "Congressional District",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "WATERSHED_8DIGIT",
+                        "label": "8 Digit Watershed",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PLAN_DRAIN_AREA",
+                        "label": "Plan Drainage Area",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "DATE_CONSTRUCTED",
+                        "label": "Date Constructed",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "AS_BUILT_CERT_DATE",
+                        "label": "As-built Certification Date",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FOR_TMDL",
+                        "label": "For TMDL",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "JPA",
+                        "label": "JPA",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "UNDERGROUND_BMP",
+                        "label": "Underground BMP",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "RETROFIT_OF_EXISTING",
+                        "label": "Retrofit of Existing",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "LANDSCAPE_CONTRACT_ID",
+                        "label": "Landscape Contract ID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "REC_FEAT_STATUS",
+                        "label": "Recommended Feat. Status",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "REC_PLAN_DATE",
+                        "label": "Recommended Plan Date",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "REC_OWNER",
+                        "label": "Recommended Owner",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "REC_DESIGNATION",
+                        "label": "Recommended Designation",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "REC_DESIGN_SUB",
+                        "label": "Recommended Design Sub",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CONTRACT_ID",
+                        "label": "Contract",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_META_ID",
+                        "label": "Metadata",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CREATIONDATE",
+                        "label": "Creation Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_EDITDATE",
+                        "label": "Edit Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        },
+        {
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_1870",
+            "layerType": "ArcGISFeatureLayer",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/3",
+            "visibility": true,
+            "opacity": 1,
+            "mode": 1,
+            "title": "NNG_Inventory_V_KCI_1_Prod_20180424 - Conveyance",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "popupInfo": {
+                "title": "Conveyance: {CONVEYANCE_ID}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONVEYANCE_ID",
+                        "label": "Conveyance ID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONTRACT_ID",
+                        "label": "Contract Number",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONV_TYPE",
+                        "label": "Conveyance Type",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "UPSTRM_STR",
+                        "label": "Upstream Str Number",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DNSTRM_STR",
+                        "label": "Downstream Str Number",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "UNIT_LEN",
+                        "label": "Conveyance Length",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "INVERT_IN",
+                        "label": "Invert In",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "INVERT_OUT",
+                        "label": "Invert Out",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "COM_CONV",
+                        "label": "Conveyance Comments",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PLANDATE",
+                        "label": "Plan Date",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "FEAT_STATUS",
+                        "label": "Feature Status",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DATEABANDONED",
+                        "label": "Date Abandoned",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "META_ID",
+                        "label": "Metadata",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "County Code",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_WSHED",
+                        "label": "Watershed",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_MSHOP",
+                        "label": "SHA Shop",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "MD_DISTRICT",
+                        "label": "SHA District",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "DT_TRAP_SS",
+                        "label": "Trap SS",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "DT_MTRL_DITCH",
+                        "label": "Ditch Material",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DT_BOTTOM_WIDTH",
+                        "label": "Bottom Width",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "DT_FLD_ORIG_GLOBALID",
+                        "label": "DT Original GlobalID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PI_PIPE_SIZE1",
+                        "label": "Pipe Size 1",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "PI_PIPE_SIZE2",
+                        "label": "Pipe Size 2",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "PI_XS_AREA",
+                        "label": "Cross-Section Area",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "PI_XS_SHAPE",
+                        "label": "Cross-Section Shape",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PI_MTRL_PIPE",
+                        "label": "Pipe Material",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PI_PRESSURE",
+                        "label": "Pressure",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PI_FLD_ORIG_GLOBALID",
+                        "label": "PI Original GlobalID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_UPSTRM_STR_NO",
+                        "label": "Upstream Structure No.",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_DNSTRM_STR_NO",
+                        "label": "Downstream Structure No.",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CONTRACT_ID",
+                        "label": "Contract",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_META_ID",
+                        "label": "Metadata",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_UPSTRM_STR_GUID",
+                        "label": "Upstream Structure GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_DNSTRM_STR_GUID",
+                        "label": "Downstream Structure GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CREATIONDATE",
+                        "label": "Creation Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_EDITDATE",
+                        "label": "Edit Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        },
+        {
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_3902",
+            "layerType": "ArcGISFeatureLayer",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/2",
+            "visibility": true,
+            "opacity": 1,
+            "mode": 1,
+            "title": "NNG_Inventory_V_KCI_1_Prod_20180424 - Treatment Pipe",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "popupInfo": {
+                "title": "Treatment Pipe: {PIPE_SIZE1}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "TREATMENT_PIPE_ID",
+                        "label": "Treatment Pipe ID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FACILITY_ID",
+                        "label": "Facility ID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PIPE_SIZE1",
+                        "label": "Pipe Size 1",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "PIPE_SIZE2",
+                        "label": "Pipe Size 2",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "XS_AREA",
+                        "label": "XS Area",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "XS_SHAPE",
+                        "label": "XS Shape",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MTRL_PIPE",
+                        "label": "Material",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PRESSURE",
+                        "label": "Pressure",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "County Code",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_FACILITY_GUID",
+                        "label": "Facility GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CREATIONDATE",
+                        "label": "Creation Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_EDITDATE",
+                        "label": "Edit Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        },
+        {
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_2398",
+            "layerType": "ArcGISFeatureLayer",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/1",
+            "visibility": true,
+            "opacity": 1,
+            "mode": 1,
+            "title": "NNG_Inventory_V_KCI_1_Prod_20180424 - BMP Centroid",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "popupInfo": {
+                "title": "BMP Centroid: {FACILITY_ID}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FACILITY_ID",
+                        "label": "Facility ID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "County Code",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "X",
+                        "label": "X",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "Y",
+                        "label": "Y",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_FACILITY_GUID",
+                        "label": "Facility GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CREATIONDATE",
+                        "label": "Creation Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_EDITDATE",
+                        "label": "Edit Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        },
+        {
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_9384",
+            "layerType": "ArcGISFeatureLayer",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/0",
+            "visibility": true,
+            "opacity": 1,
+            "mode": 1,
+            "title": "NNG_Inventory_V_KCI_1_Prod_20180424 - Structures",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "popupInfo": {
+                "title": "Structures: {SHA_STR_NO}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "STRUCTURE_ID",
+                        "label": "Structure ID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "SHA_STR_NO",
+                        "label": "Structure Number",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONTRACT_ID",
+                        "label": "Contract Number",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "STR_TYPE",
+                        "label": "Structure Type",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "ST_ML_PT",
+                        "label": "Mile Point",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "FUNC_CLASS",
+                        "label": "Function Class",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "STUDY_PT",
+                        "label": "Study Point",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DATE_VER",
+                        "label": "Verification Date",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "PLANDATE",
+                        "label": "Plan Date",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "FEAT_STATUS",
+                        "label": "Feature Status",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "META_ID",
+                        "label": "Metadata",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DATEABANDONED",
+                        "label": "Date Abandoned",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "MAJ_OUTF",
+                        "label": "Major Outfall",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "NPDES_OUTF",
+                        "label": "NPDES Outfall",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "NPDES_NO",
+                        "label": "NPDES Number",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "OWNER_ID",
+                        "label": "Owner",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "COMMENTS",
+                        "label": "Str Comments",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "County Code",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_WSHED",
+                        "label": "Maryland Watershed",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_MSHOP",
+                        "label": "MD SHA Shop",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "MD_DISTRICT",
+                        "label": "SHA District",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "X",
+                        "label": "X",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "Y",
+                        "label": "Y",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "META",
+                        "label": "META",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "EH_DESG_EH",
+                        "label": "End Headwall Designation",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "EH_MTRL_EH",
+                        "label": "End Headwall Material",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "EH_COM_EH",
+                        "label": "End Headwall Comment",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "EH_FLD_ORIG_GLOBALID",
+                        "label": "EH Original GlobalID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "IN_DESG_IN",
+                        "label": "Inlet Designation",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "IN_INLET_LEN",
+                        "label": "Inlet Length",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "IN_MTRL_IN",
+                        "label": "Inlet Material",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "IN_TOP_OF_GRT",
+                        "label": "Top of Grate",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "IN_COM_IN",
+                        "label": "Inlet Comments",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "IN_FLD_ORIG_GLOBALID",
+                        "label": "IN Original GlobalID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MH_MTRL_CONN",
+                        "label": "Connection Material",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MH_TOP_OF_MH",
+                        "label": "Top of Manhole",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "MH_COM_MH",
+                        "label": "Manhole Comments",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MH_FLD_ORIG_GLOBALID",
+                        "label": "MH Original GlobalID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PM_STATION_NAME",
+                        "label": "Station Name",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PM_INSTALL_DATE",
+                        "label": "Install Date",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "PM_NO_OF_PUMPS",
+                        "label": "Number Pumps",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "PM_MAX_CAPACITY",
+                        "label": "Max Capacity",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "PM_FLD_ORIG_GLOBALID",
+                        "label": "PM Original GlobalID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "SR_MTRL_RISER",
+                        "label": "Riser Material",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "SR_TRASHRACK",
+                        "label": "Trashrack",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "SR_STAGE_INV1",
+                        "label": "Stage Inv 1",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "SR_STAGE_INV2",
+                        "label": "Stage Inv 2",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "SR_STAGE_INV3",
+                        "label": "Stage Inv 3",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "SR_STAGE_INV4",
+                        "label": "Stage Inv 4",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "SR_OUTLET_TYPE",
+                        "label": "Outlet Type",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "SR_FLD_ORIG_GLOBALID",
+                        "label": "SR Original GlobalID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "WR_MTRL_WEIR",
+                        "label": "Weir Material",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "WR_TRASHRACK",
+                        "label": "Trashrack",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "WR_STAGE_INV1",
+                        "label": "Stage Inv 1",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "WR_STAGE_INV2",
+                        "label": "Stage Inv 2",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "WR_STAGE_INV3",
+                        "label": "Stage Inv 3",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "WR_STAGE_INV4",
+                        "label": "Stage Inv 4",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "WR_FLD_ORIG_GLOBALID",
+                        "label": "WR Original GlobalID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CTRL_SWMFAC_NO",
+                        "label": "Control SWMFAC No.",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_UPSTR_SWMFAC_NO",
+                        "label": "Upstream SWMFAC No.",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CONTRACT_ID",
+                        "label": "Contract",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_OWNER_ID",
+                        "label": "Owner",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_META_ID",
+                        "label": "Metadata",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CTRL_SWMFAC_GUID",
+                        "label": "Control SWMFAC GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_UPSTR_SWMFAC_GUID",
+                        "label": "Upsteam SWMFAC GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CREATIONDATE",
+                        "label": "Creation Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_EDITDATE",
+                        "label": "Edit Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        }
+    ],
+    "baseMap": {
+        "baseMapLayers": [
+            {
+                "id": "defaultBasemap",
+                "layerType": "ArcGISTiledMapServiceLayer",
+                "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "Topographic"
+            }
+        ],
+        "title": "Topographic"
+    },
+    "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+    },
+    "authoringApp": "WebMapViewer",
+    "authoringAppVersion": "6.1",
+    "version": "2.11",
+    "tables": [
+        {
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/11",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_26",
+            "title": "NNG_Inventory_V_KCI_1_Prod_20180424 - Owner",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "popupInfo": {
+                "title": "Owner: {ORG_NAME1}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "OWNER_ID",
+                        "label": "OWNER_ID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "OWNER_CODE",
+                        "label": "OWNER_CODE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "ORG_NAME1",
+                        "label": "ORG_NAME1",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "ORG_NAME2",
+                        "label": "ORG_NAME2",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONTACT_NAM",
+                        "label": "CONTACT_NAM",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "STREET1",
+                        "label": "STREET1",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "STREET2",
+                        "label": "STREET2",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CITY",
+                        "label": "CITY",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "STATE",
+                        "label": "STATE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "ZIP",
+                        "label": "ZIP",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PHONE1",
+                        "label": "PHONE1",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PHONE2",
+                        "label": "PHONE2",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FAX",
+                        "label": "FAX",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "EMAIL",
+                        "label": "EMAIL",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "WEB",
+                        "label": "WEB",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "COMMENTS",
+                        "label": "COMMENTS",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CREATIONDATE",
+                        "label": "FLD_CREATIONDATE",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_EDITDATE",
+                        "label": "FLD_EDITDATE",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        },
+        {
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/10",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_5652",
+            "title": "NNG_Inventory_V_KCI_1_Prod_20180424 - Metadata",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "popupInfo": {
+                "title": "Metadata: {META_ID}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "META_ID",
+                        "label": "META_ID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PARENT_META_ID",
+                        "label": "PARENT_META_ID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DATECREATE",
+                        "label": "DATECREATE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "CREATOR",
+                        "label": "CREATOR",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "INFO_BASE",
+                        "label": "INFO_BASE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "CNTY_CODE",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CREATIONDATE",
+                        "label": "FLD_CREATIONDATE",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_EDITDATE",
+                        "label": "FLD_EDITDATE",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        },
+        {
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/9",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_4431",
+            "title": "NNG_Inventory_V_KCI_1_Prod_20180424 - Field Screening Site",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "popupInfo": {
+                "title": "Field Screening Site: {STRUCTURE_ID}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "STRUCTURE_ID",
+                        "label": "Structure ID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "VIC_SCREEN",
+                        "label": "ADC Map Page",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "LEG_VIC_SCREEN",
+                        "label": "Legacy ADC",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "LOC_SCREEN",
+                        "label": "Location",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DESC_STA",
+                        "label": "Station Description",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DESC_OUTFL",
+                        "label": "Outfall Description",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "RCN",
+                        "label": "RCN",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "STREAMDIST",
+                        "label": "Stream Distance",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "COM_SITE",
+                        "label": "Site Comments",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "HOT_SPOT",
+                        "label": "Hot Spot",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "County Code",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "ILLICIT_DISCHARGE_POINT_ID",
+                        "label": "Illicit Discharge Point ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_STRUCTURE_GUID",
+                        "label": "FLD_STRUCTURE_GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CREATIONDATE",
+                        "label": "Creation Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_EDITDATE",
+                        "label": "Edit Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        },
+        {
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/8",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_9150",
+            "title": "NNG_Inventory_V_KCI_1_Prod_20180424 - Contract",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "popupInfo": {
+                "title": "Contract: {CONTRACT_ID}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONTRACT_ID",
+                        "label": "CONTRACT_ID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTRCT_SHA",
+                        "label": "CNTRCT_SHA",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTRCT_PLAN",
+                        "label": "CNTRCT_PLAN",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "CNTY_CODE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MUNI_CODE",
+                        "label": "MUNI_CODE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "RTE_PREFIX",
+                        "label": "RTE_PREFIX",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "RTE_SUFFIX",
+                        "label": "RTE_SUFFIX",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "RTE_NO",
+                        "label": "RTE_NO",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "SECT_LEN",
+                        "label": "SECT_LEN",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "PRJ_LIMITS",
+                        "label": "PRJ_LIMITS",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "YEAR_BUILT",
+                        "label": "YEAR_BUILT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "PLAN_DATE",
+                        "label": "PLAN_DATE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "COM_CNTRCT",
+                        "label": "COM_CNTRCT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "V_DATUM",
+                        "label": "V_DATUM",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "ACCESS_PER",
+                        "label": "ACCESS_PER",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PLAT_NO",
+                        "label": "PLAT_NO",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CREATIONDATE",
+                        "label": "FLD_CREATIONDATE",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_EDITDATE",
+                        "label": "FLD_EDITDATE",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        },
+        {
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/7",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_840",
+            "title": "NNG_Inventory_V_KCI_1_Prod_20180424 - Structure Issue",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "popupInfo": {
+                "title": "Structure Issue: {STRUCTURE_ID}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "STRUCTURE_ID",
+                        "label": "Structure ID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "ATTENTION",
+                        "label": "Attention",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "STRUCTURE_ISSUE",
+                        "label": "Structure Issue",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "County Code",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_STRUCTURE_GUID",
+                        "label": "Structure GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_CREATIONDATE",
+                        "label": "Creation Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_EDITDATE",
+                        "label": "Edit Date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        }
+    ],
+    "applicationProperties": {
+        "viewing": {
+            "routing": {
+                "enabled": true
+            },
+            "basemapGallery": {
+                "enabled": true
+            },
+            "measure": {
+                "enabled": true
+            }
+        }
+    }
+}
