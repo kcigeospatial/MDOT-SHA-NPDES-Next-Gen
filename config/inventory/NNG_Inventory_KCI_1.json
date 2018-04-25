@@ -3237,6 +3237,32 @@
                 "ymin": 4436070.10223169
             },
             "name": "Statewide"
+        },
+        {
+            "extent": {
+                "spatialReference": {
+                    "wkid": 102100,
+                    "latestWkid": 3857
+                },
+                "xmax": -8525488.83235175,
+                "xmin": -8529016.878938632,
+                "ymax": 4782049.906294933,
+                "ymin": 4779986.106531179
+            },
+            "name": "Towson Beltway Interchanges"
+        },
+        {
+            "extent": {
+                "spatialReference": {
+                    "wkid": 102100,
+                    "latestWkid": 3857
+                },
+                "xmax": -8593446.277589157,
+                "xmin": -8596974.32417604,
+                "ymax": 4743302.778909493,
+                "ymin": 4741238.979145739
+            },
+            "name": "Germantown 270"
         }
     ],
     "applicationProperties": {
