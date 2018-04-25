@@ -6,7 +6,7 @@ Add the inventory service
 
 ### 2 Rename all Contents
 
-Title-cased layers look better.
+Title-cased layers look better. Easier to do this in AGO Assistant. https://ago-assistant.esri.com/
 
 - Structures
 - BMP Centroid
