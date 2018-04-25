@@ -162,7 +162,8 @@
                 "description": null,
                 "showAttachments": true,
                 "mediaInfos": []
-            }
+            },
+            "capabilities": "Query,Sync,Extract"
         },
         {
             "id": "NNG_Inventory_V_KCI_1_Prod_20180424_8769",
@@ -326,7 +327,8 @@
                 "description": null,
                 "showAttachments": true,
                 "mediaInfos": []
-            }
+            },
+            "capabilities": "Query,Sync,Extract"
         },
         {
             "id": "NNG_Inventory_V_KCI_1_Prod_20180424_6600",
@@ -1559,140 +1561,8 @@
             "mode": 1,
             "title": "BMP Centroid",
             "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
-            "popupInfo": {
-                "title": "BMP Centroid: {FACILITY_ID}",
-                "fieldInfos": [
-                    {
-                        "fieldName": "OBJECTID",
-                        "label": "OBJECTID",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FACILITY_ID",
-                        "label": "Facility ID",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "CNTY_CODE",
-                        "label": "County Code",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "X",
-                        "label": "X",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "places": 2,
-                            "digitSeparator": true
-                        }
-                    },
-                    {
-                        "fieldName": "Y",
-                        "label": "Y",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "places": 2,
-                            "digitSeparator": true
-                        }
-                    },
-                    {
-                        "fieldName": "FLD_FACILITY_GUID",
-                        "label": "Facility GUID",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_ORIG_GLOBALID",
-                        "label": "Original GUID",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_CREATIONDATE",
-                        "label": "Creation Date",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "dateFormat": "shortDateShortTime"
-                        }
-                    },
-                    {
-                        "fieldName": "FLD_CREATOR",
-                        "label": "Creator",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_EDITDATE",
-                        "label": "Edit Date",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "dateFormat": "shortDateShortTime"
-                        }
-                    },
-                    {
-                        "fieldName": "FLD_EDITOR",
-                        "label": "Editor",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_ETL_ISSUES",
-                        "label": "ETL Issues",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
-                        "label": "ETL Spatial Issues",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "GLOBALID",
-                        "label": "GLOBALID",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox"
-                    }
-                ],
-                "description": null,
-                "showAttachments": true,
-                "mediaInfos": []
-            }
+            "disablePopup": true,
+            "capabilities": "Query,Sync,Extract"
         },
         {
             "id": "NNG_Inventory_V_KCI_1_Prod_20180424_9384",
@@ -3352,6 +3222,21 @@
                 "showAttachments": true,
                 "mediaInfos": []
             }
+        }
+    ],
+    "bookmarks": [
+        {
+            "extent": {
+                "spatialReference": {
+                    "wkid": 102100,
+                    "latestWkid": 3857
+                },
+                "xmax": -8148180.225118358,
+                "xmin": -9051360.151335955,
+                "ymax": 4964402.841738802,
+                "ymin": 4436070.10223169
+            },
+            "name": "Statewide"
         }
     ],
     "applicationProperties": {
