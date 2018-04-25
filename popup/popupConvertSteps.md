@@ -2,7 +2,7 @@
 
 1. Open `Master NPDES Field Geodatabase Schema Reference.xlsx`
 2. Filter the target pop-up, e.g., Structure
-3. Filter the _View_ column to _TRUE_
+3. ~Filter the _View_ column to _TRUE_~
 4. Copy the matching columns with the HTML, including the title
 5. Open [HTML Table Generator](https://www.tablesgenerator.com/html_tables)
 6. Click File > Paste Table Data

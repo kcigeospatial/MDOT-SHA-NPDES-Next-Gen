@@ -4,12 +4,20 @@
     <th><font face="Verdana">Value</font></th>
   </tr>
   <tr>
+    <td><font color= #808080 face="Verdana">🔒 GIS Object ID</font></td>
+    <td><font color= #000000 face="Verdana">{OBJECTID}</font></td>
+  </tr>
+  <tr>
     <td><font color= #808080 face="Verdana">🔒 Structure ID</font></td>
     <td><font color= #000000 face="Verdana">{STRUCTURE_ID}</font></td>
   </tr>
   <tr>
     <td><font color= #808080 face="Verdana">Structure Number</font></td>
     <td><font color= #000000 face="Verdana">{SHA_STR_NO}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">🔒 Contract Number</font></td>
+    <td><font color= #000000 face="Verdana">{CONTRACT_ID}</font></td>
   </tr>
   <tr>
     <td><font color= #808080 face="Verdana">Structure Type</font></td>
@@ -40,6 +48,10 @@
     <td><font color= #000000 face="Verdana">{FEAT_STATUS}</font></td>
   </tr>
   <tr>
+    <td><font color= #808080 face="Verdana">🔒 Metadata</font></td>
+    <td><font color= #000000 face="Verdana">{META_ID}</font></td>
+  </tr>
+  <tr>
     <td><font color= #808080 face="Verdana">Date Abandoned</font></td>
     <td><font color= #000000 face="Verdana">{DATEABANDONED}</font></td>
   </tr>
@@ -54,6 +66,10 @@
   <tr>
     <td><font color= #808080 face="Verdana">NPDES Number</font></td>
     <td><font color= #000000 face="Verdana">{NPDES_NO}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">🔒 Owner</font></td>
+    <td><font color= #000000 face="Verdana">{OWNER_ID}</font></td>
   </tr>
   <tr>
     <td><font color= #808080 face="Verdana">Str Comments</font></td>
@@ -76,116 +92,152 @@
     <td><font color= #000000 face="Verdana">{MD_DISTRICT}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">End Headwall Designation</font></td>
+    <td><font color= #808080 face="Verdana">🔒 X</font></td>
+    <td><font color= #000000 face="Verdana">{X}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">🔒 Y</font></td>
+    <td><font color= #000000 face="Verdana">{Y}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">🔒 META</font></td>
+    <td><font color= #000000 face="Verdana">{META}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">EH End Headwall Designation</font></td>
     <td><font color= #000000 face="Verdana">{EH_DESG_EH}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">End Headwall Material</font></td>
+    <td><font color= #808080 face="Verdana">EH End Headwall Material</font></td>
     <td><font color= #000000 face="Verdana">{EH_MTRL_EH}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">End Headwall Comment</font></td>
+    <td><font color= #808080 face="Verdana">EH End Headwall Comment</font></td>
     <td><font color= #000000 face="Verdana">{EH_COM_EH}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Inlet Designation</font></td>
+    <td><font color= #808080 face="Verdana">🔒 EH Original Global ID</font></td>
+    <td><font color= #000000 face="Verdana">{EH_FLD_ORIG_GLOBALID}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">IN Inlet Designation</font></td>
     <td><font color= #000000 face="Verdana">{IN_DESG_IN}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Inlet Length</font></td>
+    <td><font color= #808080 face="Verdana">IN Inlet Length</font></td>
     <td><font color= #000000 face="Verdana">{IN_INLET_LEN}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Inlet Material</font></td>
+    <td><font color= #808080 face="Verdana">IN Inlet Material</font></td>
     <td><font color= #000000 face="Verdana">{IN_MTRL_IN}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Top of Grate</font></td>
+    <td><font color= #808080 face="Verdana">IN Top of Grate</font></td>
     <td><font color= #000000 face="Verdana">{IN_TOP_OF_GRT}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Inlet Comments</font></td>
+    <td><font color= #808080 face="Verdana">IN Inlet Comments</font></td>
     <td><font color= #000000 face="Verdana">{IN_COM_IN}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Connection Material</font></td>
+    <td><font color= #808080 face="Verdana">🔒 IN Original Global ID</font></td>
+    <td><font color= #000000 face="Verdana">{IN_FLD_ORIG_GLOBALID}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">MH Connection Material</font></td>
     <td><font color= #000000 face="Verdana">{MH_MTRL_CONN}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Top of Manhole</font></td>
+    <td><font color= #808080 face="Verdana">MH Top of Manhole</font></td>
     <td><font color= #000000 face="Verdana">{MH_TOP_OF_MH}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Manhole Comments</font></td>
+    <td><font color= #808080 face="Verdana">MH Manhole Comments</font></td>
     <td><font color= #000000 face="Verdana">{MH_COM_MH}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Station Name</font></td>
+    <td><font color= #808080 face="Verdana">🔒 MH Original Global ID</font></td>
+    <td><font color= #000000 face="Verdana">{MH_FLD_ORIG_GLOBALID}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">PM Station Name</font></td>
     <td><font color= #000000 face="Verdana">{PM_STATION_NAME}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Install Date</font></td>
+    <td><font color= #808080 face="Verdana">PM Install Date</font></td>
     <td><font color= #000000 face="Verdana">{PM_INSTALL_DATE}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Number Pumps</font></td>
+    <td><font color= #808080 face="Verdana">PM Number Pumps</font></td>
     <td><font color= #000000 face="Verdana">{PM_NO_OF_PUMPS}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Max Capacity</font></td>
+    <td><font color= #808080 face="Verdana">PM Max Capacity</font></td>
     <td><font color= #000000 face="Verdana">{PM_MAX_CAPACITY}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Riser Material</font></td>
+    <td><font color= #808080 face="Verdana">🔒 PM Original Global ID</font></td>
+    <td><font color= #000000 face="Verdana">{PM_FLD_ORIG_GLOBALID}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">SR Riser Material</font></td>
     <td><font color= #000000 face="Verdana">{SR_MTRL_RISER}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Trashrack</font></td>
+    <td><font color= #808080 face="Verdana">SR Trashrack</font></td>
     <td><font color= #000000 face="Verdana">{SR_TRASHRACK}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Stage Inv 1</font></td>
+    <td><font color= #808080 face="Verdana">SR Stage Inv 1</font></td>
     <td><font color= #000000 face="Verdana">{SR_STAGE_INV1}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Stage Inv 2</font></td>
+    <td><font color= #808080 face="Verdana">SR Stage Inv 2</font></td>
     <td><font color= #000000 face="Verdana">{SR_STAGE_INV2}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Stage Inv 3</font></td>
+    <td><font color= #808080 face="Verdana">SR Stage Inv 3</font></td>
     <td><font color= #000000 face="Verdana">{SR_STAGE_INV3}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Stage Inv 4</font></td>
+    <td><font color= #808080 face="Verdana">SR Stage Inv 4</font></td>
     <td><font color= #000000 face="Verdana">{SR_STAGE_INV4}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Outlet Type</font></td>
+    <td><font color= #808080 face="Verdana">SR Outlet Type</font></td>
     <td><font color= #000000 face="Verdana">{SR_OUTLET_TYPE}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Weir Material</font></td>
+    <td><font color= #808080 face="Verdana">🔒 SR Original Global ID</font></td>
+    <td><font color= #000000 face="Verdana">{SR_FLD_ORIG_GLOBALID}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">WR Weir Material</font></td>
     <td><font color= #000000 face="Verdana">{WR_MTRL_WEIR}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Trashrack</font></td>
+    <td><font color= #808080 face="Verdana">WR Trashrack</font></td>
     <td><font color= #000000 face="Verdana">{WR_TRASHRACK}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Stage Inv 1</font></td>
+    <td><font color= #808080 face="Verdana">WR Stage Inv 1</font></td>
     <td><font color= #000000 face="Verdana">{WR_STAGE_INV1}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Stage Inv 2</font></td>
+    <td><font color= #808080 face="Verdana">WR Stage Inv 2</font></td>
     <td><font color= #000000 face="Verdana">{WR_STAGE_INV2}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Stage Inv 3</font></td>
+    <td><font color= #808080 face="Verdana">WR Stage Inv 3</font></td>
     <td><font color= #000000 face="Verdana">{WR_STAGE_INV3}</font></td>
   </tr>
   <tr>
-    <td><font color= #808080 face="Verdana">Stage Inv 4</font></td>
+    <td><font color= #808080 face="Verdana">WR Stage Inv 4</font></td>
     <td><font color= #000000 face="Verdana">{WR_STAGE_INV4}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">🔒 WR Original Global ID</font></td>
+    <td><font color= #000000 face="Verdana">{WR_FLD_ORIG_GLOBALID}</font></td>
   </tr>
   <tr>
     <td><font color= #808080 face="Verdana">Control SWMFAC No.</font></td>
@@ -206,6 +258,18 @@
   <tr>
     <td><font color= #808080 face="Verdana">Metadata</font></td>
     <td><font color= #000000 face="Verdana">{FLD_META_ID}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">🔒 Control SWMFAC GUID</font></td>
+    <td><font color= #000000 face="Verdana">{FLD_CTRL_SWMFAC_GUID}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">🔒 Upstream SWMFAC GUID</font></td>
+    <td><font color= #000000 face="Verdana">{FLD_UPSTR_SWMFAC_GUID}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">🔒 Original GUID</font></td>
+    <td><font color= #000000 face="Verdana">{FLD_ORIG_GLOBALID}</font></td>
   </tr>
   <tr>
     <td><font color= #808080 face="Verdana">🔒 Creation Date</font></td>
@@ -230,5 +294,9 @@
   <tr>
     <td><font color= #808080 face="Verdana">🔒 ETL Spatial Issues</font></td>
     <td><font color= #000000 face="Verdana">{FLD_ETL_SPATIAL_ISSUES}</font></td>
+  </tr>
+  <tr>
+    <td><font color= #808080 face="Verdana">🔒 GLOBALID</font></td>
+    <td><font color= #000000 face="Verdana">{GLOBALID}&lt;/font></td>
   </tr>
 </table>
