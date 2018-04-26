@@ -9,160 +9,7 @@
             "mode": 1,
             "title": "SWMFAC Drainage Area",
             "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
-            "popupInfo": {
-                "title": "SWMFAC Drainage Area: {FACILITY_ID}",
-                "fieldInfos": [
-                    {
-                        "fieldName": "OBJECTID",
-                        "label": "OBJECTID",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FACILITY_ID",
-                        "label": "FACILITY_ID",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "TREATMENT_AREA",
-                        "label": "TREATMENT_AREA",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "places": 2,
-                            "digitSeparator": true
-                        }
-                    },
-                    {
-                        "fieldName": "CNTY_CODE",
-                        "label": "CNTY_CODE",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "MD_WSHED",
-                        "label": "MD_WSHED",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "MD_MSHOP",
-                        "label": "MD_MSHOP",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "places": 0,
-                            "digitSeparator": true
-                        }
-                    },
-                    {
-                        "fieldName": "MD_DISTRICT",
-                        "label": "MD_DISTRICT",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "places": 0,
-                            "digitSeparator": true
-                        }
-                    },
-                    {
-                        "fieldName": "FLD_FACILITY_GUID",
-                        "label": "FLD_FACILITY_GUID",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_ORIG_GLOBALID",
-                        "label": "Original GUID",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_CREATIONDATE",
-                        "label": "FLD_CREATIONDATE",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "dateFormat": "shortDateShortTime"
-                        }
-                    },
-                    {
-                        "fieldName": "FLD_CREATOR",
-                        "label": "Creator",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_EDITDATE",
-                        "label": "FLD_EDITDATE",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "dateFormat": "shortDateShortTime"
-                        }
-                    },
-                    {
-                        "fieldName": "FLD_EDITOR",
-                        "label": "Editor",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_ETL_ISSUES",
-                        "label": "ETL Issues",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
-                        "label": "ETL Spatial Issues",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "GLOBALID",
-                        "label": "GLOBALID",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox"
-                    }
-                ],
-                "description": null,
-                "showAttachments": true,
-                "mediaInfos": []
-            },
+            "disablePopup": true,
             "capabilities": "Query,Sync,Extract"
         },
         {
@@ -174,160 +21,7 @@
             "mode": 1,
             "title": "Structure Drainage Area",
             "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
-            "popupInfo": {
-                "title": "Structure Drainage Area: {STRUCTURE_ID}",
-                "fieldInfos": [
-                    {
-                        "fieldName": "OBJECTID",
-                        "label": "OBJECTID",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "STRUCTURE_ID",
-                        "label": "STRUCTURE_ID",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "TREATMENT_AREA",
-                        "label": "TREATMENT_AREA",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "places": 2,
-                            "digitSeparator": true
-                        }
-                    },
-                    {
-                        "fieldName": "CNTY_CODE",
-                        "label": "CNTY_CODE",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "MD_WSHED",
-                        "label": "MD_WSHED",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "MD_MSHOP",
-                        "label": "MD_MSHOP",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "places": 0,
-                            "digitSeparator": true
-                        }
-                    },
-                    {
-                        "fieldName": "MD_DISTRICT",
-                        "label": "MD_DISTRICT",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "places": 0,
-                            "digitSeparator": true
-                        }
-                    },
-                    {
-                        "fieldName": "FLD_STRUCTURE_GUID",
-                        "label": "FLD_STRUCTURE_GUID",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_ORIG_GLOBALID",
-                        "label": "Original GUID",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_CREATIONDATE",
-                        "label": "FLD_CREATIONDATE",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "dateFormat": "shortDateShortTime"
-                        }
-                    },
-                    {
-                        "fieldName": "FLD_CREATOR",
-                        "label": "Creator",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_EDITDATE",
-                        "label": "FLD_EDITDATE",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox",
-                        "format": {
-                            "dateFormat": "shortDateShortTime"
-                        }
-                    },
-                    {
-                        "fieldName": "FLD_EDITOR",
-                        "label": "Editor",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_ETL_ISSUES",
-                        "label": "ETL Issues",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "FLD_ETL_SPATIAL_ISSUES",
-                        "label": "ETL Spatial Issues",
-                        "isEditable": true,
-                        "tooltip": "",
-                        "visible": true,
-                        "stringFieldOption": "textbox"
-                    },
-                    {
-                        "fieldName": "GLOBALID",
-                        "label": "GLOBALID",
-                        "isEditable": false,
-                        "tooltip": "",
-                        "visible": false,
-                        "stringFieldOption": "textbox"
-                    }
-                ],
-                "description": null,
-                "showAttachments": true,
-                "mediaInfos": []
-            },
+            "disablePopup": true,
             "capabilities": "Query,Sync,Extract"
         },
         {
@@ -941,10 +635,418 @@
                         "tooltip": "",
                         "visible": false,
                         "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "relationships/3/OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "relationships/3/FACILITY_ID",
+                        "label": "Facility ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "relationships/3/CNTY_CODE",
+                        "label": "County Code",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "relationships/3/X",
+                        "label": "X",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "relationships/3/Y",
+                        "label": "Y",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "relationships/3/FLD_FACILITY_GUID",
+                        "label": "Facility GUID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "relationships/3/FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "relationships/3/FLD_CREATIONDATE",
+                        "label": "Creation Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        }
+                    },
+                    {
+                        "fieldName": "relationships/3/FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "relationships/3/FLD_EDITDATE",
+                        "label": "Edit Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        }
+                    },
+                    {
+                        "fieldName": "relationships/3/FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "relationships/3/FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "relationships/3/FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "relationships/3/GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/TREATMENT_PIPE_ID",
+                        "label": "Treatment Pipe ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/FACILITY_ID",
+                        "label": "Facility ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/PIPE_SIZE1",
+                        "label": "Pipe Size 1",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/PIPE_SIZE2",
+                        "label": "Pipe Size 2",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/XS_AREA",
+                        "label": "XS Area",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/MTRL_PIPE",
+                        "label": "Material",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/PRESSURE",
+                        "label": "Pressure",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/CNTY_CODE",
+                        "label": "County Code",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/FLD_FACILITY_GUID",
+                        "label": "Facility GUID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/FLD_CREATIONDATE",
+                        "label": "Creation Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/FLD_EDITDATE",
+                        "label": "Edit Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/FACILITY_ID",
+                        "label": "FACILITY_ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/TREATMENT_AREA",
+                        "label": "TREATMENT_AREA",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/CNTY_CODE",
+                        "label": "CNTY_CODE",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/MD_WSHED",
+                        "label": "MD_WSHED",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/MD_MSHOP",
+                        "label": "MD_MSHOP",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/MD_DISTRICT",
+                        "label": "MD_DISTRICT",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/FLD_FACILITY_GUID",
+                        "label": "FLD_FACILITY_GUID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/FLD_CREATIONDATE",
+                        "label": "FLD_CREATIONDATE",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/FLD_EDITDATE",
+                        "label": "FLD_EDITDATE",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/5/FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/4/XS_SHAPE",
+                        "label": "XS Shape",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
                     }
                 ],
-                "description": null,
+                "description": "<font face='Verdana'>This is a SWMFAC designated as <i>{DESIGNATION}</i>.<font size='4'><br /></font><br /><a href='arcgis-survey123://?itemID=4939893efd764561bdc4e35a388b8c71&amp;field:FACILITY_ID={FACILITY_ID}&amp;field:SWM_FAC_NO={SWM_FAC_NO}&amp;field:FIRM_NAME=KCI_1' target='_blank'><font size='5'>Perform Inspection</font></a><br /> <br /></font><table>\n  <tr>\n    <th><font face='Verdana'>Field Name</font></th>\n    <th><font face='Verdana'>Value</font></th>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 GIS Object ID</font></td>\n    <td><font face='Verdana'>{OBJECTID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Facility ID</font></td>\n    <td><font face='Verdana'>{FACILITY_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 SWMFAC Number</font></td>\n    <td><font face='Verdana'>{SWM_FAC_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Legacy SWMFAC Num</font></td>\n    <td><font face='Verdana'>{LEG_SWM_FAC_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Env Comp. BMP</font></td>\n    <td><font face='Verdana'>{EC_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Contract Number</font></td>\n    <td><font face='Verdana'>{CONTRACT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Designation</font></td>\n    <td><font face='Verdana'>{DESIGNATION}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Designation Sub</font></td>\n    <td><font face='Verdana'>{DESIGN_SUB}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>MDE Number</font></td>\n    <td><font face='Verdana'>{MDE_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>ADC Location</font></td>\n    <td><font face='Verdana'>{VIC_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Legacy ADC Location</font></td>\n    <td><font face='Verdana'>{LEG_VIC_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Location</font></td>\n    <td><font face='Verdana'>{LOC_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Road Name</font></td>\n    <td><font face='Verdana'>{ROAD_NAME}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Fence Material</font></td>\n    <td><font face='Verdana'>{FENCE_MAT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Dam Height</font></td>\n    <td><font face='Verdana'>{DAM_HEIGHT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Observation Well</font></td>\n    <td><font face='Verdana'>{OB_WELL}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Trench Depth</font></td>\n    <td><font face='Verdana'>{TRCH_DEP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Trench Width</font></td>\n    <td><font face='Verdana'>{TRCH_WDTH}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Trench Length</font></td>\n    <td><font face='Verdana'>{TRCH_LN}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Hazard Class</font></td>\n    <td><font face='Verdana'>{HAZ_CLASS}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Comment Overall</font></td>\n    <td><font face='Verdana'>{COM_OVERAL}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Q-1YR</font></td>\n    <td><font face='Verdana'>{Q_1YR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Q-2YR</font></td>\n    <td><font face='Verdana'>{Q_2YR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Q-10YR</font></td>\n    <td><font face='Verdana'>{Q_10YR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Q-100YR</font></td>\n    <td><font face='Verdana'>{Q_100YR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Plan Date</font></td>\n    <td><font face='Verdana'>{PLANDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Feature Status</font></td>\n    <td><font face='Verdana'>{FEAT_STATUS}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Date Abandoned</font></td>\n    <td><font face='Verdana'>{DATEABANDONED}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Metadata</font></td>\n    <td><font face='Verdana'>{META_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>In Stream</font></td>\n    <td><font face='Verdana'>{IN_STREAM}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Comment Appurt</font></td>\n    <td><font face='Verdana'>{COM_APPURT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Seepage Control</font></td>\n    <td><font face='Verdana'>{SEEP_CONT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Owner</font></td>\n    <td><font face='Verdana'>{OWNER_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Four Mile Vicinity</font></td>\n    <td><font face='Verdana'>{FOUR_MI_VICINITY_AIRPORT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>SWMFAC Number Other</font></td>\n    <td><font face='Verdana'>{SWM_FAC_NO_OTHER}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 County Code</font></td>\n    <td><font face='Verdana'>{CNTY_CODE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Watershed</font></td>\n    <td><font face='Verdana'>{MD_WSHED}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 SHA Shop</font></td>\n    <td><font face='Verdana'>{MD_MSHOP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 SHA District</font></td>\n    <td><font face='Verdana'>{MD_DISTRICT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Plan Imp Area</font></td>\n    <td><font face='Verdana'>{PLAN_IMP_AREA}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Legislative District</font></td>\n    <td><font face='Verdana'>{LEGISLATIVE_DISTRICT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Congressional District</font></td>\n    <td><font face='Verdana'>{CONGRESSIONAL_DISTRICT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 8 Digit Watershed</font></td>\n    <td><font face='Verdana'>{WATERSHED_8DIGIT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Plan Drainage Area</font></td>\n    <td><font face='Verdana'>{PLAN_DRAIN_AREA}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Date Constructed</font></td>\n    <td><font face='Verdana'>{DATE_CONSTRUCTED}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>As-built Certification Date</font></td>\n    <td><font face='Verdana'>{AS_BUILT_CERT_DATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>For TMDL</font></td>\n    <td><font face='Verdana'>{FOR_TMDL}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>JPA</font></td>\n    <td><font face='Verdana'>{JPA}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Underground BMP</font></td>\n    <td><font face='Verdana'>{UNDERGROUND_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Retrofit of Existing</font></td>\n    <td><font face='Verdana'>{RETROFIT_OF_EXISTING}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Landscape Contract ID</font></td>\n    <td><font face='Verdana'>{LANDSCAPE_CONTRACT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Feat. Status</font></td>\n    <td><font face='Verdana'>{REC_FEAT_STATUS}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Plan Date</font></td>\n    <td><font face='Verdana'>{REC_PLAN_DATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Owner</font></td>\n    <td><font face='Verdana'>{REC_OWNER}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Designation</font></td>\n    <td><font face='Verdana'>{REC_DESIGNATION}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Design Sub</font></td>\n    <td><font face='Verdana'>{REC_DESIGN_SUB}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Contract</font></td>\n    <td><font face='Verdana'>{FLD_CONTRACT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Metadata</font></td>\n    <td><font face='Verdana'>{FLD_META_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Original GUID</font></td>\n    <td><font face='Verdana'>{FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Creation Date</font></td>\n    <td><font face='Verdana'>{FLD_CREATIONDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Creator</font></td>\n    <td><font face='Verdana'>{FLD_CREATOR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Edit Date</font></td>\n    <td><font face='Verdana'>{FLD_EDITDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Editor</font></td>\n    <td><font face='Verdana'>{FLD_EDITOR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 ETL Issues</font></td>\n    <td><font face='Verdana'>{FLD_ETL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 ETL Spatial Issues</font></td>\n    <td><font face='Verdana'>{FLD_ETL_SPATIAL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 GLOBALID</font></td>\n    <td><font face='Verdana'>{GLOBALID}</font></td>\n  </tr>\n</table>\n",
                 "showAttachments": true,
+                "relatedRecordsInfo": {
+                    "showRelatedRecords": true
+                },
                 "mediaInfos": []
             }
         },
@@ -1359,7 +1461,7 @@
                         "stringFieldOption": "textbox"
                     }
                 ],
-                "description": null,
+                "description": "<table>\n  <tr>\n    <th><font face='Verdana'>Field Name</font></th>\n    <th><font face='Verdana'>Value</font></th>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 GIS Object ID</font></td>\n    <td><font face='Verdana'>{OBJECTID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Conveyance ID</font></td>\n    <td><font face='Verdana'>{CONVEYANCE_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Contract Number</font></td>\n    <td><font face='Verdana'>{CONTRACT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Conveyance Type</font></td>\n    <td><font face='Verdana'>{CONV_TYPE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Upstream Str Number</font></td>\n    <td><font face='Verdana'>{UPSTRM_STR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Downstream Str Number</font></td>\n    <td><font face='Verdana'>{DNSTRM_STR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Conveyance Length</font></td>\n    <td><font face='Verdana'>{UNIT_LEN}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Invert In</font></td>\n    <td><font face='Verdana'>{INVERT_IN}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Invert Out</font></td>\n    <td><font face='Verdana'>{INVERT_OUT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Conveyance Comments</font></td>\n    <td><font face='Verdana'>{COM_CONV}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Plan Date</font></td>\n    <td><font face='Verdana'>{PLANDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Feature Status</font></td>\n    <td><font face='Verdana'>{FEAT_STATUS}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Date Abandoned</font></td>\n    <td><font face='Verdana'>{DATEABANDONED}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Metadata</font></td>\n    <td><font face='Verdana'>{META_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 County Code</font></td>\n    <td><font face='Verdana'>{CNTY_CODE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Watershed</font></td>\n    <td><font face='Verdana'>{MD_WSHED}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 SHA Shop</font></td>\n    <td><font face='Verdana'>{MD_MSHOP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 SHA District</font></td>\n    <td><font face='Verdana'>{MD_DISTRICT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>DT Trap SS</font></td>\n    <td><font face='Verdana'>{DT_TRAP_SS}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>DT Ditch Material</font></td>\n    <td><font face='Verdana'>{DT_MTRL_DITCH}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>DT Bottom Width</font></td>\n    <td><font face='Verdana'>{DT_BOTTOM_WIDTH}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 DT Original Global ID</font></td>\n    <td><font face='Verdana'>{DT_FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>PI Pipe Size 1</font></td>\n    <td><font face='Verdana'>{PI_PIPE_SIZE1}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>PI Pipe Size 2</font></td>\n    <td><font face='Verdana'>{PI_PIPE_SIZE2}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>PI Cross-Section Area</font></td>\n    <td><font face='Verdana'>{PI_XS_AREA}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>PI Cross-Section Shape</font></td>\n    <td><font face='Verdana'>{PI_XS_SHAPE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>PI Pipe Material</font></td>\n    <td><font face='Verdana'>{PI_MTRL_PIPE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>PI Pressure</font></td>\n    <td><font face='Verdana'>{PI_PRESSURE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 PI Original Global ID</font></td>\n    <td><font face='Verdana'>{PI_FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Upstream Str Number</font></td>\n    <td><font face='Verdana'>{FLD_UPSTRM_STR_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Downstream Str Number</font></td>\n    <td><font face='Verdana'>{FLD_DNSTRM_STR_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Contract</font></td>\n    <td><font face='Verdana'>{FLD_CONTRACT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Metadata</font></td>\n    <td><font face='Verdana'>{FLD_META_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 FLD_UPSTRM_STR_GUID</font></td>\n    <td><font face='Verdana'>{FLD_UPSTRM_STR_GUID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 FLD_DNSTRM_STR_GUID</font></td>\n    <td><font face='Verdana'>{FLD_DNSTRM_STR_GUID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Original GUID</font></td>\n    <td><font face='Verdana'>{FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Creation Date</font></td>\n    <td><font face='Verdana'>{FLD_CREATIONDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Creator</font></td>\n    <td><font face='Verdana'>{FLD_CREATOR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Edited Date</font></td>\n    <td><font face='Verdana'>{FLD_EDITDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Editor</font></td>\n    <td><font face='Verdana'>{FLD_EDITOR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 ETL Issues</font></td>\n    <td><font face='Verdana'>{FLD_ETL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 ETL Spatial Issues</font></td>\n    <td><font face='Verdana'>{FLD_ETL_SPATIAL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 GLOBALID</font></td>\n    <td><font face='Verdana'>{GLOBALID}</font></td>\n  </tr>\n</table>\n",
                 "showAttachments": true,
                 "mediaInfos": []
             }
@@ -1545,10 +1647,590 @@
                         "tooltip": "",
                         "visible": false,
                         "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "relationships/4/OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "visible": false,
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FACILITY_ID",
+                        "label": "Facility ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/SWM_FAC_NO",
+                        "label": "SWMFAC Number",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/LEG_SWM_FAC_NO",
+                        "label": "Legacy SWMFAC Num",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/EC_BMP",
+                        "label": "Env Comp. BMP",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/CONTRACT_ID",
+                        "label": "Contract Number",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/DESIGNATION",
+                        "label": "Designation",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/DESIGN_SUB",
+                        "label": "Designation Sub",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/MDE_NO",
+                        "label": "MDE Number",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/VIC_BMP",
+                        "label": "ADC Location",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/LEG_VIC_BMP",
+                        "label": "Legacy ADC Location",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/LOC_BMP",
+                        "label": "Location",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/ROAD_NAME",
+                        "label": "Road Name",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FENCE_MAT",
+                        "label": "Fence Material",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/DAM_HEIGHT",
+                        "label": "Dam Height",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/OB_WELL",
+                        "label": "Observation Well",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/TRCH_DEP",
+                        "label": "Trench Depth",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/TRCH_WDTH",
+                        "label": "Trench Width",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/TRCH_LN",
+                        "label": "Trench Length",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/HAZ_CLASS",
+                        "label": "Hazard Class",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/COM_OVERAL",
+                        "label": "Comment Overall",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/Q_1YR",
+                        "label": "Q-1YR",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/Q_2YR",
+                        "label": "Q-2YR",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "visible": false,
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/Q_100YR",
+                        "label": "Q-100YR",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/PLANDATE",
+                        "label": "Plan Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FEAT_STATUS",
+                        "label": "Feature Status",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/DATEABANDONED",
+                        "label": "Date Abandoned",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/META_ID",
+                        "label": "Metadata",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/IN_STREAM",
+                        "label": "In Stream",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/COM_APPURT",
+                        "label": "Comment Appurt",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/SEEP_CONT",
+                        "label": "Seepage Control",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/OWNER_ID",
+                        "label": "Owner",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FOUR_MI_VICINITY_AIRPORT",
+                        "label": "Four Mile Vicinity",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/SWM_FAC_NO_OTHER",
+                        "label": "SWMFAC Number Other",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/CNTY_CODE",
+                        "label": "County Code",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/MD_WSHED",
+                        "label": "Watershed",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/MD_MSHOP",
+                        "label": "SHA Shop",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/MD_DISTRICT",
+                        "label": "SHA District",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/PLAN_IMP_AREA",
+                        "label": "Plan Imp Area",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/LEGISLATIVE_DISTRICT",
+                        "label": "Legislative District",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/CONGRESSIONAL_DISTRICT",
+                        "label": "Congressional District",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/WATERSHED_8DIGIT",
+                        "label": "8 Digit Watershed",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/PLAN_DRAIN_AREA",
+                        "label": "Plan Drainage Area",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/DATE_CONSTRUCTED",
+                        "label": "Date Constructed",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/AS_BUILT_CERT_DATE",
+                        "label": "As-built Certification Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FOR_TMDL",
+                        "label": "For TMDL",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/JPA",
+                        "label": "JPA",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/UNDERGROUND_BMP",
+                        "label": "Underground BMP",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/RETROFIT_OF_EXISTING",
+                        "label": "Retrofit of Existing",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/LANDSCAPE_CONTRACT_ID",
+                        "label": "Landscape Contract ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/REC_FEAT_STATUS",
+                        "label": "Recommended Feat. Status",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/REC_PLAN_DATE",
+                        "label": "Recommended Plan Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/REC_OWNER",
+                        "label": "Recommended Owner",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/REC_DESIGNATION",
+                        "label": "Recommended Designation",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/REC_DESIGN_SUB",
+                        "label": "Recommended Design Sub",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FLD_CONTRACT_ID",
+                        "label": "Contract",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FLD_META_ID",
+                        "label": "Metadata",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FLD_CREATIONDATE",
+                        "label": "Creation Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FLD_EDITDATE",
+                        "label": "Edit Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/Q_10YR",
+                        "label": "Q-10YR",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
                     }
                 ],
-                "description": null,
+                "description": "<a href='arcgis-survey123://?itemID=b7bab4e65e0e4e40941d80e9e263323b&amp;field:FACILITY_ID={FACILITY_ID}' target='_blank'><font size='5'>Underground Inspection (in development)</font></a>\n<p></p>\n<table>\n  <tr>\n    <th><font face='Verdana'>🔒 GIS Object ID</font></th>\n    <th><font face='Verdana'>{OBJECTID}</font></th>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Treatment Pipe ID</font></td>\n    <td><font face='Verdana'>{TREATMENT_PIPE_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Facility ID</font></td>\n    <td><font face='Verdana'>{FACILITY_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Pipe Size 1</font></td>\n    <td><font face='Verdana'>{PIPE_SIZE1}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Pipe Size 2</font></td>\n    <td><font face='Verdana'>{PIPE_SIZE2}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>XS Area</font></td>\n    <td><font face='Verdana'>{XS_AREA}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>XS Shape</font></td>\n    <td><font face='Verdana'>{XS_SHAPE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Material</font></td>\n    <td><font face='Verdana'>{MTRL_PIPE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Pressure</font></td>\n    <td><font face='Verdana'>{PRESSURE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 County Code</font></td>\n    <td><font face='Verdana'>{CNTY_CODE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Facility GUID</font></td>\n    <td><font face='Verdana'>{FLD_FACILITY_GUID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Original GUID</font></td>\n    <td><font face='Verdana'>{FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Creation Date</font></td>\n    <td><font face='Verdana'>{FLD_CREATIONDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Creator</font></td>\n    <td><font face='Verdana'>{FLD_CREATOR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Edit Date</font></td>\n    <td><font face='Verdana'>{FLD_EDITDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Editor</font></td>\n    <td><font face='Verdana'>{FLD_EDITOR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 ETL Issues</font></td>\n    <td><font face='Verdana'>{FLD_ETL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 ETL Spatial Issues</font></td>\n    <td><font face='Verdana'>{FLD_ETL_SPATIAL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 GLOBALID</font></td>\n    <td><font face='Verdana'>{GLOBALID}</font></td>\n  </tr>\n</table>\n",
                 "showAttachments": true,
+                "relatedRecordsInfo": {
+                    "showRelatedRecords": true
+                },
                 "mediaInfos": []
             }
         },
@@ -1571,10 +2253,10 @@
             "visibility": true,
             "opacity": 1,
             "mode": 1,
-            "title": "Structures",
+            "title": "Structure",
             "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
             "popupInfo": {
-                "title": "Structures: {SHA_STR_NO}",
+                "title": "Structure: {SHA_STR_NO}",
                 "fieldInfos": [
                     {
                         "fieldName": "OBJECTID",
@@ -2259,10 +2941,447 @@
                         "tooltip": "",
                         "visible": false,
                         "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/STRUCTURE_ID",
+                        "label": "STRUCTURE_ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/TREATMENT_AREA",
+                        "label": "TREATMENT_AREA",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/CNTY_CODE",
+                        "label": "CNTY_CODE",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/MD_WSHED",
+                        "label": "MD_WSHED",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/MD_MSHOP",
+                        "label": "MD_MSHOP",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/MD_DISTRICT",
+                        "label": "MD_DISTRICT",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/FLD_STRUCTURE_GUID",
+                        "label": "FLD_STRUCTURE_GUID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/FLD_CREATIONDATE",
+                        "label": "FLD_CREATIONDATE",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/FLD_EDITDATE",
+                        "label": "FLD_EDITDATE",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/0/GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/STRUCTURE_ID",
+                        "label": "Structure ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/VIC_SCREEN",
+                        "label": "ADC Map Page",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/LEG_VIC_SCREEN",
+                        "label": "Legacy ADC",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/LOC_SCREEN",
+                        "label": "Location",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/DESC_OUTFL",
+                        "label": "Outfall Description",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/RCN",
+                        "label": "RCN",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/STREAMDIST",
+                        "label": "Stream Distance",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/COM_SITE",
+                        "label": "Site Comments",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/HOT_SPOT",
+                        "label": "Hot Spot",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/CNTY_CODE",
+                        "label": "County Code",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/ILLICIT_DISCHARGE_POINT_ID",
+                        "label": "Illicit Discharge Point ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/FLD_STRUCTURE_GUID",
+                        "label": "FLD_STRUCTURE_GUID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/FLD_CREATIONDATE",
+                        "label": "Creation Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/FLD_EDITDATE",
+                        "label": "Edit Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/STRUCTURE_ID",
+                        "label": "Structure ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/ATTENTION",
+                        "label": "Attention",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/STRUCTURE_ISSUE",
+                        "label": "Structure Issue",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/CNTY_CODE",
+                        "label": "County Code",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/FLD_STRUCTURE_GUID",
+                        "label": "Structure GUID",
+                        "isEditable": false,
+                        "visible": false
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/FLD_CREATIONDATE",
+                        "label": "Creation Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/FLD_EDITDATE",
+                        "label": "Edit Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        }
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/2/FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "statisticType": "count",
+                        "fieldName": "relationships/1/DESC_STA",
+                        "label": "Station Description",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox"
                     }
                 ],
-                "description": null,
+                "description": "Open a related Field Screening Site to perform an IDDE inspection.<br /> <table>\n  <tbody><tr>\n    <th><font face='Verdana'>Field Name</font></th>\n    <th><font face='Verdana'>Value</font></th>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 GIS Object ID</font></td>\n    <td><font color='#000000' face='Verdana'>{OBJECTID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 Structure ID</font></td>\n    <td><font color='#000000' face='Verdana'>{STRUCTURE_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Structure Number</font></td>\n    <td><font color='#000000' face='Verdana'>{SHA_STR_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 Contract Number</font></td>\n    <td><font color='#000000' face='Verdana'>{CONTRACT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Structure Type</font></td>\n    <td><font color='#000000' face='Verdana'>{STR_TYPE}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Mile Point</font></td>\n    <td><font color='#000000' face='Verdana'>{ST_ML_PT}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Function Class</font></td>\n    <td><font color='#000000' face='Verdana'>{FUNC_CLASS}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Study Point</font></td>\n    <td><font color='#000000' face='Verdana'>{STUDY_PT}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Verification Date</font></td>\n    <td><font color='#000000' face='Verdana'>{DATE_VER}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Plan Date</font></td>\n    <td><font color='#000000' face='Verdana'>{PLANDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Feature Status</font></td>\n    <td><font color='#000000' face='Verdana'>{FEAT_STATUS}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 Metadata</font></td>\n    <td><font color='#000000' face='Verdana'>{META_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Date Abandoned</font></td>\n    <td><font color='#000000' face='Verdana'>{DATEABANDONED}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Major Outfall</font></td>\n    <td><font color='#000000' face='Verdana'>{MAJ_OUTF}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>NPDES Outfall</font></td>\n    <td><font color='#000000' face='Verdana'>{NPDES_OUTF}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>NPDES Number</font></td>\n    <td><font color='#000000' face='Verdana'>{NPDES_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 Owner</font></td>\n    <td><font color='#000000' face='Verdana'>{OWNER_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Str Comments</font></td>\n    <td><font color='#000000' face='Verdana'>{COMMENTS}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 County Code</font></td>\n    <td><font color='#000000' face='Verdana'>{CNTY_CODE}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 Watershed</font></td>\n    <td><font color='#000000' face='Verdana'>{MD_WSHED}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 SHA Shop</font></td>\n    <td><font color='#000000' face='Verdana'>{MD_MSHOP}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 SHA District</font></td>\n    <td><font color='#000000' face='Verdana'>{MD_DISTRICT}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 X</font></td>\n    <td><font color='#000000' face='Verdana'>{X}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 Y</font></td>\n    <td><font color='#000000' face='Verdana'>{Y}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 META</font></td>\n    <td><font color='#000000' face='Verdana'>{META}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>EH End Headwall Designation</font></td>\n    <td><font color='#000000' face='Verdana'>{EH_DESG_EH}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>EH End Headwall Material</font></td>\n    <td><font color='#000000' face='Verdana'>{EH_MTRL_EH}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>EH End Headwall Comment</font></td>\n    <td><font color='#000000' face='Verdana'>{EH_COM_EH}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 EH Original Global ID</font></td>\n    <td><font color='#000000' face='Verdana'>{EH_FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>IN Inlet Designation</font></td>\n    <td><font color='#000000' face='Verdana'>{IN_DESG_IN}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>IN Inlet Length</font></td>\n    <td><font color='#000000' face='Verdana'>{IN_INLET_LEN}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>IN Inlet Material</font></td>\n    <td><font color='#000000' face='Verdana'>{IN_MTRL_IN}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>IN Top of Grate</font></td>\n    <td><font color='#000000' face='Verdana'>{IN_TOP_OF_GRT}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>IN Inlet Comments</font></td>\n    <td><font color='#000000' face='Verdana'>{IN_COM_IN}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 IN Original Global ID</font></td>\n    <td><font color='#000000' face='Verdana'>{IN_FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>MH Connection Material</font></td>\n    <td><font color='#000000' face='Verdana'>{MH_MTRL_CONN}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>MH Top of Manhole</font></td>\n    <td><font color='#000000' face='Verdana'>{MH_TOP_OF_MH}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>MH Manhole Comments</font></td>\n    <td><font color='#000000' face='Verdana'>{MH_COM_MH}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 MH Original Global ID</font></td>\n    <td><font color='#000000' face='Verdana'>{MH_FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>PM Station Name</font></td>\n    <td><font color='#000000' face='Verdana'>{PM_STATION_NAME}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>PM Install Date</font></td>\n    <td><font color='#000000' face='Verdana'>{PM_INSTALL_DATE}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>PM Number Pumps</font></td>\n    <td><font color='#000000' face='Verdana'>{PM_NO_OF_PUMPS}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>PM Max Capacity</font></td>\n    <td><font color='#000000' face='Verdana'>{PM_MAX_CAPACITY}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 PM Original Global ID</font></td>\n    <td><font color='#000000' face='Verdana'>{PM_FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>SR Riser Material</font></td>\n    <td><font color='#000000' face='Verdana'>{SR_MTRL_RISER}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>SR Trashrack</font></td>\n    <td><font color='#000000' face='Verdana'>{SR_TRASHRACK}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>SR Stage Inv 1</font></td>\n    <td><font color='#000000' face='Verdana'>{SR_STAGE_INV1}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>SR Stage Inv 2</font></td>\n    <td><font color='#000000' face='Verdana'>{SR_STAGE_INV2}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>SR Stage Inv 3</font></td>\n    <td><font color='#000000' face='Verdana'>{SR_STAGE_INV3}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>SR Stage Inv 4</font></td>\n    <td><font color='#000000' face='Verdana'>{SR_STAGE_INV4}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>SR Outlet Type</font></td>\n    <td><font color='#000000' face='Verdana'>{SR_OUTLET_TYPE}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 SR Original Global ID</font></td>\n    <td><font color='#000000' face='Verdana'>{SR_FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>WR Weir Material</font></td>\n    <td><font color='#000000' face='Verdana'>{WR_MTRL_WEIR}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>WR Trashrack</font></td>\n    <td><font color='#000000' face='Verdana'>{WR_TRASHRACK}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>WR Stage Inv 1</font></td>\n    <td><font color='#000000' face='Verdana'>{WR_STAGE_INV1}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>WR Stage Inv 2</font></td>\n    <td><font color='#000000' face='Verdana'>{WR_STAGE_INV2}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>WR Stage Inv 3</font></td>\n    <td><font color='#000000' face='Verdana'>{WR_STAGE_INV3}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>WR Stage Inv 4</font></td>\n    <td><font color='#000000' face='Verdana'>{WR_STAGE_INV4}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 WR Original Global ID</font></td>\n    <td><font color='#000000' face='Verdana'>{WR_FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Control SWMFAC No.</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_CTRL_SWMFAC_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Upstream SWMFAC No.</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_UPSTR_SWMFAC_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Contract</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_CONTRACT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Owner</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_OWNER_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>Metadata</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_META_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 Control SWMFAC GUID</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_CTRL_SWMFAC_GUID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 Upstream SWMFAC GUID</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_UPSTR_SWMFAC_GUID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 Original GUID</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 Creation Date</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_CREATIONDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 Creator</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_CREATOR}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 Edited Date</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_EDITDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 Editor</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_EDITOR}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 ETL Issues</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_ETL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 ETL Spatial Issues</font></td>\n    <td><font color='#000000' face='Verdana'>{FLD_ETL_SPATIAL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font color='#808080' face='Verdana'>🔒 GLOBALID</font></td>\n    <td><font color='#000000' face='Verdana'>{GLOBALID}</font></td>\n  </tr>\n</tbody></table>",
                 "showAttachments": true,
+                "relatedRecordsInfo": {
+                    "showRelatedRecords": true
+                },
                 "mediaInfos": []
             }
         }
@@ -2848,10 +3967,667 @@
                         "tooltip": "",
                         "visible": false,
                         "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "relationships/1/OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "visible": false,
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/STRUCTURE_ID",
+                        "label": "Structure ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/SHA_STR_NO",
+                        "label": "Structure Number",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/CONTRACT_ID",
+                        "label": "Contract Number",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/STR_TYPE",
+                        "label": "Structure Type",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/ST_ML_PT",
+                        "label": "Mile Point",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FUNC_CLASS",
+                        "label": "Function Class",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/STUDY_PT",
+                        "label": "Study Point",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/DATE_VER",
+                        "label": "Verification Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/PLANDATE",
+                        "label": "Plan Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FEAT_STATUS",
+                        "label": "Feature Status",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/META_ID",
+                        "label": "Metadata",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/DATEABANDONED",
+                        "label": "Date Abandoned",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/MAJ_OUTF",
+                        "label": "Major Outfall",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/NPDES_OUTF",
+                        "label": "NPDES Outfall",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/NPDES_NO",
+                        "label": "NPDES Number",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/OWNER_ID",
+                        "label": "Owner",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/COMMENTS",
+                        "label": "Str Comments",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/CNTY_CODE",
+                        "label": "County Code",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/MD_WSHED",
+                        "label": "Maryland Watershed",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/MD_MSHOP",
+                        "label": "MD SHA Shop",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/MD_DISTRICT",
+                        "label": "SHA District",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/X",
+                        "label": "X",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/Y",
+                        "label": "Y",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/META",
+                        "label": "META",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/EH_DESG_EH",
+                        "label": "End Headwall Designation",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "visible": false,
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/EH_COM_EH",
+                        "label": "End Headwall Comment",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/EH_FLD_ORIG_GLOBALID",
+                        "label": "EH Original GlobalID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/IN_DESG_IN",
+                        "label": "Inlet Designation",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/IN_INLET_LEN",
+                        "label": "Inlet Length",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/IN_MTRL_IN",
+                        "label": "Inlet Material",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/IN_TOP_OF_GRT",
+                        "label": "Top of Grate",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/IN_COM_IN",
+                        "label": "Inlet Comments",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/IN_FLD_ORIG_GLOBALID",
+                        "label": "IN Original GlobalID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/MH_MTRL_CONN",
+                        "label": "Connection Material",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/MH_TOP_OF_MH",
+                        "label": "Top of Manhole",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/MH_COM_MH",
+                        "label": "Manhole Comments",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/MH_FLD_ORIG_GLOBALID",
+                        "label": "MH Original GlobalID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/PM_STATION_NAME",
+                        "label": "Station Name",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/PM_INSTALL_DATE",
+                        "label": "Install Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/PM_NO_OF_PUMPS",
+                        "label": "Number Pumps",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/PM_MAX_CAPACITY",
+                        "label": "Max Capacity",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/PM_FLD_ORIG_GLOBALID",
+                        "label": "PM Original GlobalID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/SR_MTRL_RISER",
+                        "label": "Riser Material",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/SR_TRASHRACK",
+                        "label": "Trashrack",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/SR_STAGE_INV1",
+                        "label": "Stage Inv 1",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/SR_STAGE_INV2",
+                        "label": "Stage Inv 2",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/SR_STAGE_INV3",
+                        "label": "Stage Inv 3",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/SR_STAGE_INV4",
+                        "label": "Stage Inv 4",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/SR_OUTLET_TYPE",
+                        "label": "Outlet Type",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/SR_FLD_ORIG_GLOBALID",
+                        "label": "SR Original GlobalID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/WR_MTRL_WEIR",
+                        "label": "Weir Material",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/WR_TRASHRACK",
+                        "label": "Trashrack",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/WR_STAGE_INV1",
+                        "label": "Stage Inv 1",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/WR_STAGE_INV2",
+                        "label": "Stage Inv 2",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/WR_STAGE_INV3",
+                        "label": "Stage Inv 3",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/WR_STAGE_INV4",
+                        "label": "Stage Inv 4",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/WR_FLD_ORIG_GLOBALID",
+                        "label": "WR Original GlobalID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_CTRL_SWMFAC_NO",
+                        "label": "Control SWMFAC No.",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_UPSTR_SWMFAC_NO",
+                        "label": "Upstream SWMFAC No.",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_CONTRACT_ID",
+                        "label": "Contract",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_OWNER_ID",
+                        "label": "Owner",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_META_ID",
+                        "label": "Metadata",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_CTRL_SWMFAC_GUID",
+                        "label": "Control SWMFAC GUID",
+                        "isEditable": false,
+                        "visible": false,
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_UPSTR_SWMFAC_GUID",
+                        "label": "Upsteam SWMFAC GUID",
+                        "isEditable": false,
+                        "visible": false,
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_ORIG_GLOBALID",
+                        "label": "Original GUID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_CREATIONDATE",
+                        "label": "Creation Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_CREATOR",
+                        "label": "Creator",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_EDITDATE",
+                        "label": "Edit Date",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "dateFormat": "shortDateShortTime",
+                            "timezone": "utc"
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_EDITOR",
+                        "label": "Editor",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_ETL_ISSUES",
+                        "label": "ETL Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/FLD_ETL_SPATIAL_ISSUES",
+                        "label": "ETL Spatial Issues",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/1/EH_MTRL_EH",
+                        "label": "End Headwall Material",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
                     }
                 ],
-                "description": null,
+                "description": "<a href='arcgis-survey123://?itemID=c360d786bcdb4e8eaa145929364e7823&amp;field:STRUCTURE_ID={STRUCTURE_ID}&amp;field:FO_STRUCT_GLOBALID={GlobalID}' target='_blank'><font size='5'>IDDE Inspection</font></a>\n<p></p>\n<table>\n  <tr>\n    <th><font face='Verdana'>Field Name</font></th>\n    <th><font face='Verdana'>Value</font></th>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 GIS Object ID</font></td>\n    <td><font face='Verdana'>{OBJECTID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Structure ID</font></td>\n    <td><font face='Verdana'>{STRUCTURE_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>ADC Map Page</font></td>\n    <td><font face='Verdana'>{VIC_SCREEN}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Legacy ADC</font></td>\n    <td><font face='Verdana'>{LEG_VIC_SCREEN}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Location</font></td>\n    <td><font face='Verdana'>{LOC_SCREEN}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Station Description</font></td>\n    <td><font face='Verdana'>{DESC_STA}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Outfall Description</font></td>\n    <td><font face='Verdana'>{DESC_OUTFL}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>RCN</font></td>\n    <td><font face='Verdana'>{RCN}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Stream Distance</font></td>\n    <td><font face='Verdana'>{STREAMDIST}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Site Comments</font></td>\n    <td><font face='Verdana'>{COM_SITE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Hot Spot</font></td>\n    <td><font face='Verdana'>{HOT_SPOT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 County Code</font></td>\n    <td><font face='Verdana'>{CNTY_CODE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Illicit Discharge Point ID</font></td>\n    <td><font face='Verdana'>{ILLICIT_DISCHARGE_POINT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Structure GUID</font></td>\n    <td><font face='Verdana'>{FLD_STRUCTURE_GUID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Original GUID</font></td>\n    <td><font face='Verdana'>{FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Creation Date</font></td>\n    <td><font face='Verdana'>{FLD_CREATIONDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Creator</font></td>\n    <td><font face='Verdana'>{FLD_CREATOR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Edit Date</font></td>\n    <td><font face='Verdana'>{FLD_EDITDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Editor</font></td>\n    <td><font face='Verdana'>{FLD_EDITOR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 ETL Issues</font></td>\n    <td><font face='Verdana'>{FLD_ETL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 ETL Spatial Issues</font></td>\n    <td><font face='Verdana'>{FLD_ETL_SPATIAL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 GLOBALID</font></td>\n    <td><font face='Verdana'>{GLOBALID}</font></td>\n  </tr>\n</table>\n",
                 "showAttachments": true,
+                "relatedRecordsInfo": {
+                    "showRelatedRecords": true
+                },
                 "mediaInfos": []
             }
         },
@@ -3263,6 +5039,19 @@
                 "ymin": 4741238.979145739
             },
             "name": "Germantown 270"
+        },
+        {
+            "extent": {
+                "spatialReference": {
+                    "wkid": 102100,
+                    "latestWkid": 3857
+                },
+                "xmax": -8410835.99887448,
+                "xmin": -8414364.045461362,
+                "ymax": 4636764.160976268,
+                "ymin": 4634700.361212514
+            },
+            "name": "Salisbury Bypass"
         }
     ],
     "applicationProperties": {
