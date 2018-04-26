@@ -1,0 +1,10 @@
+This regex is useful in Notepad++ to convert the field list on a published REST page into a comma delimited table.
+
+Find:
+( \( type: )|( , alias: )|( , editable: )|( , nullable: )|( , length: )|( \))|(?= , Coded).*
+
+Replace:
+(?1,)(?2,)(?3,)(?4,)(?5,)(?6)(?7,)
+
+Then put this at the top:
+Field,Type,Alias,Editable,Nullable,Length
