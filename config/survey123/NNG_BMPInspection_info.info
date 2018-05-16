@@ -1,0 +1,48 @@
+{
+    "displayInfo": {
+        "map": {
+            "coordinateFormat": null,
+            "defaultType": {
+                "name": "World Imagery"
+            },
+            "home": {
+                "latitude": 39.24857703924331,
+                "longitude": -76.60232925097895,
+                "zoomLevel": 9.4019
+            },
+            "preview": {
+                "coordinateFormat": null,
+                "zoomLevel": 16
+            }
+        },
+        "style": {
+            "backgroundColor": null,
+            "backgroundImage": null,
+            "inputBackgroundColor": null,
+            "inputTextColor": null,
+            "textColor": null,
+            "toolbarBackgroundColor": "#184832",
+            "toolbarTextColor": null
+        }
+    },
+    "imagesInfo": {
+        "captureResolution": 1280
+    },
+    "publishInfo": {
+        "connectVersion": "2.7.72",
+        "webFormTransform": true
+    },
+    "queryInfo": {
+        "applySpatialFilter": true,
+        "mode": "manual",
+        "where": "FO_S123_USERNAME=${username}"
+    },
+    "sentInfo": {
+        "enabled": true
+    },
+    "serviceInfo": {
+        "itemId": "273a22bacf514ee7beb9abb3a446efa3",
+        "type": "Feature Service",
+        "url": "https://utility.arcgis.com/usrsvcs/servers/273a22bacf514ee7beb9abb3a446efa3/rest/services/NPDES_Next_Gen/NNG_BMP_Inspection_Prod_20180424/FeatureServer"
+    }
+}
