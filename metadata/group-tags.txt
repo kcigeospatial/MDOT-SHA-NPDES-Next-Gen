@@ -1,1 +1,1 @@
-npdes,collector,versioned,feature services
+npdes,MS4,inventory,inspection,IDDE,structure,storm drain,environment,natural,swmfac,bmp,conveyance,pipe,weir,stormwater,stormwater facility,outfall,inlet,pump station,drainage,ditch,grass swale,pond,facility
