@@ -3,7 +3,7 @@
         {
             "id": "NNG_Inventory_V_RJM_Prod_20180522_1964",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/229e9535eaae473a9a42ad7ea0dce4e6/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/6",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/1aa5e1758d804345a79acec2fa8628b7/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/6",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
@@ -15,7 +15,7 @@
         {
             "id": "NNG_Inventory_V_RJM_Prod_20180522_8769",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/229e9535eaae473a9a42ad7ea0dce4e6/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/5",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/1aa5e1758d804345a79acec2fa8628b7/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/5",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
@@ -27,7 +27,7 @@
         {
             "id": "NNG_Inventory_V_RJM_Prod_20180522_6600",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/229e9535eaae473a9a42ad7ea0dce4e6/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/4",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/1aa5e1758d804345a79acec2fa8628b7/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/4",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
@@ -1053,7 +1053,7 @@
         {
             "id": "NNG_Inventory_V_RJM_Prod_20180522_1870",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/229e9535eaae473a9a42ad7ea0dce4e6/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/3",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/1aa5e1758d804345a79acec2fa8628b7/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/3",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
@@ -1469,7 +1469,7 @@
         {
             "id": "NNG_Inventory_V_RJM_Prod_20180522_3902",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/229e9535eaae473a9a42ad7ea0dce4e6/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/2",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/1aa5e1758d804345a79acec2fa8628b7/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/2",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
@@ -2237,7 +2237,7 @@
         {
             "id": "NNG_Inventory_V_RJM_Prod_20180522_2398",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/229e9535eaae473a9a42ad7ea0dce4e6/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/1",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/1aa5e1758d804345a79acec2fa8628b7/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/1",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
@@ -2249,7 +2249,7 @@
         {
             "id": "NNG_Inventory_V_RJM_Prod_20180522_9384",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/229e9535eaae473a9a42ad7ea0dce4e6/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/0",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/1aa5e1758d804345a79acec2fa8628b7/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/0",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
@@ -3408,7 +3408,7 @@
     "version": "2.11",
     "tables": [
         {
-            "url": "https://utility.arcgis.com/usrsvcs/servers/229e9535eaae473a9a42ad7ea0dce4e6/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/11",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/1aa5e1758d804345a79acec2fa8628b7/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/11",
             "id": "NNG_Inventory_V_RJM_Prod_20180522_26",
             "title": "Owner",
             "itemId": "229e9535eaae473a9a42ad7ea0dce4e6",
@@ -3628,7 +3628,7 @@
             }
         },
         {
-            "url": "https://utility.arcgis.com/usrsvcs/servers/229e9535eaae473a9a42ad7ea0dce4e6/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/10",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/1aa5e1758d804345a79acec2fa8628b7/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/10",
             "id": "NNG_Inventory_V_RJM_Prod_20180522_5652",
             "title": "Metadata",
             "itemId": "229e9535eaae473a9a42ad7ea0dce4e6",
@@ -3771,7 +3771,7 @@
             }
         },
         {
-            "url": "https://utility.arcgis.com/usrsvcs/servers/229e9535eaae473a9a42ad7ea0dce4e6/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/9",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/1aa5e1758d804345a79acec2fa8628b7/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/9",
             "id": "NNG_Inventory_V_RJM_Prod_20180522_4431",
             "title": "Field Screening Site",
             "itemId": "229e9535eaae473a9a42ad7ea0dce4e6",
@@ -4632,7 +4632,7 @@
             }
         },
         {
-            "url": "https://utility.arcgis.com/usrsvcs/servers/229e9535eaae473a9a42ad7ea0dce4e6/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/8",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/1aa5e1758d804345a79acec2fa8628b7/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/8",
             "id": "NNG_Inventory_V_RJM_Prod_20180522_9150",
             "title": "Contract",
             "itemId": "229e9535eaae473a9a42ad7ea0dce4e6",
@@ -4868,7 +4868,7 @@
             }
         },
         {
-            "url": "https://utility.arcgis.com/usrsvcs/servers/229e9535eaae473a9a42ad7ea0dce4e6/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/7",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/1aa5e1758d804345a79acec2fa8628b7/rest/services/NPDES_Next_Gen/NNG_Inventory_V_RJM_Prod_20180522/FeatureServer/7",
             "id": "NNG_Inventory_V_RJM_Prod_20180522_840",
             "title": "Structure Issue",
             "itemId": "229e9535eaae473a9a42ad7ea0dce4e6",
