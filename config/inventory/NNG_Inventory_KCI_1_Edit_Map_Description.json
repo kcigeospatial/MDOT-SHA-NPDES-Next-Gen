@@ -2,7 +2,7 @@
     "id": "0c061ca8546b42c497f7c43d9b996f20",
     "owner": "elliott.plack2",
     "created": 1524690107000,
-    "modified": 1524708804000,
+    "modified": 1526837529000,
     "guid": null,
     "name": null,
     "title": "NNG Inventory KCI 1 Edit Map",
@@ -17,16 +17,22 @@
         "Online Map",
         "Web Map"
     ],
-    "description": null,
+    "description": "<p><span style='font-size:12.0pt;mso-bidi-font-size:11.0pt;\nline-height:107%'>This map contains the KCI_1 version of the State\nHighway Administration’s stormwater (NPDES) inventory.<span style='mso-spacerun:yes'>  </span>It <span style='mso-no-proof:yes'>is used</span>\nin Collector for field data collection, inspections, and QA/QC.<span style='mso-spacerun:yes'>  </span>The <span style='mso-no-proof:yes'>editing</span>\napp <span style='mso-no-proof:yes'>is also built</span> using this web map.</span></p>\n\n<p><span style='font-size:12.0pt;mso-bidi-font-size:11.0pt;\nline-height:107%'>Date Last Updated: 05/20/2018</span></p>",
     "tags": [
+        "Maryland",
+        "MD",
+        "Environment",
+        "Transportation",
+        "MDOT SHA",
+        "Feature Access",
         "npdes",
         "MS4",
         "inventory",
         "inspection",
         "IDDE",
         "structure",
-        "storm drain",
         "stormdrain",
+        "storm Adrain",
         "environment",
         "natural",
         "swmfac",
@@ -46,28 +52,28 @@
         "facility"
     ],
     "snippet": "Editor map for Collector in the KCI_1 version.",
-    "thumbnail": "thumbnail/ago_downloaded.png",
+    "thumbnail": "thumbnail/thumbnail1526837528334.png",
     "documentation": null,
     "extent": [
         [
-            -81.3098,
-            36.9782
+            -79.5492,
+            36.0644
         ],
         [
-            -73.1963,
-            40.6742
+            -73.5726,
+            41.531
         ]
     ],
     "categories": [],
     "spatialReference": null,
-    "accessInformation": null,
-    "licenseInfo": null,
+    "accessInformation": "MDOT State Highway Administration, Office of Environmental Design, Office of Planning and Preliminary Engineering Data Governance Division, KCI Technologies, ECO Integration, Elliott Plack, eplack@sha.state.md.us",
+    "licenseInfo": "<p><span style='font-size:12.0pt;mso-bidi-font-size:11.0pt;\nline-height:107%'>THIS DATA IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF\nANY KIND, EITHER EXPRESSED OR IMPLIED. MARYLAND STATE HIGHWAY ADMINISTRATION\nASSUMES NO RESPONSIBILITY FOR ERRORS OR OMISSIONS IN THIS DATA OR OTHER\nDOCUMENTS WHICH ARE REFERENCED BY OR LINKED TO THIS DATA. <span style='mso-no-proof:yes'>IN NO EVENT SHALL THE MARYLAND STATE HIGHWAY ADMINISTRATION\nBE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES OF\nANY KIND, OR ANY DAMAGES WHATSOEVER, INCLUDING, WITHOUT LIMITATION, THOSE\nRESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER OR NOT ADVISED OF THE\nPOSSIBILITY OF DAMAGE, AND ON ANY THEORY OF LIABILITY, ARISING OUT OF OR IN\nCONNECTION WITH THE USE OR PERFORMANCE OF THIS INFORMATION.</span> THIS DATA\nCOULD CONTAIN TECHNICAL OR OTHER INACCURACIES OR TYPOGRAPHICAL ERRORS. THE\nMARYLAND STATE HIGHWAY ADMINISTRATION MAY MAKE IMPROVEMENTS <span style='mso-no-proof:yes'>AND/OR</span> CHANGES IN THE PRODUCT(S) AND/OR THE\nPROGRAM(S) DESCRIBED IN THIS PUBLICATION AT <span style='mso-no-proof:yes'>ANYTIME</span>.</span></p>",
     "culture": "en-us",
     "properties": null,
     "url": null,
     "proxyFilter": null,
-    "access": "private",
-    "size": 121377,
+    "access": "shared",
+    "size": 143958,
     "appCategories": [],
     "industries": [],
     "languages": [],
@@ -81,8 +87,8 @@
     "numComments": 0,
     "numRatings": 0,
     "avgRating": 0,
-    "numViews": 7,
+    "numViews": 188,
     "itemControl": "admin",
-    "scoreCompleteness": 63,
+    "scoreCompleteness": 93,
     "groupDesignations": null
 }

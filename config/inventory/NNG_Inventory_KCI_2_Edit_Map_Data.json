@@ -1,38 +1,116 @@
 {
     "operationalLayers": [
         {
-            "id": "NNG_Inventory_V_KCI_2_Prod_20180424_1964",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_1964",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/4318d2b184f042369aff93f10bc0a7f8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_2_Prod_20180424/FeatureServer/6",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/6",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
             "title": "SWMFAC Drainage Area",
-            "itemId": "4318d2b184f042369aff93f10bc0a7f8",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
             "disablePopup": true,
             "capabilities": "Query,Sync,Extract"
         },
         {
-            "id": "NNG_Inventory_V_KCI_2_Prod_20180424_8769",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_8769",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/4318d2b184f042369aff93f10bc0a7f8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_2_Prod_20180424/FeatureServer/5",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/5",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
             "title": "Structure Drainage Area",
-            "itemId": "4318d2b184f042369aff93f10bc0a7f8",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
             "disablePopup": true,
             "capabilities": "Query,Sync,Extract"
         },
         {
-            "id": "NNG_Inventory_V_KCI_2_Prod_20180424_6600",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_6600",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/4318d2b184f042369aff93f10bc0a7f8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_2_Prod_20180424/FeatureServer/4",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/4",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
             "title": "SWMFAC",
-            "itemId": "4318d2b184f042369aff93f10bc0a7f8",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "layerDefinition": {
+                "drawingInfo": {
+                    "renderer": {
+                        "type": "simple",
+                        "label": "",
+                        "description": "",
+                        "symbol": {
+                            "color": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "outline": {
+                                "color": [
+                                    64,
+                                    101,
+                                    235,
+                                    255
+                                ],
+                                "width": 0.75,
+                                "type": "esriSLS",
+                                "style": "esriSLSSolid"
+                            },
+                            "type": "esriSFS",
+                            "style": "esriSFSSolid"
+                        }
+                    },
+                    "labelingInfo": [
+                        {
+                            "labelExpression": null,
+                            "labelExpressionInfo": {
+                                "expression": "$feature[\"SWM_FAC_NO\"]",
+                                "value": "{SWM_FAC_NO}"
+                            },
+                            "useCodedValues": true,
+                            "maxScale": 0,
+                            "minScale": 20000,
+                            "where": null,
+                            "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+                            "symbol": {
+                                "color": [
+                                    0,
+                                    0,
+                                    255,
+                                    255
+                                ],
+                                "type": "esriTS",
+                                "backgroundColor": null,
+                                "borderLineColor": null,
+                                "haloSize": 0.75,
+                                "haloColor": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "horizontalAlignment": "center",
+                                "rightToLeft": false,
+                                "angle": 0,
+                                "xoffset": 0,
+                                "yoffset": 0,
+                                "text": "",
+                                "rotated": false,
+                                "kerning": true,
+                                "font": {
+                                    "size": 8.25,
+                                    "style": "normal",
+                                    "decoration": "none",
+                                    "weight": "bold",
+                                    "family": "Arial Unicode MS"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "showLabels": true,
             "popupInfo": {
                 "title": "SWMFAC: {SWM_FAC_NO}",
                 "fieldInfos": [
@@ -1042,7 +1120,7 @@
                         "stringFieldOption": "textbox"
                     }
                 ],
-                "description": "<font face='Verdana'>This is a SWMFAC designated as <i>{DESIGNATION}</i>.<font size='4'><br /></font><br /><a href='arcgis-survey123://?itemID=4939893efd764561bdc4e35a388b8c71&amp;field:FACILITY_ID={FACILITY_ID}&amp;field:SWM_FAC_NO={SWM_FAC_NO}&amp;field:FIRM_NAME=KCI_2' target='_blank'><font size='5'>Perform Inspection</font></a><br /> <br /></font><table>\n  <tr>\n    <th><font face='Verdana'>Field Name</font></th>\n    <th><font face='Verdana'>Value</font></th>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 GIS Object ID</font></td>\n    <td><font face='Verdana'>{OBJECTID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Facility ID</font></td>\n    <td><font face='Verdana'>{FACILITY_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 SWMFAC Number</font></td>\n    <td><font face='Verdana'>{SWM_FAC_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Legacy SWMFAC Num</font></td>\n    <td><font face='Verdana'>{LEG_SWM_FAC_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Env Comp. BMP</font></td>\n    <td><font face='Verdana'>{EC_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Contract Number</font></td>\n    <td><font face='Verdana'>{CONTRACT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Designation</font></td>\n    <td><font face='Verdana'>{DESIGNATION}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Designation Sub</font></td>\n    <td><font face='Verdana'>{DESIGN_SUB}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>MDE Number</font></td>\n    <td><font face='Verdana'>{MDE_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>ADC Location</font></td>\n    <td><font face='Verdana'>{VIC_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Legacy ADC Location</font></td>\n    <td><font face='Verdana'>{LEG_VIC_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Location</font></td>\n    <td><font face='Verdana'>{LOC_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Road Name</font></td>\n    <td><font face='Verdana'>{ROAD_NAME}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Fence Material</font></td>\n    <td><font face='Verdana'>{FENCE_MAT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Dam Height</font></td>\n    <td><font face='Verdana'>{DAM_HEIGHT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Observation Well</font></td>\n    <td><font face='Verdana'>{OB_WELL}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Trench Depth</font></td>\n    <td><font face='Verdana'>{TRCH_DEP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Trench Width</font></td>\n    <td><font face='Verdana'>{TRCH_WDTH}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Trench Length</font></td>\n    <td><font face='Verdana'>{TRCH_LN}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Hazard Class</font></td>\n    <td><font face='Verdana'>{HAZ_CLASS}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Comment Overall</font></td>\n    <td><font face='Verdana'>{COM_OVERAL}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Q-1YR</font></td>\n    <td><font face='Verdana'>{Q_1YR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Q-2YR</font></td>\n    <td><font face='Verdana'>{Q_2YR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Q-10YR</font></td>\n    <td><font face='Verdana'>{Q_10YR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Q-100YR</font></td>\n    <td><font face='Verdana'>{Q_100YR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Plan Date</font></td>\n    <td><font face='Verdana'>{PLANDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Feature Status</font></td>\n    <td><font face='Verdana'>{FEAT_STATUS}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Date Abandoned</font></td>\n    <td><font face='Verdana'>{DATEABANDONED}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Metadata</font></td>\n    <td><font face='Verdana'>{META_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>In Stream</font></td>\n    <td><font face='Verdana'>{IN_STREAM}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Comment Appurt</font></td>\n    <td><font face='Verdana'>{COM_APPURT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Seepage Control</font></td>\n    <td><font face='Verdana'>{SEEP_CONT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Owner</font></td>\n    <td><font face='Verdana'>{OWNER_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Four Mile Vicinity</font></td>\n    <td><font face='Verdana'>{FOUR_MI_VICINITY_AIRPORT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>SWMFAC Number Other</font></td>\n    <td><font face='Verdana'>{SWM_FAC_NO_OTHER}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 County Code</font></td>\n    <td><font face='Verdana'>{CNTY_CODE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Watershed</font></td>\n    <td><font face='Verdana'>{MD_WSHED}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 SHA Shop</font></td>\n    <td><font face='Verdana'>{MD_MSHOP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 SHA District</font></td>\n    <td><font face='Verdana'>{MD_DISTRICT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Plan Imp Area</font></td>\n    <td><font face='Verdana'>{PLAN_IMP_AREA}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Legislative District</font></td>\n    <td><font face='Verdana'>{LEGISLATIVE_DISTRICT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Congressional District</font></td>\n    <td><font face='Verdana'>{CONGRESSIONAL_DISTRICT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 8 Digit Watershed</font></td>\n    <td><font face='Verdana'>{WATERSHED_8DIGIT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Plan Drainage Area</font></td>\n    <td><font face='Verdana'>{PLAN_DRAIN_AREA}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Date Constructed</font></td>\n    <td><font face='Verdana'>{DATE_CONSTRUCTED}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>As-built Certification Date</font></td>\n    <td><font face='Verdana'>{AS_BUILT_CERT_DATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>For TMDL</font></td>\n    <td><font face='Verdana'>{FOR_TMDL}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>JPA</font></td>\n    <td><font face='Verdana'>{JPA}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Underground BMP</font></td>\n    <td><font face='Verdana'>{UNDERGROUND_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Retrofit of Existing</font></td>\n    <td><font face='Verdana'>{RETROFIT_OF_EXISTING}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Landscape Contract ID</font></td>\n    <td><font face='Verdana'>{LANDSCAPE_CONTRACT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Feat. Status</font></td>\n    <td><font face='Verdana'>{REC_FEAT_STATUS}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Plan Date</font></td>\n    <td><font face='Verdana'>{REC_PLAN_DATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Owner</font></td>\n    <td><font face='Verdana'>{REC_OWNER}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Designation</font></td>\n    <td><font face='Verdana'>{REC_DESIGNATION}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Design Sub</font></td>\n    <td><font face='Verdana'>{REC_DESIGN_SUB}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Contract</font></td>\n    <td><font face='Verdana'>{FLD_CONTRACT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Metadata</font></td>\n    <td><font face='Verdana'>{FLD_META_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Original GUID</font></td>\n    <td><font face='Verdana'>{FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Creation Date</font></td>\n    <td><font face='Verdana'>{FLD_CREATIONDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Creator</font></td>\n    <td><font face='Verdana'>{FLD_CREATOR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Edit Date</font></td>\n    <td><font face='Verdana'>{FLD_EDITDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Editor</font></td>\n    <td><font face='Verdana'>{FLD_EDITOR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 ETL Issues</font></td>\n    <td><font face='Verdana'>{FLD_ETL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 ETL Spatial Issues</font></td>\n    <td><font face='Verdana'>{FLD_ETL_SPATIAL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 GLOBALID</font></td>\n    <td><font face='Verdana'>{GLOBALID}</font></td>\n  </tr>\n</table>\n",
+                "description": "<font face='Verdana'>This is a SWMFAC designated as <i>{DESIGNATION}</i>.<font size='4'><br /></font><br /><a href='arcgis-survey123://?itemID=4939893efd764561bdc4e35a388b8c71&amp;field:FACILITY_ID={FACILITY_ID}&amp;field:SWM_FAC_NO={SWM_FAC_NO}&amp;field:FIRM_NAME=KCI_1' target='_blank'><font size='5'>Perform Inspection</font></a><br /> <br /></font><table>\n  <tr>\n    <th><font face='Verdana'>Field Name</font></th>\n    <th><font face='Verdana'>Value</font></th>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 GIS Object ID</font></td>\n    <td><font face='Verdana'>{OBJECTID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Facility ID</font></td>\n    <td><font face='Verdana'>{FACILITY_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 SWMFAC Number</font></td>\n    <td><font face='Verdana'>{SWM_FAC_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Legacy SWMFAC Num</font></td>\n    <td><font face='Verdana'>{LEG_SWM_FAC_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Env Comp. BMP</font></td>\n    <td><font face='Verdana'>{EC_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Contract Number</font></td>\n    <td><font face='Verdana'>{CONTRACT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Designation</font></td>\n    <td><font face='Verdana'>{DESIGNATION}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Designation Sub</font></td>\n    <td><font face='Verdana'>{DESIGN_SUB}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>MDE Number</font></td>\n    <td><font face='Verdana'>{MDE_NO}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>ADC Location</font></td>\n    <td><font face='Verdana'>{VIC_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Legacy ADC Location</font></td>\n    <td><font face='Verdana'>{LEG_VIC_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Location</font></td>\n    <td><font face='Verdana'>{LOC_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Road Name</font></td>\n    <td><font face='Verdana'>{ROAD_NAME}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Fence Material</font></td>\n    <td><font face='Verdana'>{FENCE_MAT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Dam Height</font></td>\n    <td><font face='Verdana'>{DAM_HEIGHT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Observation Well</font></td>\n    <td><font face='Verdana'>{OB_WELL}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Trench Depth</font></td>\n    <td><font face='Verdana'>{TRCH_DEP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Trench Width</font></td>\n    <td><font face='Verdana'>{TRCH_WDTH}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Trench Length</font></td>\n    <td><font face='Verdana'>{TRCH_LN}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Hazard Class</font></td>\n    <td><font face='Verdana'>{HAZ_CLASS}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Comment Overall</font></td>\n    <td><font face='Verdana'>{COM_OVERAL}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Q-1YR</font></td>\n    <td><font face='Verdana'>{Q_1YR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Q-2YR</font></td>\n    <td><font face='Verdana'>{Q_2YR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Q-10YR</font></td>\n    <td><font face='Verdana'>{Q_10YR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Q-100YR</font></td>\n    <td><font face='Verdana'>{Q_100YR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Plan Date</font></td>\n    <td><font face='Verdana'>{PLANDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Feature Status</font></td>\n    <td><font face='Verdana'>{FEAT_STATUS}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Date Abandoned</font></td>\n    <td><font face='Verdana'>{DATEABANDONED}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Metadata</font></td>\n    <td><font face='Verdana'>{META_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>In Stream</font></td>\n    <td><font face='Verdana'>{IN_STREAM}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Comment Appurt</font></td>\n    <td><font face='Verdana'>{COM_APPURT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Seepage Control</font></td>\n    <td><font face='Verdana'>{SEEP_CONT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Owner</font></td>\n    <td><font face='Verdana'>{OWNER_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Four Mile Vicinity</font></td>\n    <td><font face='Verdana'>{FOUR_MI_VICINITY_AIRPORT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>SWMFAC Number Other</font></td>\n    <td><font face='Verdana'>{SWM_FAC_NO_OTHER}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 County Code</font></td>\n    <td><font face='Verdana'>{CNTY_CODE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Watershed</font></td>\n    <td><font face='Verdana'>{MD_WSHED}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 SHA Shop</font></td>\n    <td><font face='Verdana'>{MD_MSHOP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 SHA District</font></td>\n    <td><font face='Verdana'>{MD_DISTRICT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Plan Imp Area</font></td>\n    <td><font face='Verdana'>{PLAN_IMP_AREA}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Legislative District</font></td>\n    <td><font face='Verdana'>{LEGISLATIVE_DISTRICT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Congressional District</font></td>\n    <td><font face='Verdana'>{CONGRESSIONAL_DISTRICT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 8 Digit Watershed</font></td>\n    <td><font face='Verdana'>{WATERSHED_8DIGIT}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Plan Drainage Area</font></td>\n    <td><font face='Verdana'>{PLAN_DRAIN_AREA}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Date Constructed</font></td>\n    <td><font face='Verdana'>{DATE_CONSTRUCTED}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>As-built Certification Date</font></td>\n    <td><font face='Verdana'>{AS_BUILT_CERT_DATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>For TMDL</font></td>\n    <td><font face='Verdana'>{FOR_TMDL}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>JPA</font></td>\n    <td><font face='Verdana'>{JPA}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Underground BMP</font></td>\n    <td><font face='Verdana'>{UNDERGROUND_BMP}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Retrofit of Existing</font></td>\n    <td><font face='Verdana'>{RETROFIT_OF_EXISTING}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Landscape Contract ID</font></td>\n    <td><font face='Verdana'>{LANDSCAPE_CONTRACT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Feat. Status</font></td>\n    <td><font face='Verdana'>{REC_FEAT_STATUS}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Plan Date</font></td>\n    <td><font face='Verdana'>{REC_PLAN_DATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Owner</font></td>\n    <td><font face='Verdana'>{REC_OWNER}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Designation</font></td>\n    <td><font face='Verdana'>{REC_DESIGNATION}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Recommended Design Sub</font></td>\n    <td><font face='Verdana'>{REC_DESIGN_SUB}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Contract</font></td>\n    <td><font face='Verdana'>{FLD_CONTRACT_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>Metadata</font></td>\n    <td><font face='Verdana'>{FLD_META_ID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Original GUID</font></td>\n    <td><font face='Verdana'>{FLD_ORIG_GLOBALID}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Creation Date</font></td>\n    <td><font face='Verdana'>{FLD_CREATIONDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Creator</font></td>\n    <td><font face='Verdana'>{FLD_CREATOR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Edit Date</font></td>\n    <td><font face='Verdana'>{FLD_EDITDATE}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 Editor</font></td>\n    <td><font face='Verdana'>{FLD_EDITOR}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 ETL Issues</font></td>\n    <td><font face='Verdana'>{FLD_ETL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 ETL Spatial Issues</font></td>\n    <td><font face='Verdana'>{FLD_ETL_SPATIAL_ISSUES}</font></td>\n  </tr>\n  <tr>\n    <td><font face='Verdana'>🔒 GLOBALID</font></td>\n    <td><font face='Verdana'>{GLOBALID}</font></td>\n  </tr>\n</table>\n",
                 "showAttachments": true,
                 "relatedRecordsInfo": {
                     "showRelatedRecords": true
@@ -1051,14 +1129,14 @@
             }
         },
         {
-            "id": "NNG_Inventory_V_KCI_2_Prod_20180424_1870",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_1870",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/4318d2b184f042369aff93f10bc0a7f8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_2_Prod_20180424/FeatureServer/3",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/3",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
             "title": "Conveyance",
-            "itemId": "4318d2b184f042369aff93f10bc0a7f8",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
             "popupInfo": {
                 "title": "Conveyance: {CONVEYANCE_ID}",
                 "fieldInfos": [
@@ -1467,14 +1545,14 @@
             }
         },
         {
-            "id": "NNG_Inventory_V_KCI_2_Prod_20180424_3902",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_3902",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/4318d2b184f042369aff93f10bc0a7f8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_2_Prod_20180424/FeatureServer/2",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/2",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
             "title": "Treatment Pipe",
-            "itemId": "4318d2b184f042369aff93f10bc0a7f8",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
             "popupInfo": {
                 "title": "Treatment Pipe: {PIPE_SIZE1}",
                 "fieldInfos": [
@@ -2235,26 +2313,498 @@
             }
         },
         {
-            "id": "NNG_Inventory_V_KCI_2_Prod_20180424_2398",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_2398",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/4318d2b184f042369aff93f10bc0a7f8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_2_Prod_20180424/FeatureServer/1",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/1",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
             "title": "BMP Centroid",
-            "itemId": "4318d2b184f042369aff93f10bc0a7f8",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "layerDefinition": {
+                "drawingInfo": {
+                    "renderer": {
+                        "type": "simple",
+                        "label": "BMP Centroid",
+                        "description": "",
+                        "symbol": {
+                            "angle": 0,
+                            "xoffset": 0,
+                            "yoffset": 0,
+                            "type": "esriPMS",
+                            "url": "3e67cc66a210fc3d81b48e6a56eb78e7",
+                            "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAIVJREFUCJljYUAG3itz2Zn+nf25OfIYAwMDAwtcwnaVIAPTv4afDIw3GBgYrFEk2fn+1f1kYBBiYGCwYvBdGcSwOXwdC9Q41Z9M/7PhChn+t/9k2L0JIsn0r5uBgZEVJvmTgUGNwfdNGgt74EqHn3/++zNgAMZ6lp/rww8wMDAwYkoyMAAASwsj/Ax4fRYAAAAASUVORK5CYII=",
+                            "contentType": "image/png",
+                            "width": 5,
+                            "height": 5
+                        }
+                    }
+                }
+            },
             "disablePopup": true,
             "capabilities": "Query,Sync,Extract"
         },
         {
-            "id": "NNG_Inventory_V_KCI_2_Prod_20180424_9384",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_9384",
             "layerType": "ArcGISFeatureLayer",
-            "url": "https://utility.arcgis.com/usrsvcs/servers/4318d2b184f042369aff93f10bc0a7f8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_2_Prod_20180424/FeatureServer/0",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/0",
             "visibility": true,
             "opacity": 1,
             "mode": 1,
             "title": "Structure",
-            "itemId": "4318d2b184f042369aff93f10bc0a7f8",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
+            "layerDefinition": {
+                "drawingInfo": {
+                    "renderer": {
+                        "type": "uniqueValue",
+                        "field1": "STR_TYPE",
+                        "field2": null,
+                        "field3": null,
+                        "fieldDelimiter": ", ",
+                        "defaultSymbol": {
+                            "angle": 0,
+                            "xoffset": 0,
+                            "yoffset": 0,
+                            "type": "esriPMS",
+                            "url": "68014031e111297bce8e216861583032",
+                            "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAATdJREFUKJGdkDFrwlAUhb8Xg/6CillEHKLo6CZdFBx1dLAE3NxciqviIA4FwUUIxcnBRXB0FFzEoaObWMkiKHQPTUiHV2sLSS09y32ce7/3zrsq/5Qqi3e32/EQDqP9OqziahrPQohXFTwB3tNgIAxFQQmFoFiEWAyOR1guwXUlqOtQrfIOdFQgBCIxGqHkcjCbQSJxfSWdhkJBXtJogOuifIsq1etJ6HCA1QpKJUiloN+Het33j1LJpKztNkwmMBxCs3n1A8HpFKJRWK8hm4VKRfqWdQPsdK7n7VbG3u+h1boBXtTtQiYD5zPUanIxfwJ1HRxHLmiz8ZsIAOdziMdhsfCHAsFyGfJ5OJ1gPP7ZcxzeLqAbiXgvti2+moaBYxisgHsgfPFN07NMU0w+QeHZNo/Bofz1Ad70WFXtpz0iAAAAAElFTkSuQmCC",
+                            "contentType": "image/png",
+                            "width": 10,
+                            "height": 10
+                        },
+                        "defaultLabel": "Unknown",
+                        "uniqueValueInfos": [
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "2279dbe582470157b20c5153b86986d0",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAXRJREFUKJF10Ltr1EEQB/DPhMAiCkoKJQhCmki8WFuLgmBhJQhGBPFVRFsRBAlaWVqIj8JCwRcW/gViE2IbMJw2tocIp4GgDoFbi/tduMtjqt2Bz87Od9xQ1VKOyzxo+1oLPgwu4xuIvTLv4ekO8GplMfg5ApUyK3MNe3aAf5XSkvlpFGbO4lgt5WtkLm5CUzgt8yNGYeVolHI+Mm/hWdBu+gdwE3OVE1t2DFoy7+AC3lbOYQ2vTU7O63S+B/NbIPYFq1itXMerZq+70el8aabvHoGV/fgx9Mg3/MEumZ+H+r9qf8Dv/sRSWpUVmYN9HwUvmvMTXIFaSjuYkbk03iR6JFiBXin3I3M5eDMIp1fKwljmQmS2MYOlwVdnYmLiZe12b8hcDx4Phfawx4PKZaW0K2dk9ncMpnW7s5XDY/3oRyoyb1eeR+a/YHo41anKyWBuM2oerpVreI9Dw3A5uBT0toMNXq9cxLsNGJzdCWzCqzgF/wEs54hr8gRbKwAAAABJRU5ErkJggg==",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 11
+                                },
+                                "value": "CI",
+                                "label": "Capped Inlet",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "04f76d3836f0dcb65371acb2e26bf366",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAcZJREFUKJFjYSATsKAL/P+1RPT1q09VP37+ceLmYucVFOR6zMDAsI3xH9M0Rq7oz1g1Ll+UVVRWsbjz2bMPLGpqUgwvX35k+Prlh2JmuqudmZlqxv9fy70Y2SKvo2jMTLaq2X/oWmNVeQCTnKwI3LB3774wzJ6/l+HW3ecKMZF22/5/W6rHyBX9mYWBgYFBSEjI5Nmrb2VLFyYzcXGxozhdSIiHobTQj6G7fxPDqVO3FczMVLIYGBg6WSCmviurqy76ha4JBpiYGBlSE50ZiksXMZiZqXjBNTIwMNhra8nw4QtFISEeBm4eDob377/JIvuRi42N5R0DA4M4Ps3i4vwMX7/9/Iys8d3Hj19P8/NzB+PTeOvWMwYOdpZ9yBq3NbWu+9TbFfuTgYEBq0cfPX7DICUl8EdUjK8NWWNH/6SdR8JCrWrMTZVb0DV/+/aToa1zwz9HO61yRraY18gaH7Kzs8db2tYvLMxzn1hXHaTMz89t8+vXH6Gr1558ampdwyYlxtUVGTetD2YYPAH8/PlzHwMDg03/pJ0V/ZN2mjIwMPAwMDC8Z2BgOCgkJNT17t27M8iuQE+rDxkYGDLR/ffu3TsMPwMAXIKZCv3gnJQAAAAASUVORK5CYII=",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "MH",
+                                "label": "Manhole / Types",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "04f76d3836f0dcb65371acb2e26bf366",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAcZJREFUKJFjYSATsKAL/P+1RPT1q09VP37+ceLmYucVFOR6zMDAsI3xH9M0Rq7oz1g1Ll+UVVRWsbjz2bMPLGpqUgwvX35k+Prlh2JmuqudmZlqxv9fy70Y2SKvo2jMTLaq2X/oWmNVeQCTnKwI3LB3774wzJ6/l+HW3ecKMZF22/5/W6rHyBX9mYWBgYFBSEjI5Nmrb2VLFyYzcXGxozhdSIiHobTQj6G7fxPDqVO3FczMVLIYGBg6WSCmviurqy76ha4JBpiYGBlSE50ZiksXMZiZqXjBNTIwMNhra8nw4QtFISEeBm4eDob377/JIvuRi42N5R0DA4M4Ps3i4vwMX7/9/Iys8d3Hj19P8/NzB+PTeOvWMwYOdpZ9yBq3NbWu+9TbFfuTgYEBq0cfPX7DICUl8EdUjK8NWWNH/6SdR8JCrWrMTZVb0DV/+/aToa1zwz9HO61yRraY18gaH7Kzs8db2tYvLMxzn1hXHaTMz89t8+vXH6Gr1558ampdwyYlxtUVGTetD2YYPAH8/PlzHwMDg03/pJ0V/ZN2mjIwMPAwMDC8Z2BgOCgkJNT17t27M8iuQE+rDxkYGDLR/ffu3TsMPwMAXIKZCv3gnJQAAAAASUVORK5CYII=",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "UNK MH",
+                                "label": "Manhole / Types",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "04f76d3836f0dcb65371acb2e26bf366",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAcZJREFUKJFjYSATsKAL/P+1RPT1q09VP37+ceLmYucVFOR6zMDAsI3xH9M0Rq7oz1g1Ll+UVVRWsbjz2bMPLGpqUgwvX35k+Prlh2JmuqudmZlqxv9fy70Y2SKvo2jMTLaq2X/oWmNVeQCTnKwI3LB3774wzJ6/l+HW3ecKMZF22/5/W6rHyBX9mYWBgYFBSEjI5Nmrb2VLFyYzcXGxozhdSIiHobTQj6G7fxPDqVO3FczMVLIYGBg6WSCmviurqy76ha4JBpiYGBlSE50ZiksXMZiZqXjBNTIwMNhra8nw4QtFISEeBm4eDob377/JIvuRi42N5R0DA4M4Ps3i4vwMX7/9/Iys8d3Hj19P8/NzB+PTeOvWMwYOdpZ9yBq3NbWu+9TbFfuTgYEBq0cfPX7DICUl8EdUjK8NWWNH/6SdR8JCrWrMTZVb0DV/+/aToa1zwz9HO61yRraY18gaH7Kzs8db2tYvLMxzn1hXHaTMz89t8+vXH6Gr1558ampdwyYlxtUVGTetD2YYPAH8/PlzHwMDg03/pJ0V/ZN2mjIwMPAwMDC8Z2BgOCgkJNT17t27M8iuQE+rDxkYGDLR/ffu3TsMPwMAXIKZCv3gnJQAAAAASUVORK5CYII=",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "YC",
+                                "label": "Manhole / Types",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "04f76d3836f0dcb65371acb2e26bf366",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAcZJREFUKJFjYSATsKAL/P+1RPT1q09VP37+ceLmYucVFOR6zMDAsI3xH9M0Rq7oz1g1Ll+UVVRWsbjz2bMPLGpqUgwvX35k+Prlh2JmuqudmZlqxv9fy70Y2SKvo2jMTLaq2X/oWmNVeQCTnKwI3LB3774wzJ6/l+HW3ecKMZF22/5/W6rHyBX9mYWBgYFBSEjI5Nmrb2VLFyYzcXGxozhdSIiHobTQj6G7fxPDqVO3FczMVLIYGBg6WSCmviurqy76ha4JBpiYGBlSE50ZiksXMZiZqXjBNTIwMNhra8nw4QtFISEeBm4eDob377/JIvuRi42N5R0DA4M4Ps3i4vwMX7/9/Iys8d3Hj19P8/NzB+PTeOvWMwYOdpZ9yBq3NbWu+9TbFfuTgYEBq0cfPX7DICUl8EdUjK8NWWNH/6SdR8JCrWrMTZVb0DV/+/aToa1zwz9HO61yRraY18gaH7Kzs8db2tYvLMxzn1hXHaTMz89t8+vXH6Gr1558ampdwyYlxtUVGTetD2YYPAH8/PlzHwMDg03/pJ0V/ZN2mjIwMPAwMDC8Z2BgOCgkJNT17t27M8iuQE+rDxkYGDLR/ffu3TsMPwMAXIKZCv3gnJQAAAAASUVORK5CYII=",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "PB",
+                                "label": "Manhole / Types",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "04f76d3836f0dcb65371acb2e26bf366",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAcZJREFUKJFjYSATsKAL/P+1RPT1q09VP37+ceLmYucVFOR6zMDAsI3xH9M0Rq7oz1g1Ll+UVVRWsbjz2bMPLGpqUgwvX35k+Prlh2JmuqudmZlqxv9fy70Y2SKvo2jMTLaq2X/oWmNVeQCTnKwI3LB3774wzJ6/l+HW3ecKMZF22/5/W6rHyBX9mYWBgYFBSEjI5Nmrb2VLFyYzcXGxozhdSIiHobTQj6G7fxPDqVO3FczMVLIYGBg6WSCmviurqy76ha4JBpiYGBlSE50ZiksXMZiZqXjBNTIwMNhra8nw4QtFISEeBm4eDob377/JIvuRi42N5R0DA4M4Ps3i4vwMX7/9/Iys8d3Hj19P8/NzB+PTeOvWMwYOdpZ9yBq3NbWu+9TbFfuTgYEBq0cfPX7DICUl8EdUjK8NWWNH/6SdR8JCrWrMTZVb0DV/+/aToa1zwz9HO61yRraY18gaH7Kzs8db2tYvLMxzn1hXHaTMz89t8+vXH6Gr1558ampdwyYlxtUVGTetD2YYPAH8/PlzHwMDg03/pJ0V/ZN2mjIwMPAwMDC8Z2BgOCgkJNT17t27M8iuQE+rDxkYGDLR/ffu3TsMPwMAXIKZCv3gnJQAAAAASUVORK5CYII=",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "PD",
+                                "label": "Manhole / Types",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "69b9ac6ae8e6092d80dacf5ffe1c42d5",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAALtJREFUKJHFjzEKAjEQRd+gOIVdWg8gFl7AztLrWFlYCd7Bxk48h2ChjeAVXLaeymaKJRYaXXRBXQQ/BPIn//EnTWqq+TqK7RDoJ2dGDpK/BUOgZ8YuedU4d2f6QWPtVb8C4xhoAZjFDsg94C4DiJMSswbJUuMMaF+vwpOGtwOAKnt3sj/9UZUR0ABwpwssHpG4UpVlcu4c76C7bNNDCPFs9sBUObnL5rerPikCRckXFZlX0EwO5bl7deMFeVE0fkrGvTsAAAAASUVORK5CYII=",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "SW",
+                                "label": "SWM Structure / Types",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "69b9ac6ae8e6092d80dacf5ffe1c42d5",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAALtJREFUKJHFjzEKAjEQRd+gOIVdWg8gFl7AztLrWFlYCd7Bxk48h2ChjeAVXLaeymaKJRYaXXRBXQQ/BPIn//EnTWqq+TqK7RDoJ2dGDpK/BUOgZ8YuedU4d2f6QWPtVb8C4xhoAZjFDsg94C4DiJMSswbJUuMMaF+vwpOGtwOAKnt3sj/9UZUR0ABwpwssHpG4UpVlcu4c76C7bNNDCPFs9sBUObnL5rerPikCRckXFZlX0EwO5bl7deMFeVE0fkrGvTsAAAAASUVORK5CYII=",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "UNK SW",
+                                "label": "SWM Structure / Types",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "69b9ac6ae8e6092d80dacf5ffe1c42d5",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAALtJREFUKJHFjzEKAjEQRd+gOIVdWg8gFl7AztLrWFlYCd7Bxk48h2ChjeAVXLaeymaKJRYaXXRBXQQ/BPIn//EnTWqq+TqK7RDoJ2dGDpK/BUOgZ8YuedU4d2f6QWPtVb8C4xhoAZjFDsg94C4DiJMSswbJUuMMaF+vwpOGtwOAKnt3sj/9UZUR0ABwpwssHpG4UpVlcu4c76C7bNNDCPFs9sBUObnL5rerPikCRckXFZlX0EwO5bl7deMFeVE0fkrGvTsAAAAASUVORK5CYII=",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "UNK PS",
+                                "label": "SWM Structure / Types",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "69b9ac6ae8e6092d80dacf5ffe1c42d5",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAALtJREFUKJHFjzEKAjEQRd+gOIVdWg8gFl7AztLrWFlYCd7Bxk48h2ChjeAVXLaeymaKJRYaXXRBXQQ/BPIn//EnTWqq+TqK7RDoJ2dGDpK/BUOgZ8YuedU4d2f6QWPtVb8C4xhoAZjFDsg94C4DiJMSswbJUuMMaF+vwpOGtwOAKnt3sj/9UZUR0ABwpwssHpG4UpVlcu4c76C7bNNDCPFs9sBUObnL5rerPikCRckXFZlX0EwO5bl7deMFeVE0fkrGvTsAAAAASUVORK5CYII=",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "PS",
+                                "label": "SWM Structure / Types",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "4daec64f52837ef2120672eb81f86d1c",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAQVJREFUKJGN0DGOglAUheHfhIJXsQQ7aIkFoaGiMlDTWVu6FVt3QGiRbqw0hhBiTKh8sWEF0hAf3RQTYRiZyZz2ni+592oAURR98I90XZdpAMfj0V+tVvi+P1ls25bdbodhGGgAi8UCx3Go6xrXdUfl5/PJ6XRivV4Tx/EXADBNk9vtRp7nPVJKsd/vCcOQpmkABgBgWVaPbNsmTVPCMEQIMQ1e6Hq9st1u2Ww2CCFG8zeglOJ+v7NcLqmqCsdxfgdKKbIsIwgChBBIKSmKYoS0qbKu6/0jpJTkec58Ph/A4/F4K3//npSSw+EwgPP5DEBZlj9P6nO5XPA8r19p9kJ/JUkSPgFzrHQxpnhOYAAAAABJRU5ErkJggg==",
+                                    "contentType": "image/png",
+                                    "width": 9,
+                                    "height": 9
+                                },
+                                "value": "IN",
+                                "label": "Inlet / Types",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "4daec64f52837ef2120672eb81f86d1c",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAQVJREFUKJGN0DGOglAUheHfhIJXsQQ7aIkFoaGiMlDTWVu6FVt3QGiRbqw0hhBiTKh8sWEF0hAf3RQTYRiZyZz2ni+592oAURR98I90XZdpAMfj0V+tVvi+P1ls25bdbodhGGgAi8UCx3Go6xrXdUfl5/PJ6XRivV4Tx/EXADBNk9vtRp7nPVJKsd/vCcOQpmkABgBgWVaPbNsmTVPCMEQIMQ1e6Hq9st1u2Ww2CCFG8zeglOJ+v7NcLqmqCsdxfgdKKbIsIwgChBBIKSmKYoS0qbKu6/0jpJTkec58Ph/A4/F4K3//npSSw+EwgPP5DEBZlj9P6nO5XPA8r19p9kJ/JUkSPgFzrHQxpnhOYAAAAABJRU5ErkJggg==",
+                                    "contentType": "image/png",
+                                    "width": 9,
+                                    "height": 9
+                                },
+                                "value": "UNK IN",
+                                "label": "Inlet / Types",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "b9d072cff43abeaa33beaaf7faec44df",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAYNJREFUKJGd0k9ozgEcx/HXs578bBFTo2cynuKi/DnMwUW52GWaA06SxwE5mFphclAKyeXJUTmK1Eq5aG0pY3IQGnHhsWy/w0p70uRL9uzwPD2eB7v43r7fetfnzzfrPyfbuFRoxbE59n9lXSszK3iAGxm+/BOskC/x6A5dw9iCD6zfSPcRBipJ0pOJGG8CKyTPGSvSOYgzaKneTaLI8l0RoxU2ZfhcB98myYVrEZ03a8BtvEYefbiKcyxt5xb21MGRiKP9WIIC7jV4KWIU/bjO7iapI6w+jPE/IHiP+ziBT2R7WPuQqSy8pKUNM4tE/xEZdPFrKJdbJU2r4GbKZdo3LAJuxTyeMZ+m6VRdapm7jznUy7LzuNwAHcBevOFnG6/U+szCUy4NcnAbsxdZ2YsSOrATP/he4NtEkpwW8TscTJeSpG9HxNCVJHmxL2JNNx1zzA4zeZJ8yoCIJ02pQkSMBdtPcfZ4VZ2atXe5XK4gTScafTf9KqYjol+1tvqkafpXYAstL3zw8WypiAAAAABJRU5ErkJggg==",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "EM",
+                                "label": "Emergency Spillway",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "15562885046824e539e1e3ee97a4c903",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAALNJREFUKJFjYSATsDAwMDA8mJx3ioWZWYYYDdcfP9FzbV/9hoWBgYHh6dtPctqyEuKENH36/pNh26V7WgwMDIdYGBgYGPg42f/wc7GT7lRyAHU1nr33lKFk/laGQj9bBj9TTeI17r96j+HAnecMnDtPkqYx3EqfgYGBgcFZV4U0p8oK8zGU+Nri1IRTIzGAMo0mdQsW//z58yQR6sWEhIS+wTX+/Pmzklib3r17x8DAwMAAAGtWL9WYUELhAAAAAElFTkSuQmCC",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "UNK EH",
+                                "label": "Unknown End Headwall",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "c58da06630892589bfd07abef159cf8f",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAa5JREFUKJGd0s+LEmEcx/H3o86MS9aAECYjouHFgxXrqcteurUQHUKQZ6BDl+gPkMjbHoIu1al/oBm8dWsFD7ELQXQ26JY/QhEFYVYFx0meLrmMmxX0wHN5+L4evp8v3xj/eWIXHxzHubpYLJ4GQXBH07QriUTiuxDiWCn1Rko52wlrtdqjfr//WtO0RK/XI5vNMplM8vF4/CCdTj9uNBp3q9Xq1y1YqVQe5nK5V6ZpJgA8z8OyLABWqxWdTieXz+ePXde9IaWcxQCSyeStcrl83zTNy7vy6LqOZVkMh8OcZVlPgBcxgOl0up/JZMp/G4au6wRBwHq9PjyHwB5w7R+DxDRNZrNZNpzxsN1u+9FoVNsUdbtdlFJb0PM8CoXCWRi+K5VKU0BuioQQFIvFLTgajYhEIqdhuFZKPRdCPACMP7W6XC7nqVTqKAxPbNu+6bquBNxdeD6fnw0Gg6N6vT4Jw45hGHkp5Z7jOPtCiGdKqXtAHBiNx+PPrVbrU7PZfLn56HwBfN//AFy3bfs2cAJcAt4DMcMwvvi+/zHcwcVd/fbrArwFfgBr3/d/y/sTS4mVFucWupoAAAAASUVORK5CYII=",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "HW",
+                                "label": "Headwall",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "bfd3ba59949451218130ba2fab05f613",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAKJJREFUKJFjYWBgYHDNzN7DQAT4+u3LVhYGBgaG10+eOCf0T8Sr+O3TpwwnVixjYGFgYGBg5+VhEJGVI8YSiAZk8Ov7d4Zf37/D+dz8AgyMzEy4NVw7dIChx88bzp/x/A0Dj5AQbg0kO4lkDZJq6gwlm7bC+WycnPg1iCsqMYgrKlHZSRf272OYnBiLV+HPz18YRGVkIBp+Pn/OeHLZUqJsAAA1GCoY5kEGWQAAAABJRU5ErkJggg==",
+                                    "contentType": "image/png",
+                                    "width": 9,
+                                    "height": 9
+                                },
+                                "value": "EW",
+                                "label": "Endwall",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "363d62d2a590a5d7f7c334ef2443c8c4",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAALCAYAAABPhbxiAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAW5JREFUKJFtkTFLQmEUhp8PhOsggUiEDlJdDQKHQIimaJGIbBbUGxT9AisQI5wi/4BBToqDQ4GTpKCQQyAuCQ4tIhShg0FFBH2g3gbR1DzbeQ7PgfMeA5O1y/b2KapqmaCbm4/4fBGEeB0iw9jYCETJZIwYja4R1XWIxVx8fpqBvVniMen0E2bzPtOlaVAoeBVd35JC3I+LVqxWL4HAEgDNJjQaYLOBywVOJ+Tz0Gpdo+urCNEfipfkcs8IscHPD5ycQDYLa2tQLsPcHPj9yFRqhVDoCEgMRVVZXl6QAN/fUKkMaK0GHx8D0WSCTge6Xe9IVBQlLCORC+JxJxYLpFJQLILbDXb7YEmpBH5/32ownLWHN0opH7i6aimhUFWq6joeD3g8f+G8v0O9Djs7ibYQ9elUw/Lg4JZyuYsQ4xxubkDTvhDifNY7XpRq9U4eHi7icMyPaK8Hqgo2WxQh3maJSCmjJJPRf38ECAYn2l963nOT5o+HxQAAAABJRU5ErkJggg==",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 8
+                                },
+                                "value": "ES",
+                                "label": "Endsection",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "e1959696159470af2867ba10d79e31a6",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAActJREFUKJGd0r9Lm0Ecx/H3Ex56xqet4UKIBKqGog5icWjzLNJKx6xdlAxdHPp0s2JaiwYaij8hD1266OIQ/A8yigUn7SCIFOIgoRCV4FUND3il9OkQmjymTr3xc/f6fu+4r8l/LvOfxPdjolZ7z/X1c21Z95DyO1ACPmMY9Vuh2Nx8o7PZZV2tmgwMwNkZeF4Sx3lKKvUK309jGN9uQseZ09vbH5idDdHb26p2fg7r63B01EcmU8L3H2EYdRNASvlYVatZisUQlnXz6tEozMzA6irs7vZh26+BZRNAKZUll/vZRCcncHAAyST090MoBJOTMD0Ntp1uQuAZQ0P3Abi8hHQa9vcbO+VyA0ejYFmg1IPgGzsRQgFxTk9bCOD4uAEB4nGE59V1ACouLvaIRF7Q0wOZDBSLMDICw8OtIuUydHRsBTuWyOevKBQ04bBgbQ3m56G7G7q6GicqFUgkfulYbCEIl3DdHTE+PqdTqY+Ew4LBwVYnz4PFxd9ibOytNoxaEFaEEC+1bW8wNfWJXO4hkcgoWksOD6/I5++QSKzoiYnC31rNAdBabwGjuO47XPcJcBf4AXyRUq4opb4Gv7d9ViuA05ahlGqP+AOO8ZZ0LD7ZfQAAAABJRU5ErkJggg==",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "PP",
+                                "label": "Projecting Pipe",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "668b4ca7baba566e5c330dd804f0f84d",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAYhJREFUOI2tkz1rlEEUhR/CylHXCI5BecsQP1Io4l+QQFJZJCkU0iRNEEGw8AtSmyJpFUVBGyEGFYnt+gcE0dU2/SDEKwhbHEKIzawums0mrKea4dz7cOZepsZ/Uq1XQVVV53PON4G5vkARcRK43E+iGjBp+ypwRNL9er3+OiI+7gd0CngLjEpatz0ATEfEPeAJcB3Y7AU6BjSA78BZYBhYsX0GmAaeA9vA/K4gSXdtHwLGgY0CausVMAC8TCk9iohPXUG2pyQ9tb3R5dmrwGKr1ZoEdgS1G4/bvtGObvsAMNjhAxy1fQu4BqwBc79Bkq6UxhXgjaTVcr8ILLT9ooe2m5Iep5S+5Zz/JLLdKMf3wAXb88C2JGxvdvingRHgtu1GznnnGaWUFiPig6SlEr9TJ8qMmsC7TuMfUER8BmZtPwMu2W4CByUt254FfgBjwNauoKIXVVV9yTnfASaAw7YnJD2wvQz8/Luh6xfJOX8FZiSNlQWcs92tvPen3at6gsq2hvoG7VW/AOlPqg2kyr2aAAAAAElFTkSuQmCC",
+                                    "contentType": "image/png",
+                                    "width": 13,
+                                    "height": 13
+                                },
+                                "value": "JB",
+                                "label": "Junction Box",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "507a0d1f0b49ba2cb0b3a295126f72fc",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAZVJREFUKJGd0s9LW0EQwPHvmpduTaJgwKegFiMigmjbSA8FEcFbBfFgT1I8eBH/AhGpGkTwogVB6Ll49aaHQtWCIL3UHxQCIv5ACtrQh8REHczL9qCGF40eurCX3fnszCxj8Z/LenAyacp12hkmc9UpSpcSLDtGqWWMmmdMnReE4Q9fB5zjzU/iD4Y43Qa7Bc6OIjwraae8fpCP5h0xFc+HHRP9TmXzLKGKEACpU7Abbu6uL+D3z1qqostMmBbG1LkFEA6HX6Wb3vdIqKKkYEP+ANiNkNitxW4YAqYtAMdxotiNrU/+hj8A11eQzXblIFAMVD4JAUptSCdeeHvsYu+bUGT5c0EnO2DcfHiRQFe/SYoHLlLf6QB9uSDlg0hbPvy7j2B992Z08akpXNML6EdLlWSKmtcxL1xjVL1kPNuHYqEgvnSS+k88Jp+jCS880FpHZLyomEkTxTUjmEw38Bw40WeHP2R1bkO2Zmfu3skNgIisAHWMqrfAGhAElgALrX8hsu4t4P6s7t9ugC9ABnBF5EHl/wAFSoAk0mx+bwAAAABJRU5ErkJggg==",
+                                    "contentType": "image/png",
+                                    "width": 10,
+                                    "height": 10
+                                },
+                                "value": "PC",
+                                "label": "Pipe Connection",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "a757a7cbe1e2b6d893f50b0638666417",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAQBJREFUKJGV0S1vk1EYxvGfKBzxuGLq5vgI2DrUoCEkyIZNkCzDTCzLLJaEZIFloKZwJDBR2+wDjKmZ4ipmmxDWhMs0EzsPeSYqOObOue7rn/ut5z9fb43+Bh9KKZtJztcBIzyr5odoar7B136//26xWFx2gW08xwP8hCQNJhgul8sZ7gGv8B1jPK3aZwxwnOSg29LrGs/wpJpgUEr5leSien63wOma4SV53OZLKbMWeFFjgyM8aoFa4RAr/GmBH9U8qeY5NjCvFUbYSrLqDv0NQ3zCDB+xix2MSymLJHv/gFLKe1wl2cfbqiXJS5wk+dLdkiRTTOv3Btf4i7i7EbgFzNtZPQvdj+wAAAAASUVORK5CYII=",
+                                    "contentType": "image/png",
+                                    "width": 9,
+                                    "height": 9
+                                },
+                                "value": "ID",
+                                "label": "Ditch Intersection",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "e4b908642fcaf0e76ac74c6a75a98380",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAQBJREFUGJVtkU1vgkAQht8ugwj9lSZe9oKBNDZ70IJATVojCaYlJiaGP2iXVj4SBL2IQepe53lm5p0lAOCf/BU5vuO3+A8PntgIQxbSIgBQT+pXZVQz7nK/L1xBJ6/zdwKASERHc2l6faELJiKR1HboC/qz3lzBIBGJBADqjrwJejXP6oyVTem34D8YAEil86k5kfKkgCnsfFfrh0nLdKFpmlfndTVgA2f0MfL20316B4uNMA75YWEMDT+chD8AYC5NhylsPg7H/s7a/VI3ddmU/nayve0Yiehor2wXFWbc5QEBgCyk1Z6nn2H9ss7sle0Vw8ImAIincfDo57oCAO8CnuWgMdixprAAAAAASUVORK5CYII=",
+                                    "contentType": "image/png",
+                                    "width": 8,
+                                    "height": 8
+                                },
+                                "value": "RR",
+                                "label": "Rip Rap Ditch",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "e05fac3be1da7a84fb08fd45507f1b0a",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAASxJREFUKJGV0T1rlHEQBPDfPj7wNAbBQjgbxSJFECxtBHsDfgRFEIRUWtikC5ZaWkis4hewUUhhYwJqo6i1goh4TTgEFfMvdCzufDlTBKfaZXeHmdnef6Cf65Ju4HTj2MBOY1tV27ucHMR9yUtV7yRLqtYkF1S9/bOc9LiErVZ1F1oVvJBcl1xT9a2Hw5z8ykpLnuPWnLSqE7iIO79lNHYHdv411Tgyp3nCJ8nTVvVhxGbjwMD3CUexiMeS7hfza1VvsDXmPM5J3qtaxRIe4GwPAx8b92aHyzijanPEwjh5NPClVU1lNA4NXGmsYQNPhuTZuOqzquXGLm72M8ejllyd1etYb9NIj0se6rrLez+4D6Y5J6cm3MAPye2/5p2qQbKtamMaXdUrLOzH/BMA621E05JQVQAAAABJRU5ErkJggg==",
+                                    "contentType": "image/png",
+                                    "width": 8,
+                                    "height": 10
+                                },
+                                "value": "SH",
+                                "label": "Springhead",
+                                "description": ""
+                            },
+                            {
+                                "symbol": {
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "type": "esriPMS",
+                                    "url": "37a0c2452ce8fbb7d595db47b80ef95a",
+                                    "imageData": "iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAi5JREFUOI2t1DFo3GUYx/HPP7nkbSRLjzpkctBBQQeLWxHX0sGCSAftKJ0stptH4v3vnwZOMSRIixGtg4jUYmm76NIIijhU3KQoODgonKD+raFp81wuvQ425/8uiS7+xud93u/7+z08vDX/k2q7VtsO2HRM30Ek3NT3teSqho3/BrXtS5Fa0Y2DOG/Lgikb7tiv5oiuVYUluct7g5Ylaz6NsfhI06sjfb/ie8vOpb/SG+Y9E814ZVdQWkuvRz9W5C7tOYjTIsSpVKQ3tZzUcnYINJPPPNHRmdbaBVI4IvdZtRST0dD1ubYPNdwcgDpZ55SahR2QBQ/a8hbDIA09hbd1Hce5arSHzPpp0NjyvMwBPU/KPGLenL7fk3Qj8vgKbFo1YWUUNKwJ1/VckDkE+s7IvBdb8UHF7R8K+4dmJDM2BJr1szlHTfgNWeqnHyOPEyPxJmRiGARt0xpuVVwdxnWZpRCLco8q/LB9XJ+sP75u/UbcZ9XuW79i0wt4d7sxjadfYjye1tAzb7U+Vn+4VA7eKbPypZmtmXc6OhVQeN+Ua17zsTPWIObiy8Gtpj9L5bcDN0X9qVKZOq3Od8PR2m6n+TQbtbgo96Ki8vSomh4rlUsmPVstD2YUzfiintdvl1l5WWFF7hPcrQz3AVNO4jnjjm8v4g4QlEX5jbbDul5WuIZbuCMzjZq7LkoOaeiNGt25R39/E4tYtCzZMGXNurbNPePuCqrqtOCfXfk33QM9hsfrOm+dWQAAAABJRU5ErkJggg==",
+                                    "contentType": "image/png",
+                                    "width": 13,
+                                    "height": 13
+                                },
+                                "value": "BC",
+                                "label": "BMP Centroid",
+                                "description": ""
+                            }
+                        ]
+                    },
+                    "labelingInfo": [
+                        {
+                            "labelExpression": null,
+                            "labelExpressionInfo": {
+                                "expression": "$feature[\"SHA_STR_NO\"]",
+                                "value": "{SHA_STR_NO}"
+                            },
+                            "useCodedValues": true,
+                            "maxScale": 0,
+                            "minScale": 5000,
+                            "where": null,
+                            "labelPlacement": "esriServerPointLabelPlacementAboveRight",
+                            "symbol": {
+                                "color": [
+                                    255,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "type": "esriTS",
+                                "backgroundColor": null,
+                                "borderLineColor": null,
+                                "haloSize": 0,
+                                "haloColor": null,
+                                "horizontalAlignment": "center",
+                                "rightToLeft": false,
+                                "angle": 0,
+                                "xoffset": 0,
+                                "yoffset": 0,
+                                "text": "",
+                                "rotated": false,
+                                "kerning": true,
+                                "font": {
+                                    "size": 7.5,
+                                    "style": "normal",
+                                    "decoration": "none",
+                                    "weight": "bold",
+                                    "family": "Arial Unicode MS"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "showLabels": true,
             "popupInfo": {
                 "title": "Structure: {SHA_STR_NO}",
                 "fieldInfos": [
@@ -3394,7 +3944,7 @@
                 "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer",
                 "visibility": true,
                 "opacity": 1,
-                "title": "Topographic"
+                "title": "World Topographic Map"
             }
         ],
         "title": "Topographic"
@@ -3408,10 +3958,10 @@
     "version": "2.11",
     "tables": [
         {
-            "url": "https://utility.arcgis.com/usrsvcs/servers/4318d2b184f042369aff93f10bc0a7f8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_2_Prod_20180424/FeatureServer/11",
-            "id": "NNG_Inventory_V_KCI_2_Prod_20180424_26",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/11",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_26",
             "title": "Owner",
-            "itemId": "4318d2b184f042369aff93f10bc0a7f8",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
             "popupInfo": {
                 "title": "Owner: {ORG_NAME1}",
                 "fieldInfos": [
@@ -3628,10 +4178,10 @@
             }
         },
         {
-            "url": "https://utility.arcgis.com/usrsvcs/servers/4318d2b184f042369aff93f10bc0a7f8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_2_Prod_20180424/FeatureServer/10",
-            "id": "NNG_Inventory_V_KCI_2_Prod_20180424_5652",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/10",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_5652",
             "title": "Metadata",
-            "itemId": "4318d2b184f042369aff93f10bc0a7f8",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
             "popupInfo": {
                 "title": "Metadata: {META_ID}",
                 "fieldInfos": [
@@ -3771,10 +4321,10 @@
             }
         },
         {
-            "url": "https://utility.arcgis.com/usrsvcs/servers/4318d2b184f042369aff93f10bc0a7f8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_2_Prod_20180424/FeatureServer/9",
-            "id": "NNG_Inventory_V_KCI_2_Prod_20180424_4431",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/9",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_4431",
             "title": "Field Screening Site",
-            "itemId": "4318d2b184f042369aff93f10bc0a7f8",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
             "popupInfo": {
                 "title": "Field Screening Site: {STRUCTURE_ID}",
                 "fieldInfos": [
@@ -4632,10 +5182,10 @@
             }
         },
         {
-            "url": "https://utility.arcgis.com/usrsvcs/servers/4318d2b184f042369aff93f10bc0a7f8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_2_Prod_20180424/FeatureServer/8",
-            "id": "NNG_Inventory_V_KCI_2_Prod_20180424_9150",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/8",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_9150",
             "title": "Contract",
-            "itemId": "4318d2b184f042369aff93f10bc0a7f8",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
             "popupInfo": {
                 "title": "Contract: {CONTRACT_ID}",
                 "fieldInfos": [
@@ -4868,10 +5418,10 @@
             }
         },
         {
-            "url": "https://utility.arcgis.com/usrsvcs/servers/4318d2b184f042369aff93f10bc0a7f8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_2_Prod_20180424/FeatureServer/7",
-            "id": "NNG_Inventory_V_KCI_2_Prod_20180424_840",
+            "url": "https://utility.arcgis.com/usrsvcs/servers/d2828b93eb734c85a3b01c1d0ae3ccc8/rest/services/NPDES_Next_Gen/NNG_Inventory_V_KCI_1_Prod_20180424/FeatureServer/7",
+            "id": "NNG_Inventory_V_KCI_1_Prod_20180424_840",
             "title": "Structure Issue",
-            "itemId": "4318d2b184f042369aff93f10bc0a7f8",
+            "itemId": "d2828b93eb734c85a3b01c1d0ae3ccc8",
             "popupInfo": {
                 "title": "Structure Issue: {STRUCTURE_ID}",
                 "fieldInfos": [
@@ -5064,6 +5614,37 @@
             },
             "measure": {
                 "enabled": true
+            },
+            "search": {
+                "enabled": true,
+                "disablePlaceFinder": false,
+                "hintText": "Place or Address",
+                "layers": [
+                    {
+                        "id": "NNG_Inventory_V_KCI_1_Prod_20180424_6600",
+                        "field": {
+                            "name": "SWM_FAC_NO",
+                            "exactMatch": false,
+                            "type": "esriFieldTypeString"
+                        }
+                    },
+                    {
+                        "id": "NNG_Inventory_V_KCI_1_Prod_20180424_1870",
+                        "field": {
+                            "name": "CONVEYANCE_ID",
+                            "exactMatch": false,
+                            "type": "esriFieldTypeString"
+                        }
+                    },
+                    {
+                        "id": "NNG_Inventory_V_KCI_1_Prod_20180424_9384",
+                        "field": {
+                            "name": "SHA_STR_NO",
+                            "exactMatch": false,
+                            "type": "esriFieldTypeString"
+                        }
+                    }
+                ]
             }
         }
     }
