@@ -1543,7 +1543,7 @@
                         "label": "XS Shape",
                         "isEditable": true,
                         "tooltip": "",
-                        "visible": false,
+                        "visible": true,
                         "stringFieldOption": "textbox"
                     },
                     {
@@ -5064,6 +5064,37 @@
             },
             "measure": {
                 "enabled": true
+            },
+            "search": {
+                "enabled": true,
+                "disablePlaceFinder": false,
+                "hintText": "Place or Address",
+                "layers": [
+                    {
+                        "id": "NNG_Inventory_V_GFL_Prod_20180424_9384",
+                        "field": {
+                            "name": "SHA_STR_NO",
+                            "exactMatch": false,
+                            "type": "esriFieldTypeString"
+                        }
+                    },
+                    {
+                        "id": "NNG_Inventory_V_GFL_Prod_20180424_6600",
+                        "field": {
+                            "name": "SWM_FAC_NO",
+                            "exactMatch": false,
+                            "type": "esriFieldTypeString"
+                        }
+                    },
+                    {
+                        "id": "NNG_Inventory_V_GFL_Prod_20180424_1870",
+                        "field": {
+                            "name": "CONVEYANCE_ID",
+                            "exactMatch": false,
+                            "type": "esriFieldTypeString"
+                        }
+                    }
+                ]
             }
         }
     }
