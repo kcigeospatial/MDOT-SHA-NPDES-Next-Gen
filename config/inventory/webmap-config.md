@@ -70,6 +70,21 @@ Add search in the web map config.
 
 5. Change the _Hint text_ to "SWFAC No., Conveyance ID, Structure No., or Address"
 
+### 9 Labels
+
+per @Andrew suggestion
+see https://github.com/kcigeospatial/MDOT-SHA-NPDES-Next-Gen/issues/207#issuecomment-390010379
+
+Feature | Label | Text | Size | Style | Halo | Halo Style | Alignment | Visible Range
+-- | -- | -- | -- | -- | -- | -- | -- | --
+Structure | TRUE | Structure Number | 10 | red bold | FALSE | - | upper right | 1:5,000
+BMP Centroid | FALSE |   |   |   |   |   |   |  
+Treatment Pipe | FALSE |   |   |   |   |   |   |  
+Conveyance | FALSE |   |   |   |   |   |   |  
+SWMFAC | TRUE | SWMFAC Number | 11 | blue bold | TRUE | 1 white | - | 1:20,000
+Structure DA | FALSE |   |   |   |   |   |   |  
+SWMFAC DA | FALSE |   |   |   |   |   |   |  
+
 ### Other
 
 - Basemap selection
