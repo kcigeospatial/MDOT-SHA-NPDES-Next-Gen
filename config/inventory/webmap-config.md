@@ -68,7 +68,7 @@ Add search in the web map config.
 | Conveyance     | Conveyance ID    | Contains       |
 | Structures     | Structure Number | Contains       |
 
-6. Change the _Hint text_ to "SWFAC No., Conveyance ID, Structure No., or Address"
+5. Change the _Hint text_ to "SWFAC No., Conveyance ID, Structure No., or Address"
 
 ### Other
 
