@@ -1,11 +1,11 @@
 {
-    "id": "74c9cacf7b7b4e3ba3361587c0360938",
+    "id": "ddb4812f884e4339adc45130befe48e2",
     "owner": "elliott.plack2",
-    "created": 1527014745000,
-    "modified": 1528153898000,
+    "created": 1524712287000,
+    "modified": 1528153819000,
     "guid": null,
     "name": null,
-    "title": "NPDES Inventory MES Edit Map",
+    "title": "NPDES Inventory KCI 2 Edit Map",
     "type": "Web Map",
     "typeKeywords": [
         "ArcGIS Online",
@@ -17,7 +17,7 @@
         "Online Map",
         "Web Map"
     ],
-    "description": "<p><span style='font-size:12.0pt;mso-bidi-font-size:11.0pt;\nline-height:107%'>This map contains the RJM version of the State\nHighway Administration’s stormwater (NPDES) inventory.<span style='mso-spacerun:yes'>  </span>It <span style='mso-no-proof:yes'>is used</span>\nin Collector for field data collection, inspections, and QA/QC.<span style='mso-spacerun:yes'>  </span>The <span style='mso-no-proof:yes'>editing</span>\napp <span style='mso-no-proof:yes'>is also built</span> using this web map.</span></p>\n\n<p><span style='font-size:12.0pt;mso-bidi-font-size:11.0pt;\nline-height:107%'>Date Last Updated: 05/20/2018</span></p>",
+    "description": "<p><span style='font-size:12.0pt;mso-bidi-font-size:11.0pt;\nline-height:107%'>This map contains the KCI_2 version of the State\nHighway Administration’s stormwater (NPDES) inventory.<span style='mso-spacerun:yes'>  </span>It <span style='mso-no-proof:yes'>is used</span>\nin Collector for field data collection, inspections, and QA/QC.<span style='mso-spacerun:yes'>  </span>The <span style='mso-no-proof:yes'>editing</span>\napp <span style='mso-no-proof:yes'>is also built</span> using this web map.</span></p>",
     "tags": [
         "Maryland",
         "MD",
@@ -51,17 +51,17 @@
         "pond",
         "facility"
     ],
-    "snippet": "Editor map for Collector in the MES team.",
+    "snippet": "Editor map for Collector in the KCI_2 version.",
     "thumbnail": "thumbnail/ago_downloaded.png",
     "documentation": null,
     "extent": [
         [
-            -85.3665,
-            35.059
+            -81.3098,
+            36.9782
         ],
         [
-            -69.1396,
-            42.4496
+            -73.1963,
+            40.6742
         ]
     ],
     "categories": [],
@@ -73,7 +73,7 @@
     "url": null,
     "proxyFilter": null,
     "access": "shared",
-    "size": 121815,
+    "size": 121871,
     "appCategories": [],
     "industries": [],
     "languages": [],
@@ -87,8 +87,8 @@
     "numComments": 0,
     "numRatings": 0,
     "avgRating": 0,
-    "numViews": 371,
+    "numViews": 39,
     "itemControl": "admin",
-    "scoreCompleteness": 93,
+    "scoreCompleteness": 91,
     "groupDesignations": null
 }

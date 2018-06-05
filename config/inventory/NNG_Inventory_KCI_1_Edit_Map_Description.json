@@ -2,10 +2,10 @@
     "id": "0c061ca8546b42c497f7c43d9b996f20",
     "owner": "elliott.plack2",
     "created": 1524690107000,
-    "modified": 1526837529000,
+    "modified": 1528154191000,
     "guid": null,
     "name": null,
-    "title": "NNG Inventory KCI 1 Edit Map",
+    "title": "NPDES Inventory KCI 1 Edit Map",
     "type": "Web Map",
     "typeKeywords": [
         "ArcGIS Online",
@@ -56,12 +56,12 @@
     "documentation": null,
     "extent": [
         [
-            -79.5492,
-            36.0644
+            -84.6743,
+            35.059
         ],
         [
-            -73.5726,
-            41.531
+            -68.4475,
+            42.4496
         ]
     ],
     "categories": [],
@@ -73,7 +73,7 @@
     "url": null,
     "proxyFilter": null,
     "access": "shared",
-    "size": 143958,
+    "size": 143981,
     "appCategories": [],
     "industries": [],
     "languages": [],
@@ -87,7 +87,7 @@
     "numComments": 0,
     "numRatings": 0,
     "avgRating": 0,
-    "numViews": 188,
+    "numViews": 250,
     "itemControl": "admin",
     "scoreCompleteness": 93,
     "groupDesignations": null

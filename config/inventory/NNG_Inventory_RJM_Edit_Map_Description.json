@@ -2,10 +2,10 @@
     "id": "fb690cdec00141d6a56c326da7fa1915",
     "owner": "elliott.plack2",
     "created": 1524713274000,
-    "modified": 1526836182000,
+    "modified": 1528153776000,
     "guid": null,
     "name": null,
-    "title": "NNG Inventory RJM Edit Map",
+    "title": "NPDES Inventory RJM Edit Map",
     "type": "Web Map",
     "typeKeywords": [
         "ArcGIS Online",
@@ -56,12 +56,12 @@
     "documentation": null,
     "extent": [
         [
-            -76.6328,
-            39.3676
+            -85.3665,
+            35.059
         ],
         [
-            -76.6011,
-            39.3807
+            -69.1396,
+            42.4496
         ]
     ],
     "categories": [],
@@ -73,7 +73,7 @@
     "url": null,
     "proxyFilter": null,
     "access": "shared",
-    "size": 121816,
+    "size": 121829,
     "appCategories": [],
     "industries": [],
     "languages": [],
@@ -87,7 +87,7 @@
     "numComments": 0,
     "numRatings": 0,
     "avgRating": 0,
-    "numViews": 37,
+    "numViews": 66,
     "itemControl": "admin",
     "scoreCompleteness": 96,
     "groupDesignations": null
