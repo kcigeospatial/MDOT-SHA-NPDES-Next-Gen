@@ -1,0 +1,2413 @@
+{
+    "operationalLayers": [
+        {
+            "id": "MD_SixInchImagery_4957",
+            "layerType": "ArcGISImageServiceLayer",
+            "url": "https://geodata.md.gov/imap/rest/services/Imagery/MD_SixInchImagery/ImageServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Maryland 6-Inch Imagery 2016",
+            "itemId": "f941732ec7e24f75a5a67cae45439ffa",
+            "minScale": 5000,
+            "maxScale": 0
+        },
+        {
+            "layerType": "ArcGISFeatureLayer",
+            "id": "featColl_1962",
+            "title": "County Boundary",
+            "featureCollection": {
+                "layers": [
+                    {
+                        "layerDefinition": {
+                            "drawingInfo": {
+                                "renderer": {
+                                    "visualVariables": [
+                                        {
+                                            "type": "sizeInfo",
+                                            "target": "outline",
+                                            "expression": "view.scale",
+                                            "valueExpression": "$view.scale",
+                                            "stops": [
+                                                {
+                                                    "size": 1.5,
+                                                    "value": 964316
+                                                },
+                                                {
+                                                    "size": 0.75,
+                                                    "value": 3013486
+                                                },
+                                                {
+                                                    "size": 0.375,
+                                                    "value": 12053944
+                                                },
+                                                {
+                                                    "size": 0,
+                                                    "value": 24107889
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "type": "uniqueValue",
+                                    "field1": "NAME",
+                                    "uniqueValueInfos": [
+                                        {
+                                            "value": "Allegany",
+                                            "symbol": {
+                                                "color": [
+                                                    237,
+                                                    81,
+                                                    81,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Allegany"
+                                        },
+                                        {
+                                            "value": "Anne Arundel",
+                                            "symbol": {
+                                                "color": [
+                                                    183,
+                                                    129,
+                                                    74,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Anne Arundel"
+                                        },
+                                        {
+                                            "value": "Baltimore",
+                                            "symbol": {
+                                                "color": [
+                                                    167,
+                                                    198,
+                                                    54,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Baltimore"
+                                        },
+                                        {
+                                            "value": "Baltimore City",
+                                            "symbol": {
+                                                "color": [
+                                                    158,
+                                                    85,
+                                                    156,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Baltimore City"
+                                        },
+                                        {
+                                            "value": "Calvert",
+                                            "symbol": {
+                                                "color": [
+                                                    247,
+                                                    137,
+                                                    216,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Calvert"
+                                        },
+                                        {
+                                            "value": "Caroline",
+                                            "symbol": {
+                                                "color": [
+                                                    255,
+                                                    222,
+                                                    62,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Caroline"
+                                        },
+                                        {
+                                            "value": "Carroll",
+                                            "symbol": {
+                                                "color": [
+                                                    247,
+                                                    137,
+                                                    216,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Carroll"
+                                        },
+                                        {
+                                            "value": "Cecil",
+                                            "symbol": {
+                                                "color": [
+                                                    183,
+                                                    129,
+                                                    74,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Cecil"
+                                        },
+                                        {
+                                            "value": "Charles",
+                                            "symbol": {
+                                                "color": [
+                                                    60,
+                                                    175,
+                                                    153,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Charles"
+                                        },
+                                        {
+                                            "value": "Dorchester",
+                                            "symbol": {
+                                                "color": [
+                                                    107,
+                                                    107,
+                                                    214,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Dorchester"
+                                        },
+                                        {
+                                            "value": "Frederick",
+                                            "symbol": {
+                                                "color": [
+                                                    167,
+                                                    198,
+                                                    54,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Frederick"
+                                        },
+                                        {
+                                            "value": "Garrett",
+                                            "symbol": {
+                                                "color": [
+                                                    127,
+                                                    127,
+                                                    127,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Garrett"
+                                        },
+                                        {
+                                            "value": "Harford",
+                                            "symbol": {
+                                                "color": [
+                                                    237,
+                                                    81,
+                                                    81,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Harford"
+                                        },
+                                        {
+                                            "value": "Howard",
+                                            "symbol": {
+                                                "color": [
+                                                    20,
+                                                    158,
+                                                    206,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Howard"
+                                        },
+                                        {
+                                            "value": "Kent",
+                                            "symbol": {
+                                                "color": [
+                                                    107,
+                                                    107,
+                                                    214,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Kent"
+                                        },
+                                        {
+                                            "value": "Queen Anne's",
+                                            "symbol": {
+                                                "color": [
+                                                    237,
+                                                    81,
+                                                    81,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Queen Anne's"
+                                        },
+                                        {
+                                            "value": "Prince George's",
+                                            "symbol": {
+                                                "color": [
+                                                    252,
+                                                    146,
+                                                    31,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Prince George's"
+                                        },
+                                        {
+                                            "value": "Montgomery",
+                                            "symbol": {
+                                                "color": [
+                                                    158,
+                                                    85,
+                                                    156,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Montgomery"
+                                        },
+                                        {
+                                            "value": "Somerset",
+                                            "symbol": {
+                                                "color": [
+                                                    247,
+                                                    137,
+                                                    216,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Somerset"
+                                        },
+                                        {
+                                            "value": "St. Mary's",
+                                            "symbol": {
+                                                "color": [
+                                                    183,
+                                                    129,
+                                                    74,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "St. Mary's"
+                                        },
+                                        {
+                                            "value": "Talbot",
+                                            "symbol": {
+                                                "color": [
+                                                    60,
+                                                    175,
+                                                    153,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Talbot"
+                                        },
+                                        {
+                                            "value": "Washington",
+                                            "symbol": {
+                                                "color": [
+                                                    107,
+                                                    107,
+                                                    214,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Washington"
+                                        },
+                                        {
+                                            "value": "Wicomico",
+                                            "symbol": {
+                                                "color": [
+                                                    181,
+                                                    71,
+                                                    121,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Wicomico"
+                                        },
+                                        {
+                                            "value": "Worcester",
+                                            "symbol": {
+                                                "color": [
+                                                    127,
+                                                    127,
+                                                    127,
+                                                    255
+                                                ],
+                                                "outline": {
+                                                    "color": [
+                                                        153,
+                                                        153,
+                                                        153,
+                                                        128
+                                                    ],
+                                                    "width": 0.75,
+                                                    "type": "esriSLS",
+                                                    "style": "esriSLSSolid"
+                                                },
+                                                "type": "esriSFS",
+                                                "style": "esriSFSSolid"
+                                            },
+                                            "label": "Worcester"
+                                        }
+                                    ]
+                                },
+                                "transparency": 0,
+                                "labelingInfo": [
+                                    {
+                                        "labelExpression": null,
+                                        "labelExpressionInfo": {
+                                            "expression": "$feature[\"NAME\"]",
+                                            "value": "{NAME}"
+                                        },
+                                        "useCodedValues": true,
+                                        "maxScale": 0,
+                                        "minScale": 0,
+                                        "where": null,
+                                        "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+                                        "symbol": {
+                                            "color": [
+                                                25,
+                                                25,
+                                                112,
+                                                255
+                                            ],
+                                            "type": "esriTS",
+                                            "backgroundColor": null,
+                                            "borderLineColor": null,
+                                            "haloSize": 0,
+                                            "haloColor": null,
+                                            "horizontalAlignment": "center",
+                                            "rightToLeft": false,
+                                            "angle": 0,
+                                            "xoffset": 0,
+                                            "yoffset": 0,
+                                            "text": "",
+                                            "rotated": false,
+                                            "kerning": true,
+                                            "font": {
+                                                "size": 7.5,
+                                                "style": "italic",
+                                                "decoration": "none",
+                                                "weight": "bold",
+                                                "family": "Arial Unicode MS"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "fixedSymbols": true
+                            },
+                            "minScale": 0,
+                            "maxScale": 35551
+                        },
+                        "popupInfo": {
+                            "title": "County Boundary",
+                            "fieldInfos": [
+                                {
+                                    "fieldName": "FID",
+                                    "label": "FID",
+                                    "isEditable": false,
+                                    "visible": false,
+                                    "format": {
+                                        "places": 0,
+                                        "digitSeparator": true
+                                    }
+                                },
+                                {
+                                    "fieldName": "OBJECTID",
+                                    "label": "OBJECTID",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "format": {
+                                        "places": 0,
+                                        "digitSeparator": true
+                                    }
+                                },
+                                {
+                                    "fieldName": "STATEFP",
+                                    "label": "STATEFP",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "COUNTYFP",
+                                    "label": "COUNTYFP",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "COUNTYNS",
+                                    "label": "COUNTYNS",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "GEOID",
+                                    "label": "GEOID",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "NAME",
+                                    "label": "Name",
+                                    "isEditable": true,
+                                    "visible": true,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "NAMELSAD",
+                                    "label": "NAMELSAD",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "LSAD",
+                                    "label": "LSAD",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "CLASSFP",
+                                    "label": "CLASSFP",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "MTFCC",
+                                    "label": "MTFCC",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "FUNCSTAT",
+                                    "label": "FUNCSTAT",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "ALAND",
+                                    "label": "ALAND",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "format": {
+                                        "places": 2,
+                                        "digitSeparator": true
+                                    }
+                                },
+                                {
+                                    "fieldName": "AWATER",
+                                    "label": "AWATER",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "format": {
+                                        "places": 2,
+                                        "digitSeparator": true
+                                    }
+                                },
+                                {
+                                    "fieldName": "INTPTLAT",
+                                    "label": "INTPTLAT",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "INTPTLON",
+                                    "label": "INTPTLON",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Shape_Leng",
+                                    "label": "Shape_Leng",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "format": {
+                                        "places": 2,
+                                        "digitSeparator": true
+                                    }
+                                },
+                                {
+                                    "fieldName": "CBSAFP",
+                                    "label": "CBSAFP",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "METDIVFP",
+                                    "label": "METDIVFP",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "CSAFP",
+                                    "label": "CSAFP",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "CBSA_Title",
+                                    "label": "CBSA_Title",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "M_Status",
+                                    "label": "M_Status",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "MDIV_Title",
+                                    "label": "MDIV_Title",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "CSA_Title",
+                                    "label": "CSA_Title",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "C_Status",
+                                    "label": "C_Status",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "stringFieldOption": "textbox"
+                                },
+                                {
+                                    "fieldName": "Shape_STAr",
+                                    "label": "Shape_STAr",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "format": {
+                                        "places": 2,
+                                        "digitSeparator": true
+                                    }
+                                },
+                                {
+                                    "fieldName": "Shape_STLe",
+                                    "label": "Shape_STLe",
+                                    "isEditable": true,
+                                    "visible": false,
+                                    "format": {
+                                        "places": 2,
+                                        "digitSeparator": true
+                                    }
+                                }
+                            ],
+                            "description": null,
+                            "showAttachments": false,
+                            "mediaInfos": []
+                        }
+                    }
+                ],
+                "showLegend": false
+            },
+            "visibility": true,
+            "opacity": 0.38,
+            "type": "Feature Collection",
+            "itemId": "ff7094943d364a1a82a76571ef2f0692"
+        },
+        {
+            "id": "NPDES_ReadOnly_Maryland_SHA_9302",
+            "layerType": "ArcGISFeatureLayer",
+            "url": "https://shagbegis1/arcgis/rest/services/Environment/NPDES_ReadOnly_Maryland_SHA/FeatureServer/4",
+            "visibility": true,
+            "opacity": 1,
+            "mode": 1,
+            "title": "NPDES - SWMFAC Drainage Area",
+            "itemId": "fd231a4bbe6f485189981ac155cacd40",
+            "popupInfo": {
+                "title": "SWMFAC_DRAINAGE_AREA: {FACILITY_ID}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FACILITY_ID",
+                        "label": "FACILITY_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "TREATMENT_AREA",
+                        "label": "TREATMENT_AREA",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "CNTY_CODE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_WSHED",
+                        "label": "MD_WSHED",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_MSHOP",
+                        "label": "MD_MSHOP",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "MD_DISTRICT",
+                        "label": "MD_DISTRICT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GlobalID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        },
+        {
+            "id": "NPDES_ReadOnly_Maryland_SHA_5719",
+            "layerType": "ArcGISFeatureLayer",
+            "url": "https://shagbegis1/arcgis/rest/services/Environment/NPDES_ReadOnly_Maryland_SHA/FeatureServer/3",
+            "visibility": true,
+            "opacity": 1,
+            "mode": 1,
+            "title": "NPDES - Stormwater Facility",
+            "itemId": "fd231a4bbe6f485189981ac155cacd40",
+            "layerDefinition": {
+                "drawingInfo": {
+                    "renderer": {
+                        "type": "simple",
+                        "label": "",
+                        "description": "",
+                        "symbol": {
+                            "color": [
+                                0,
+                                169,
+                                230,
+                                134
+                            ],
+                            "outline": {
+                                "color": [
+                                    0,
+                                    169,
+                                    230,
+                                    255
+                                ],
+                                "width": 1,
+                                "type": "esriSLS",
+                                "style": "esriSLSSolid"
+                            },
+                            "type": "esriSFS",
+                            "style": "esriSFSSolid"
+                        }
+                    },
+                    "labelingInfo": [
+                        {
+                            "labelExpression": null,
+                            "labelExpressionInfo": {
+                                "expression": "$feature[\"SWM_FAC_NO\"]",
+                                "value": "{SWM_FAC_NO}"
+                            },
+                            "useCodedValues": true,
+                            "maxScale": 0,
+                            "minScale": 3748,
+                            "where": null,
+                            "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+                            "symbol": {
+                                "color": [
+                                    240,
+                                    230,
+                                    140,
+                                    255
+                                ],
+                                "type": "esriTS",
+                                "backgroundColor": null,
+                                "borderLineColor": null,
+                                "haloSize": 0.75,
+                                "haloColor": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "horizontalAlignment": "center",
+                                "rightToLeft": false,
+                                "angle": 0,
+                                "xoffset": 0,
+                                "yoffset": 0,
+                                "text": "",
+                                "rotated": false,
+                                "kerning": true,
+                                "font": {
+                                    "size": 9.75,
+                                    "style": "normal",
+                                    "decoration": "none",
+                                    "weight": "bold",
+                                    "family": "Arial Unicode MS"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "showLabels": true,
+            "popupInfo": {
+                "title": "SWMFAC: {SWM_FAC_NO}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FACILITY_ID",
+                        "label": "FACILITY_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "SWM_FAC_NO",
+                        "label": "SWMFAC Number",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "LEG_SWM_FAC_NO",
+                        "label": "LEG_SWM_FAC_NO",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "EC_BMP",
+                        "label": "EC_BMP",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONTRACT_ID",
+                        "label": "CONTRACT_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DESIGNATION",
+                        "label": "Designation",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DESIGN_SUB",
+                        "label": "Design Subcategory",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MDE_NO",
+                        "label": "MDE_NO",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "VIC_BMP",
+                        "label": "VIC_BMP",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "LEG_VIC_BMP",
+                        "label": "LEG_VIC_BMP",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "LOC_BMP",
+                        "label": "Location",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "ROAD_NAME",
+                        "label": "Road Name",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FENCE_MAT",
+                        "label": "FENCE_MAT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DAM_HEIGHT",
+                        "label": "DAM_HEIGHT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "OB_WELL",
+                        "label": "OB_WELL",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "TRCH_DEP",
+                        "label": "TRCH_DEP",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "TRCH_WDTH",
+                        "label": "TRCH_WDTH",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "TRCH_LN",
+                        "label": "TRCH_LN",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "HAZ_CLASS",
+                        "label": "HAZ_CLASS",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "COM_OVERAL",
+                        "label": "Comments",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "Q_1YR",
+                        "label": "Q_1YR",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "Q_2YR",
+                        "label": "Q_2YR",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "Q_10YR",
+                        "label": "Q_10YR",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "Q_100YR",
+                        "label": "Q_100YR",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "PLANDATE",
+                        "label": "Plan Date",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "FEAT_STATUS",
+                        "label": "Feature Status",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DATEABANDONED",
+                        "label": "DATEABANDONED",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "META_ID",
+                        "label": "META_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "IN_STREAM",
+                        "label": "IN_STREAM",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "COM_APPURT",
+                        "label": "COM_APPURT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "SEEP_CONT",
+                        "label": "SEEP_CONT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "OWNER_ID",
+                        "label": "OWNER_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "FOUR_MI_VICINITY_AIRPORT",
+                        "label": "Within 4 Miles of Airport?",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "SWM_FAC_NO_OTHER",
+                        "label": "SWM_FAC_NO_OTHER",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "County",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_WSHED",
+                        "label": "Watershed",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_MSHOP",
+                        "label": "Shop",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "MD_DISTRICT",
+                        "label": "District",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GlobalID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PLAN_IMP_AREA",
+                        "label": "PLAN_IMP_AREA",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "LEGISLATIVE_DISTRICT",
+                        "label": "LEGISLATIVE_DISTRICT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONGRESSIONAL_DISTRICT",
+                        "label": "CONGRESSIONAL_DISTRICT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "WATERSHED_8DIGIT",
+                        "label": "8-Digit Watershed",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PLAN_DRAIN_AREA",
+                        "label": "PLAN_DRAIN_AREA",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "DATE_CONSTRUCTED",
+                        "label": "Date Constructed",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "AS_BUILT_CERT_DATE",
+                        "label": "As Built Cert Date",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "FOR_TMDL",
+                        "label": "For TMDL?",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "JPA",
+                        "label": "JPA",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "UNDERGROUND_BMP",
+                        "label": "UNDERGROUND_BMP",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "RETROFIT_OF_EXISTING",
+                        "label": "RETROFIT_OF_EXISTING",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "LANDSCAPE_CONTRACT_ID",
+                        "label": "LANDSCAPE_CONTRACT_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "relationships/4/OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "visible": false,
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/TREATMENT_PIPE_ID",
+                        "label": "TREATMENT_PIPE_ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/FACILITY_ID",
+                        "label": "FACILITY_ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/PIPE_SIZE1",
+                        "label": "PIPE_SIZE1",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/PIPE_SIZE2",
+                        "label": "PIPE_SIZE2",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/XS_AREA",
+                        "label": "XS_AREA",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/XS_SHAPE",
+                        "label": "XS_SHAPE",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/MTRL_PIPE",
+                        "label": "MTRL_PIPE",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/PRESSURE",
+                        "label": "PRESSURE",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/CNTY_CODE",
+                        "label": "CNTY_CODE",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/4/GLOBALID",
+                        "label": "GLOBALID",
+                        "isEditable": false,
+                        "visible": false,
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/5/OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "visible": false,
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/5/FACILITY_ID",
+                        "label": "FACILITY_ID",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/5/TREATMENT_AREA",
+                        "label": "TREATMENT_AREA",
+                        "isEditable": false,
+                        "visible": false,
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        },
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/5/CNTY_CODE",
+                        "label": "CNTY_CODE",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/5/MD_WSHED",
+                        "label": "MD_WSHED",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/5/MD_MSHOP",
+                        "label": "MD_MSHOP",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/5/MD_DISTRICT",
+                        "label": "MD_DISTRICT",
+                        "isEditable": false,
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "statisticType": "count"
+                    },
+                    {
+                        "fieldName": "relationships/5/GLOBALID",
+                        "label": "GlobalID",
+                        "isEditable": false,
+                        "visible": false,
+                        "statisticType": "count"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "relatedRecordsInfo": {
+                    "showRelatedRecords": true
+                },
+                "mediaInfos": []
+            }
+        },
+        {
+            "id": "NPDES_ReadOnly_Maryland_SHA_9938",
+            "layerType": "ArcGISFeatureLayer",
+            "url": "https://shagbegis1/arcgis/rest/services/Environment/NPDES_ReadOnly_Maryland_SHA/FeatureServer/2",
+            "visibility": true,
+            "opacity": 1,
+            "mode": 1,
+            "title": "NPDES - Conveyance",
+            "itemId": "fd231a4bbe6f485189981ac155cacd40",
+            "layerDefinition": {
+                "drawingInfo": {
+                    "renderer": {
+                        "type": "uniqueValue",
+                        "field1": "CONV_TYPE",
+                        "field2": null,
+                        "field3": null,
+                        "fieldDelimiter": ", ",
+                        "defaultSymbol": {
+                            "color": [
+                                205,
+                                46,
+                                49,
+                                255
+                            ],
+                            "width": 1.125,
+                            "type": "esriSLS",
+                            "style": "esriSLSSolid",
+                            "marker": {
+                                "style": "arrow",
+                                "placement": "end"
+                            }
+                        },
+                        "defaultLabel": "Unknown",
+                        "uniqueValueInfos": [
+                            {
+                                "value": "DITCH",
+                                "symbol": {
+                                    "color": [
+                                        52,
+                                        52,
+                                        52,
+                                        255
+                                    ],
+                                    "width": 1.125,
+                                    "type": "esriSLS",
+                                    "style": "esriSLSDash",
+                                    "marker": {
+                                        "style": "arrow",
+                                        "placement": "end"
+                                    }
+                                },
+                                "label": "Ditch"
+                            },
+                            {
+                                "value": "CONNECTOR",
+                                "symbol": {
+                                    "color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "width": 1.125,
+                                    "type": "esriSLS",
+                                    "style": "esriSLSSolid",
+                                    "marker": {
+                                        "style": "arrow",
+                                        "placement": "end"
+                                    }
+                                },
+                                "label": "Hydraulic Connector"
+                            },
+                            {
+                                "value": "PIPE",
+                                "symbol": {
+                                    "color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "width": 1.125,
+                                    "type": "esriSLS",
+                                    "style": "esriSLSSolid",
+                                    "marker": {
+                                        "style": "arrow",
+                                        "placement": "end"
+                                    }
+                                },
+                                "label": "Pipe"
+                            }
+                        ]
+                    }
+                },
+                "minScale": 2256,
+                "maxScale": 0
+            },
+            "popupInfo": {
+                "title": "CONVEYANCE: {CONVEYANCE_ID}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONVEYANCE_ID",
+                        "label": "CONVEYANCE_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONTRACT_ID",
+                        "label": "CONTRACT_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONV_TYPE",
+                        "label": "conv_type",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "UPSTRM_STR",
+                        "label": "UPSTRM_STR",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DNSTRM_STR",
+                        "label": "DNSTRM_STR",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "UNIT_LEN",
+                        "label": "UNIT_LEN",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "INVERT_IN",
+                        "label": "INVERT_IN",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "INVERT_OUT",
+                        "label": "INVERT_OUT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "COM_CONV",
+                        "label": "COM_CONV",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "PLANDATE",
+                        "label": "PLANDATE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "FEAT_STATUS",
+                        "label": "feat_status",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DATEABANDONED",
+                        "label": "DATEABANDONED",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "META_ID",
+                        "label": "META_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "CNTY_CODE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_WSHED",
+                        "label": "MD_WSHED",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_MSHOP",
+                        "label": "MD_MSHOP",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "MD_DISTRICT",
+                        "label": "MD_DISTRICT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GlobalID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        },
+        {
+            "id": "NPDES_ReadOnly_Maryland_SHA_7609",
+            "layerType": "ArcGISFeatureLayer",
+            "url": "https://shagbegis1/arcgis/rest/services/Environment/NPDES_ReadOnly_Maryland_SHA/FeatureServer/0",
+            "visibility": true,
+            "opacity": 1,
+            "mode": 1,
+            "title": "NPDES - Structures",
+            "itemId": "fd231a4bbe6f485189981ac155cacd40",
+            "layerDefinition": {
+                "minScale": 2256,
+                "maxScale": 0
+            },
+            "popupInfo": {
+                "title": "STRUCTURES: {STRUCTURE_ID}",
+                "fieldInfos": [
+                    {
+                        "fieldName": "OBJECTID",
+                        "label": "OBJECTID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "STRUCTURE_ID",
+                        "label": "STRUCTURE_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "SHA_STR_NO",
+                        "label": "SHA_STR_NO",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CONTRACT_ID",
+                        "label": "CONTRACT_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "STR_TYPE",
+                        "label": "STR_TYPE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "ST_ML_PT",
+                        "label": "ST_ML_PT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "FUNC_CLASS",
+                        "label": "FUNC_CLASS",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "STUDY_PT",
+                        "label": "STUDY_PT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DATE_VER",
+                        "label": "DATE_VER",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldName": "PLANDATE",
+                        "label": "PLANDATE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "FEAT_STATUS",
+                        "label": "FEAT_STATUS",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "META_ID",
+                        "label": "META_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "DATEABANDONED",
+                        "label": "DATEABANDONED",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "MAJ_OUTF",
+                        "label": "MAJ_OUTF",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "NPDES_OUTF",
+                        "label": "NPDES_OUTF",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "NPDES_NO",
+                        "label": "NPDES_NO",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "OWNER_ID",
+                        "label": "OWNER_ID",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "COMMENTS",
+                        "label": "COMMENTS",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "CNTY_CODE",
+                        "label": "CNTY_CODE",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_WSHED",
+                        "label": "MD_WSHED",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "MD_MSHOP",
+                        "label": "MD_MSHOP",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "MD_DISTRICT",
+                        "label": "MD_DISTRICT",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "GLOBALID",
+                        "label": "GlobalID",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldName": "X",
+                        "label": "X",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "Y",
+                        "label": "Y",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 2,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldName": "META",
+                        "label": "META",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        }
+    ],
+    "baseMap": {
+        "baseMapLayers": [
+            {
+                "id": "defaultBasemap",
+                "layerType": "ArcGISTiledMapServiceLayer",
+                "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Topographic Map"
+            }
+        ],
+        "title": "Topographic"
+    },
+    "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+    },
+    "authoringApp": "WebMapViewer",
+    "authoringAppVersion": "6.1",
+    "version": "2.11",
+    "bookmarks": [
+        {
+            "extent": {
+                "spatialReference": {
+                    "wkid": 102100,
+                    "latestWkid": 3857
+                },
+                "xmax": -8110111.277299149,
+                "xmin": -8964371.505414236,
+                "ymax": 4894293.516317131,
+                "ymin": 4428333.3918907195
+            },
+            "name": "Maryland"
+        },
+        {
+            "extent": {
+                "spatialReference": {
+                    "wkid": 102100,
+                    "latestWkid": 3857
+                },
+                "xmax": -8528183.672851555,
+                "xmin": -8534050.214772597,
+                "ymax": 4746579.288395492,
+                "ymin": 4743364.155893162
+            },
+            "name": "Shop Boundary"
+        },
+        {
+            "extent": {
+                "spatialReference": {
+                    "wkid": 102100,
+                    "latestWkid": 3857
+                },
+                "xmax": -8530934.21154144,
+                "xmin": -8532400.847021539,
+                "ymax": 4745394.514457005,
+                "ymin": 4744590.731331511
+            },
+            "name": "Shop Satellite"
+        },
+        {
+            "extent": {
+                "spatialReference": {
+                    "wkid": 102100,
+                    "latestWkid": 3857
+                },
+                "xmax": -8531299.078918533,
+                "xmin": -8532032.396658747,
+                "ymax": 4745211.185022034,
+                "ymin": 4744809.2934591975
+            },
+            "name": "Shop Close Up"
+        },
+        {
+            "extent": {
+                "spatialReference": {
+                    "wkid": 102100,
+                    "latestWkid": 3857
+                },
+                "xmax": -8531530.181496378,
+                "xmin": -8531896.840366323,
+                "ymax": 4745048.159172568,
+                "ymin": 4744847.213391238
+            },
+            "name": "Shop-Very Close Up"
+        }
+    ],
+    "applicationProperties": {
+        "viewing": {
+            "routing": {
+                "enabled": true
+            },
+            "basemapGallery": {
+                "enabled": true
+            },
+            "measure": {
+                "enabled": true
+            }
+        }
+    }
+}
